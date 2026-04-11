@@ -5,11 +5,11 @@ on:
   schedule:
     - cron: '0 6 * * 1-5'
 
-  # Handmatig starten via GitHub Actions UI (of voor specifieke datum)
+  # Handmatig starten via GitHub Actions UI
   workflow_dispatch:
     inputs:
       datum:
-        description: 'Datum om te genereren (YYYY-MM-DD) – leeg = vandaag'
+        description: 'Datum (YYYY-MM-DD) – leeg = vandaag'
         required: false
         default: ''
 
@@ -22,8 +22,6 @@ jobs:
       - name: Repository uitchecken
         uses: actions/checkout@v4
         with:
-          # Gebruik een PAT zodat de push ook nieuwe runs triggert
-          # Gebruik anders GITHUB_TOKEN voor eenvoudiger setup
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
@@ -39,6 +37,8 @@ jobs:
       - name: Briefing genereren
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AGENT_ID:          ${{ secrets.AGENT_ID }}
+          ENV_ID:            ${{ secrets.ENV_ID }}
         run: |
           if [ -n "${{ github.event.inputs.datum }}" ]; then
             python generate_briefing.py "${{ github.event.inputs.datum }}"
