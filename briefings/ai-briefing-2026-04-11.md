@@ -2,107 +2,89 @@
 
 ## 🔑 Highlights van de dag
 
-- **Modelrace in volle gang**: Microsoft, Meta, Google en Anthropic hebben deze week allemaal significante releases gedaan. De concurrentiedruk op foundation model-niveau is historisch hoog – en de kwaliteitsverschillen worden kleiner.
-- **EU AI Act: eindsprint begint**: De volledige toepasbaarheid van de AI Act is vastgesteld op 2 augustus 2026. Trilogiegesprekken zijn gestart; een akkoord over aanvullende amendementen wordt verwacht vóór eind april. Voor NL/BE-bedrijven breekt nu de echte compliance-sprint aan.
-- **Agentic AI: adoptie loopt ver achter op ambitie**: Slechts 8,6% van de bedrijven heeft AI-agents écht in productie. 63,7% heeft geen formeel AI-initiatief. Executiegap is het kernthema van 2026 – niet het ontbreken van technologie.
-- **Prompt injection: de #1 AI-kwetsbaarheid van dit moment**: OWASP plaatst het bovenaan alle LLM-risico's. Een recente CVE met CVSS-score 9.6 toont aan dat het ook actief geëxploiteerd wordt in developer-tooling (GitHub Copilot).
-- **SAIL-coalitie gelanceerd**: Anthropic, Meta, Microsoft, IBM en Genentech richten gezamenlijk de *Shared AI License Foundation* op – een patent-netwerk om open innovatie in foundation models te beschermen. Strategisch signaal richting open-source AI-ecosysteem.
+- **Anthropic Mythos: krachtigste model ooit, maar niet voor iedereen** – Mythos is beperkt uitgerold via Project Glasswing aan 12 geselecteerde partners (waaronder Apple, Cisco en Microsoft) voor defensieve cybersecurity. Het model identificeerde in weken tijd duizenden zero-day kwetsbaarheden. De vraag is terecht: beschermt Anthropic het internet, of zijn eigen marktpositie?
+- **EU AI Act-deadline wankelt** – Trilogiegesprekken (april/mei) kunnen de harde deadline van 2 augustus 2026 verschuiven naar december 2027 of zelfs augustus 2028. Voor NL/BE-bedrijven is dit dubbelzijdig nieuws: meer tijd, maar ook meer onzekerheid over wanneer te investeren in compliance.
+- **Flowise CVSS 10.0: actieve exploitatie van AI-agent platform** – Een kritieke RCE-kwetsbaarheid in Flowise treft meer dan 12.000 publicly exposed instanties. Dit is het ernstigste AI-framework incident van 2026 tot nu toe.
+- **Agentic AI accelereert toch: 33% van bedrijven ingedeeld** – KPMG meet een verdrievoudiging in agent-deployments in één kwartaal. Toch geeft 76% toe dat hun operaties nog niet klaar zijn voor autonome agents.
+- **GLM-5 pakt #1 positie open-weights** – Chinees model van Zhipu AI wint de benchmark-strijd van Llama 4 en Qwen 3, staat bovenaan LMArena en Artificial Analysis. MIT-licentie, beschikbaar via Hugging Face.
 
 ---
 
 ## 🧠 Technologie & Modellen
 
-**Microsoft MAI-modellen** – Microsoft lanceerde drie nieuwe foundation models (tekst, spraak, afbeelding) als onderdeel van zijn *MAI Superintelligence*-initiatief. Dit is een directe aanval op OpenAI's marktpositie. Strategisch interessant: Microsoft bouwt nu bewust eigen modellen náást de OpenAI-samenwerking.
-*Bron: [TechCrunch, 2 april](https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/)*
+**Anthropic Mythos & Project Glasswing** – Op 7 april lanceerde Anthropic een preview van Mythos, omschreven als een van hun "krachtigste modellen ooit". Het model is uitsluitend beschikbaar voor 12 partnerorganisaties (o.a. Amazon, Apple, Cisco, CrowdStrike, de Linux Foundation en Microsoft) voor defensieve cybersecurity-toepassingen. Binnen enkele weken identificeerde Mythos naar eigen zeggen duizenden kritieke zero-day kwetsbaarheden. TechCrunch stelt terecht de vraag of de beperkte toegang technisch noodzakelijk is, of strategisch.
+*Bron: [TechCrunch, 7 april](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/) | [Anthropic – Project Glasswing](https://www.anthropic.com/glasswing)*
 
-**Google Gemma 4** – Google's nieuwste open-weights model is gebouwd op dezelfde architectuur als Gemini 3, ontworpen voor lokale inferentie op low-power hardware en autonomous agents. Dit is relevant voor on-premise en sovereign AI-toepassingen.
-*Bron: [LLM Stats](https://llm-stats.com/llm-updates)*
+**GLM-5 (Zhipu AI) – nieuw #1 open-weight model** – China's eerste beursgenoteerde AI-bedrijf heeft GLM-5 uitgebracht onder MIT-licentie. Het model staat bovenaan LMArena's Text Arena en Artificial Analysis onder open modellen, beschikbaar via Hugging Face en OpenRouter. Signaal: open-source AI-frontier is niet langer exclusief Amerikaans.
+*Bron: [Hugging Face blog](https://huggingface.co/blog/mlabonne/glm-5)*
 
-**Google Gemini 3.1** – Leidt 13 van 16 standaardbenchmarks en staat gelijk aan GPT-5.4 Pro op de Artificial Analysis Intelligence Index. Real-time voice en image analysis nu ingebakken.
-
-**Meta Superintelligence Labs** – Na de acquisitie van Scale AI (Alexandr Wang) heeft Meta een klein maar krachtig reasoning-model uitgebracht. Prestaties vergelijkbaar met grotere Llama 4-varianten, met sterke multimodale en agentic capaciteiten.
-*Bron: [CNBC, 8 april](https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html)*
-
-**Anthropic Claude Mythos 5** – Een model van 10 biljoen parameters gericht op cybersecurity en coding. Niet publiek beschikbaar – alleen voor selecte partners via *Project Glasswing*. Relevant als signaal: de frontier van modellen schuift door, maar blijft deels achter gesloten deuren.
-
-**SAIL-coalitie** – Eerste organisatie die AI-innovatie beschermt via een collaboratief patent-netwerk. Oprichters: Anthropic, Meta, Microsoft, IBM, Genentech.
-*Bron: [GlobeNewswire, 8 april](https://www.globenewswire.com/news-release/2026/04/08/3270111/0/en/AI-Pioneers-Unite-to-Launch-the-Shared-AI-License-Foundation-to-Advance-Foundation-Model-Innovation.html)*
+**NVIDIA Nemotron-3 Nano** – NVIDIA heeft Nemotron-3-Nano-30B uitgebracht op Hugging Face, onderdeel van het Agent Toolkit dat gelanceerd werd met steun van 17 enterprise-partners (Adobe, Salesforce, SAP, ServiceNow, Siemens). Gericht op lokale en enterprise agent-deployments.
+*Bron: [VentureBeat](https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among)*
 
 ---
 
 ## 🏛️ Governance & Ethiek
 
-**EU AI Act – augustus 2026 is de harde deadline**: De volledige wet wordt van kracht op 2 augustus 2026. De verboden AI-toepassingen en AI-literacy-eisen gelden al sinds februari 2025. Governance-regels voor GPAI-modellen lopen al depuis augustus 2025. Wat nieuw is per augustus: de eisen voor high-risk AI-systemen (artikel 6 lid 2 e.v.) en de nationale sandboxvereisten.
+**EU AI Act: deadline of uitstel?** – De harde compliance-deadline van 2 augustus 2026 staat formeel nog overeind, maar de realiteit is complexer. Cruciale guidance (high-risk classificatie, transparantie Code of Practice) is vertraagd, waardoor organisaties nauwelijks tijd hebben om te implementeren vóór de deadline. Het Europees Parlement en de Raad bespreken in de trilogue (april/mei) aanpassingen via de *AI Digital Omnibus* die de verplichtingen kunnen verschuiven naar december 2027 of augustus 2028.
 
-**Trilogue amendementen**: Het Europees Parlement heeft zijn positie vastgesteld over aanvullende wijzigingen (o.a. via de *Digital Omnibus*). Een tweede trilogue op 28 april kan tot een akkoord leiden over aanpassingen aan de compliance-termijnen.
+Praktisch advies: behandel augustus 2026 nog steeds als werkdeadline voor interne AI-inventarisatie en risicoklassificatie – uitstel is politiek, governance-opbouw is sowieso noodzakelijk.
+*Bronnen: [artificialintelligenceact.eu](https://artificialintelligenceact.eu/implementation-timeline/) | [Legal Nodes](https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks) | [Orrick](https://www.orrick.com/en/Insights/2025/11/The-EU-AI-Act-6-Steps-to-Take-Before-2-August-2026)*
 
-**Transparantie Code of Practice – eerste ontwerp gepubliceerd**: Bevat richtlijnen voor uitlegbaarheid en traceerbaarheid van AI-systemen. Verplichte watermerken voor AI-gegenereerde content (audio, beeld, video, tekst) worden verwacht per 1 november 2026.
-
-**NIST AI RMF 2.0** (publicatie januari 2026): Bevat nu specifieke richtlijnen voor prompt injection-preventie. Bruikbaar als praktisch framework naast de EU AI Act.
-
-*Bronnen: [artificialintelligenceact.eu](https://artificialintelligenceact.eu/) | [Kennedys Law](https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/) | [OneTrust](https://www.onetrust.com/blog/how-the-eu-digital-omnibus-reshapes-ai-act-timelines-and-governance-in-2026/)*
+**NL: defensie evalueert AI-systeem** – Het Nederlandse Ministerie van Defensie evalueert het Maven Smart System (MSS) voor militaire toepassingen. NOS Nieuwsuur bericht over brede zorgen rondom autonome AI-beslissingen in conflictsituaties – menselijk toezicht blijft juridisch en ethisch vereist.
+*Bron: [NOS Nieuwsuur](https://nos.nl/nieuwsuur/artikel/2609142-zorgen-over-gebruik-van-ai-in-oorlogen-menselijke-afweging-blijft-nodig)*
 
 ---
 
 ## 🔐 Security & Risk
 
-**Prompt injection: OWASP #1-risico** – In het meest recente OWASP LLM Security Project-rapport (maart 2026) staat prompt injection bovenaan alle vulnerability-categorieën voor deployed language models – boven datapoisoning, model theft en insecure output handling.
+**Flowise RCE (CVE-2025-59528, CVSS 10.0) – actief geëxploiteerd** – De meest urgente AI-security dreiging van dit moment. De CustomMCP-node in Flowise voert willekeurige JavaScript-code uit zonder validatie, met volledige Node.js-privileges (inclusief toegang tot `child_process` en het bestandssysteem). Meer dan 12.000 publicly exposed instanties zijn kwetsbaar. Exploitatie is al waargenomen. Als jouw team of klanten Flowise gebruiken: patch onmiddellijk.
+*Bron: [The Hacker News, april 2026](https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html)*
 
-**Indirect injection domineert**: Meer dan 80% van de gedocumenteerde aanvallen in enterprise-context is *indirect* – verborgen in documenten, e-mails, webpagina's of database-inhoud. Directe gebruikersaanvallen zijn de minderheid geworden.
-
-**CVE-2025-53773 (CVSS 9.6)**: Kritieke kwetsbaarheid waarbij verborgen prompt injection in pull request-beschrijvingen remote code execution mogelijk maakte via GitHub Copilot. Dit raakt direct developer workflows.
-
-**Financiële schade**: $2,3 miljard wereldwijd in 2025 door prompt injection-aanvallen (Recorded Future). 67% gericht op customer service chatbots en AI-trading systemen.
-
-**Enterprise zichtbaarheidsprobleem**: 81% van de organisaties heeft geen zicht op hoe AI intern wordt gebruikt. Dit is de kern van het shadow AI-risico.
-
-*Bronnen: [Airia](https://airia.com/ai-security-in-2026-prompt-injection-the-lethal-trifecta-and-how-to-defend/) | [Cisco State of AI Security 2026](https://blogs.cisco.com/ai/cisco-state-of-ai-security-2026-report) | [Cycode](https://cycode.com/blog/ai-security-vulnerabilities/)*
+**AI-framework kwetsbaarheden stapelen zich op** – LangChain en LangGraph hadden in maart kritieke flaws waarbij bestanden, secrets en databases bereikbaar waren. Langflow had een CVE met exploitatie binnen 20 uur na disclosure. Patroon: AI-agent frameworks worden een prime target nu ze dieper in enterprise-infrastructuur integreren.
+*Bron: [The Hacker News – LangChain/LangGraph](https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html)*
 
 ---
 
 ## 📈 Markt & Adoptie
 
-**Microsoft & Google domineren enterprise AI**: Microsoft voert de ranglijst aan dankzij zijn partner- en platform-ecosysteem. Google wint terrein in agentic AI door een geïntegreerde tech stack. AWS houdt 32% marktaandeel in cloud, maar Azure groeit met 39% YoY en Google Cloud met 50% YoY.
+**Agentic AI: adoptie versnelt, governance loopt achter** – Volgens KPMG deployt nu 33% van de organisaties AI-agents, een verdrievoudiging in één kwartaal. Salesforce boekte $540M omzet via Agentforce en voegde 6.000 enterprise-klanten toe in één kwartaal. Gartner raamt AI-softwarespending op $452 miljard in 2026 (+60% YoY). Maar: 76% van bedrijven geeft toe dat hun operaties nog niet gereed zijn voor autonome agents. Governance en proces-infrastructuur zijn de bottleneck, niet de technologie.
+*Bronnen: [VentureBeat – Salesforce](https://venturebeat.com/technology/while-everyone-talks-about-an-ai-bubble-salesforce-quietly-added-6-000) | [CIO Dive – Gartner](https://www.ciodive.com/news/generative-agentic-ai-global-spending-forecast-gartner/809783/) | [VentureBeat – process layer](https://venturebeat.com/orchestration/enterprise-agentic-ai-requires-a-process-layer-most-companies-havent-built)*
 
-**Hyperscaler capex op recordhoogte**: AWS stuurt aan op $200 miljard capex in 2026 (+50% t.o.v. 2025). Google verhoogde zijn capex-guidance naar $175–185 miljard. AI-infrastructuur is de drijvende kracht.
-
-**Executiegap is het echte verhaal** (Deloitte State of AI 2026): Adoptie groeit snel, maar data-infrastructuur, governance en talentontwikkeling lopen sterk achter. Slechts 8,6% van de bedrijven heeft AI-agents in productie. 63,7% heeft geen formeel AI-initiatief.
-
-*Bronnen: [Kai Waehner](https://www.kai-waehner.de/blog/2026/04/06/enterprise-agentic-ai-landscape-2026-trust-flexibility-and-vendor-lock-in/) | [CIO Dive](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/) | [HPCwire/Deloitte](https://www.hpcwire.com/bigdatawire/2026/03/03/deloittes-state-of-ai-2026-why-enterprise-execution-is-falling-behind-adoption/)*
+**AI-hardwarecrisis in Europa** – GPU-levertijden lopen op tot een jaar, DRAM-prijzen zijn met 171% gestegen en de nieuwste NVIDIA-chips zijn uitverkocht tot diep in 2027. EU-bedrijven die nu pas AI-infrastructuur willen bouwen, lopen serieus achter.
+*Bron: [Computable.nl](https://www.computable.nl/persberichten/ai-hardwarecrisis-2026-wachten-op-chips-geen-optie-is-voor-eu-bedrijven/)*
 
 ---
 
 ## 💡 Ctac-relevantie
 
-**1. EU AI Act compliance = directe kans voor Ctac**
-Met augustus 2026 als harde deadline zijn NL/BE-klanten nú in de sprint. Ctac kan als trusted IT-partner een concrete rol spelen in AI-inventarisatie, risicoklassificatie en governance-implementatie. Dit is niet hypothetisch – de deadline is over minder dan 4 maanden. Actie: verken of er een AI Act readiness-scan als dienst aangeboden kan worden, eventueel gecombineerd met Microsoft Purview of Compliance Center-tooling.
+**1. Flowise en AI-framework security = directe kans**
+Als Ctac klanten begeleidt bij het bouwen van AI-agent pipelines (LangChain, LangGraph, Flowise, n8n), is dit hét moment voor een gerichte security-check. Een "AI Infrastructure Security Scan" is direct te positioneren – er is concrete CVE-urgentie en klanten begrijpen het risico.
 
-**2. Executiegap = Ctac's core opportunity**
-63,7% van bedrijven heeft geen formeel AI-initiatief. De technologie is beschikbaar; de implementatiecapaciteit niet. Dit is precies waar een IT-consultancy als Ctac waarde toevoegt. De propositie moet niet zijn "wij bouwen AI" maar "wij zorgen dat AI daadwerkelijk werkt in jouw organisatie" – inclusief data-infrastructuur, change management en governance.
+**2. EU AI Act: uitstel = geen excuus, maar wel ruimte**
+De mogelijke verschuiving naar 2027/2028 geeft klanten een opening om governance gestructureerd op te bouwen, zonder paniek-compliance. Ctac kan dit framen als: "Doe het nu goed, niet snel." Een AI Act readiness-traject met gefaseerde aanpak past hier perfect bij.
 
-**3. Sovereign/lokale AI met Gemma 4**
-Google's Gemma 4 is ontworpen voor lokale inferentie op low-power hardware. Dit biedt kansen voor klanten in sectoren als overheid en zorg die data niet naar de cloud mogen sturen. Ctac kan hier een on-premise AI-propositie op bouwen – voor Emiel's team interessant om te verkennen als IP-gedreven dienst.
+**3. Agentic AI: de process layer is het product**
+76% van bedrijven wil agents maar heeft de operationele infrastructuur niet. Ctac's kans is niet het model leveren, maar de implementatielaag: procesontwerp, data-governance, change management en monitoring. Dit is precies het consultancy-domein.
 
-**4. Prompt injection = security-propositie**
-De combinatie van OWASP #1-status, de actieve CVE in developer-tooling en de lage enterprise-zichtbaarheid maakt AI Security tot een laagdrempelig maar hoogwaardig dienstaanbod. Een "AI Security Scan" of risicoassessment voor klanten die al LLMs gebruiken is snel te positioneren en heeft directe urgentie.
-
-**5. Intern: zet nu een AI-governance baseline neer**
-Als de AI-unit bij Ctac ook intern AI-tools gebruikt (Copilot, Claude, etc.), is dit het moment om een intern beleid te formaliseren – zowel voor compliance als als referentie richting klanten. Wat je intern opbouwt, kun je straks als best practice verkopen.
+**4. Open-source frontier (GLM-5, Nemotron-3)**: Voor klanten met data-soevereiniteitseisen (overheid, zorg) zijn MIT-gelicenseerde frontier-modellen nu serieuze alternatieven voor Azure OpenAI. Emiel's team kan hier een concrete pilot rond opzetten.
 
 ---
 
 ## 📚 Bronnen & verder lezen
 
-- [TechCrunch – Microsoft MAI foundational models (2 april 2026)](https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/)
-- [CNBC – Meta Superintelligence Labs nieuw model (8 april 2026)](https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html)
-- [GlobeNewswire – SAIL coalitie lancering (8 april 2026)](https://www.globenewswire.com/news-release/2026/04/08/3270111/0/en/AI-Pioneers-Unite-to-Launch-the-Shared-AI-License-Foundation-to-Advance-Foundation-Model-Innovation.html)
-- [LLM Stats – AI model releases april 2026](https://llm-stats.com/llm-updates)
+- [TechCrunch – Anthropic Mythos preview (7 april 2026)](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
+- [TechCrunch – Is Anthropic limiting Mythos? (9 april 2026)](https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/)
+- [Anthropic – Project Glasswing](https://www.anthropic.com/glasswing)
+- [Hugging Face – GLM-5 review](https://huggingface.co/blog/mlabonne/glm-5)
+- [Hugging Face – State of Open Source Spring 2026](https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026)
+- [VentureBeat – NVIDIA Agent Toolkit launch](https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among)
 - [EU AI Act implementatietijdlijn](https://artificialintelligenceact.eu/implementation-timeline/)
-- [Kennedys Law – EU AI Act deadline analyse 2026](https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/)
-- [OneTrust – EU Digital Omnibus en AI Act 2026](https://www.onetrust.com/blog/how-the-eu-digital-omnibus-reshapes-ai-act-timelines-and-governance-in-2026/)
-- [Airia – Prompt injection en AI security 2026](https://airia.com/ai-security-in-2026-prompt-injection-the-lethal-trifecta-and-how-to-defend/)
-- [Cisco State of AI Security 2026](https://blogs.cisco.com/ai/cisco-state-of-ai-security-2026-report)
-- [Kai Waehner – Enterprise Agentic AI Landscape 2026](https://www.kai-waehner.de/blog/2026/04/06/enterprise-agentic-ai-landscape-2026-trust-flexibility-and-vendor-lock-in/)
-- [CIO Dive – Microsoft & Google domineren enterprise AI](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/)
-- [HPCwire – Deloitte State of AI 2026](https://www.hpcwire.com/bigdatawire/2026/03/03/deloittes-state-of-ai-2026-why-enterprise-execution-is-falling-behind-adoption/)
-- [Cycode – Top AI Security Vulnerabilities 2026](https://cycode.com/blog/ai-security-vulnerabilities/)
+- [Legal Nodes – EU AI Act 2026 compliance updates](https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks)
+- [Orrick – 6 stappen vóór 2 augustus 2026](https://www.orrick.com/en/Insights/2025/11/The-EU-AI-Act-6-Steps-to-Take-Before-2-August-2026)
+- [NOS Nieuwsuur – AI in oorlogen](https://nos.nl/nieuwsuur/artikel/2609142-zorgen-over-gebruik-van-ai-in-oorlogen-menselijke-afweging-blijft-nodig)
+- [The Hacker News – Flowise CVSS 10.0 RCE (april 2026)](https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html)
+- [The Hacker News – LangChain/LangGraph flaws](https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html)
+- [VentureBeat – Salesforce Agentforce groei](https://venturebeat.com/technology/while-everyone-talks-about-an-ai-bubble-salesforce-quietly-added-6-000)
+- [CIO Dive – Gartner AI spending 2026](https://www.ciodive.com/news/generative-agentic-ai-global-spending-forecast-gartner/809783/)
+- [VentureBeat – Process layer voor agentic AI](https://venturebeat.com/orchestration/enterprise-agentic-ai-requires-a-process-layer-most-companies-havent-built)
+- [Computable.nl – AI-hardwarecrisis 2026](https://www.computable.nl/persberichten/ai-hardwarecrisis-2026-wachten-op-chips-geen-optie-is-voor-eu-bedrijven/)
