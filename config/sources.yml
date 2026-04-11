@@ -1,0 +1,80 @@
+# ============================================================
+# Bronnenconfiguratie voor de AI Dagbriefing
+# ============================================================
+#
+# Prioriteit 1  → Claude zoekt hier ALTIJD naar
+# Prioriteit 2  → Claude zoekt hier bij voorkeur naar
+# Prioriteit 3  → Aanvullend / verdieping
+#
+# rss_feeds worden automatisch opgehaald vóór de API-aanroep
+# en als extra context meegegeven aan Claude.
+# ============================================================
+
+priority_1:
+  label: "Kernbronnen – altijd doorzoeken"
+  sites:
+    - domain: techcrunch.com
+      label: "TechCrunch – tech & AI nieuws"
+    - domain: artificialintelligenceact.eu
+      label: "EU AI Act tracker (authoritative)"
+    - domain: digital-strategy.ec.europa.eu
+      label: "Europese Commissie digitale strategie"
+    - domain: blogs.microsoft.com
+      label: "Microsoft AI blog"
+    - domain: blog.google
+      label: "Google AI blog"
+    - domain: anthropic.com/news
+      label: "Anthropic nieuws"
+    - domain: openai.com/blog
+      label: "OpenAI blog"
+  rss_feeds:
+    - url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      label: "TechCrunch AI"
+    - url: "https://feeds.feedburner.com/TheHackersNews"
+      label: "The Hacker News – security"
+
+priority_2:
+  label: "Aanbevolen bronnen – enterprise & markt"
+  sites:
+    - domain: venturebeat.com
+      label: "VentureBeat – AI marktnieuws"
+    - domain: ciodive.com
+      label: "CIO Dive – enterprise IT-adoptie"
+    - domain: huggingface.co/blog
+      label: "Hugging Face – open source modellen"
+    - domain: aws.amazon.com/blogs/machine-learning
+      label: "AWS Machine Learning blog"
+    - domain: azure.microsoft.com/en-us/blog
+      label: "Azure AI blog"
+    - domain: cloud.google.com/blog
+      label: "Google Cloud AI blog"
+    - domain: llm-stats.com
+      label: "LLM Stats – model releases & benchmarks"
+    - domain: hpcwire.com
+      label: "HPCwire – AI enterprise (incl. Deloitte rapporten)"
+  rss_feeds:
+    - url: "https://venturebeat.com/category/ai/feed/"
+      label: "VentureBeat AI"
+    - url: "https://www.schneier.com/blog/atom.xml"
+      label: "Schneier on Security"
+
+priority_3:
+  label: "Verdieping – papers, emerging tech, NL/BE"
+  sites:
+    - domain: arxiv.org
+      label: "arXiv – AI papers"
+    - domain: nextbigfuture.com
+      label: "Next Big Future – emerging tech"
+    - domain: nos.nl
+      label: "NOS – tech nieuws Nederland"
+    - domain: datanews.knack.be
+      label: "Data News – tech nieuws België"
+    - domain: computable.nl
+      label: "Computable – IT nieuws Nederland"
+    - domain: legalnodes.com
+      label: "Legal Nodes – EU AI Act compliance"
+    - domain: airia.com
+      label: "Airia – AI security"
+  rss_feeds:
+    - url: "https://aisnakeoil.substack.com/feed"
+      label: "AI Snake Oil – kritische AI-analyse"
