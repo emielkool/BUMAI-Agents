@@ -28,7 +28,7 @@ Of open **GitHub Desktop** → rechtsklik op het repo → **Show in Finder**.
 
 ```bash
 cd /pad/naar/repo
-git pull origin main
+git pull --rebase origin main
 ```
 
 Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
