@@ -18,6 +18,9 @@ env/
 *.key
 credentials.json
 
+# Obsidian
+.obsidian/
+
 # IDE
 .vscode/
 .idea/
