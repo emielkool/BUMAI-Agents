@@ -7,7 +7,7 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 ## Hoe het werkt
 
 - Scheduler pusht om **08:00** naar GitHub
-- LaunchAgent doet een `git pull` om **08:30** op je Mac
+- LaunchAgent doet een `git pull` om **08:30** op je Mac, elke dag
 - De nieuwe briefing staat dan klaar in je lokale repo
 
 ---
@@ -19,23 +19,19 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 Open Terminal en voer uit:
 
 ```bash
-# Navigeer naar de locatie van de repo op je Mac
-# Typisch zoiets als:
-cd ~/Documents/BUMAI-Agents
-pwd
+find ~ -type d -name "BUMAI-Agents" -maxdepth 6 2>/dev/null
 ```
 
-Kopieer het volledige pad (bijv. `/Users/emiel/Documents/BUMAI-Agents`).
+Of open **GitHub Desktop** → rechtsklik op het repo → **Show in Finder**.
 
-### Stap 2 – Zorg dat git SSH of HTTPS credentials geconfigureerd zijn
+### Stap 2 – Zorg dat git auth geconfigureerd is
 
 ```bash
 cd /pad/naar/repo
 git pull origin main
 ```
 
-Als dit zonder wachtwoordprompt werkt, is de authenticatie al goed ingesteld.
-Zo niet, stel SSH-keys in voor GitHub of gebruik GitHub Desktop voor de auth.
+Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
 
 ### Stap 3 – Installeer de LaunchAgent
 
@@ -46,9 +42,9 @@ REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
 
 sed "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
   "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
-  > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+  > ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
 
-launchctl load ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+launchctl bootstrap gui/$(id -u) ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
 ### Stap 4 – Controleer of het werkt
@@ -57,21 +53,20 @@ launchctl load ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 launchctl list | grep bumai
 ```
 
-Je ziet de naam `com.ctac.bumai-sync` als de agent actief is.
+Je ziet `com.ctac.bumai-sync` als de agent actief is.
 
 ---
 
 ## Handmatig een sync triggeren
 
 ```bash
-launchctl start com.ctac.bumai-sync
+launchctl kickstart gui/$(id -u)/com.ctac.bumai-sync
 ```
 
 Logs inzien:
 
 ```bash
 cat /tmp/bumai-sync.log
-cat /tmp/bumai-sync-error.log
 ```
 
 ---
@@ -79,8 +74,8 @@ cat /tmp/bumai-sync-error.log
 ## Verwijderen
 
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
-rm ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+launchctl bootout gui/$(id -u)/com.ctac.bumai-sync
+rm ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
 ---
