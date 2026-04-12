@@ -6,8 +6,8 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 
 ## Hoe het werkt
 
-- Scheduler pusht om **08:00** naar GitHub
-- LaunchAgent doet een `git pull` om **08:30** op je Mac, elke dag
+- Scheduler pusht om **07:00** naar GitHub
+- LaunchAgent doet een `git pull` om **07:30** op je Mac, elke dag
 - De nieuwe briefing staat dan klaar in je lokale repo
 
 ---
