@@ -62,7 +62,8 @@ Voer de volgende stappen uit:
    - Wees kritisch: niet elke aankondiging is een doorbraak
 7. Sla op als `briefings/ai-briefing-{datum}.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing {datum}`
-9. Push naar main
+9. Push direct naar de main branch: `git push origin HEAD:main`
+   (Dit zorgt dat de briefing op main terechtkomt, ongeacht de huidige werkomgeving)
 ```
 
 ---

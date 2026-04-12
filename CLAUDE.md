@@ -22,4 +22,5 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 6. Genereer de briefing volgens het voorgeschreven format
 7. Sla op als `briefings/ai-briefing-YYYY-MM-DD.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing YYYY-MM-DD`
-9. Push naar main
+9. Push direct naar de main branch: `git push origin HEAD:main`
+   (Dit zorgt dat de briefing op main terechtkomt, ongeacht de huidige branch)
