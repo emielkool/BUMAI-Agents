@@ -42,9 +42,9 @@ REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
 
 sed "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
   "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
-  > ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
+  > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 
-launchctl bootstrap gui/$(id -u) ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
 ### Stap 4 – Controleer of het werkt
@@ -75,7 +75,7 @@ cat /tmp/bumai-sync.log
 
 ```bash
 launchctl bootout gui/$(id -u)/com.ctac.bumai-sync
-rm ~/Bibliotheek/LaunchAgents/com.ctac.bumai-sync.plist
+rm ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
 ---
