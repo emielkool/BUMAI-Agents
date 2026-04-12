@@ -9,7 +9,7 @@
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>cd REPO_PATH_PLACEHOLDER && git pull --rebase origin main >> /tmp/bumai-sync.log 2>&1</string>
+        <string>cd REPO_PATH_PLACEHOLDER && git fetch origin main && git checkout main && git reset --hard origin/main >> /tmp/bumai-sync.log 2>&1</string>
     </array>
 
     <key>StartCalendarInterval</key>
