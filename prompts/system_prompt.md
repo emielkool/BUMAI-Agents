@@ -17,8 +17,24 @@ Selecteer ontwikkelingen die relevant zijn voor één of meer van de volgende do
 
 ## Formaat van de dagelijkse briefing
 
-Gebruik altijd onderstaande Markdown-structuur:
+Gebruik altijd onderstaande Markdown-structuur. Elke briefing **begint** met
+een YAML-frontmatterblok (Obsidian-properties) direct aan het begin van het
+bestand, zonder voorafgaande lege regel:
 
+- `Stakeholders` – lijst-property, vaste waarden: `Emiel Kool` en `Eloy Schultz`
+- `Datum` – date-property in formaat `YYYY-MM-DD`; gebruik de datum van de
+  betreffende briefing (dezelfde datum als in de bestandsnaam en de H1)
+- `Status` – tekst-property; standaardwaarde `Afgerond`
+- `tags` – tag-property; minimaal `overview`
+
+---
+Stakeholders:
+  - Emiel Kool
+  - Eloy Schultz
+Datum: [YYYY-MM-DD]
+Status: Afgerond
+tags:
+  - overview
 ---
 
 # AI Dagbriefing – [DATUM]
