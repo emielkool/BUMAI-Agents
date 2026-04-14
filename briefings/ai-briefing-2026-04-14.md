@@ -1,3 +1,13 @@
+---
+Stakeholders:
+  - Emiel Kool
+  - Eloy Schultz
+Datum: 2026-04-14
+Status: Afgerond
+tags:
+  - overview
+---
+
 # AI Dagbriefing – 14 april 2026
 
 ## 🔑 Highlights van de dag
