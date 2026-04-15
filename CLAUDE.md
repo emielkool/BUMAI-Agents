@@ -22,7 +22,8 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 5. Gebruik web search om actueel AI-nieuws op te halen (minimaal 6 zoekopdrachten)
    - Verdeel over de domeinen: Technologie & Modellen, Governance & Beleid, Security & Risk, Markt & Adoptie
    - Prioriteer bronnen uit `sources.yml` (prioriteit 1 = altijd, 2 = bij voorkeur, 3 = aanvullend)
-6. Genereer de briefing volgens het voorgeschreven format
+6. Genereer de briefing — begin het bestand met de YAML frontmatter uit `prompts/system_prompt.md`
+   (het `---` blok met Stakeholders, Datum, Status en tags), direct gevolgd door de H1 en secties
 7. Sla op als `briefings/ai-briefing-YYYY-MM-DD.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing YYYY-MM-DD`
 9. Push direct naar de main branch: `git push origin HEAD:main`
