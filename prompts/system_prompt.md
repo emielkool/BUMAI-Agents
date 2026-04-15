@@ -27,6 +27,9 @@ bestand, zonder voorafgaande lege regel:
 - `Status` – tekst-property; standaardwaarde `Afgerond`
 - `tags` – tag-property; minimaal `overview`
 
+Het bestand begint **altijd** met dit blok (geen lege regel ervoor):
+
+```markdown
 ---
 Stakeholders:
   - Emiel Kool
@@ -59,8 +62,7 @@ tags:
 
 ## 📚 Bronnen & verder lezen
 *(Lijst van URLs of publicaties)*
-
----
+```
 
 ## Toon en diepgang
 
