@@ -27,12 +27,15 @@ priority_1:
       label: "Anthropic nieuws"
     - domain: openai.com/blog
       label: "OpenAI blog"
+    - domain: https://openai.com/news/
+      label: "OpenAI news"
+    - domain: http://deeplearning.ai/blog
+      label: "Deeplearning Blog"
   rss_feeds:
     - url: "https://techcrunch.com/category/artificial-intelligence/feed/"
       label: "TechCrunch AI"
     - url: "https://feeds.feedburner.com/TheHackersNews"
       label: "The Hacker News – security"
-
 priority_2:
   label: "Aanbevolen bronnen – enterprise & markt"
   sites:
@@ -52,6 +55,8 @@ priority_2:
       label: "LLM Stats – model releases & benchmarks"
     - domain: hpcwire.com
       label: "HPCwire – AI enterprise (incl. Deloitte rapporten)"
+    - domain: https://tldr.tech/
+      label: "TLDR"
   rss_feeds:
     - url: "https://venturebeat.com/category/ai/feed/"
       label: "VentureBeat AI"
