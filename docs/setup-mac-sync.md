@@ -8,7 +8,10 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 
 - Scheduler pusht om **07:00** naar GitHub
 - LaunchAgent doet een `git pull` om **07:30** op je Mac, elke dag
-- De nieuwe briefing staat dan klaar in je lokale repo
+- Vervolgens synchroniseert de LaunchAgent de hele `briefings/`-map naar OneDrive:
+  - `briefings/dagoverzichten/` – dagelijkse briefings
+  - `briefings/weekoverzichten/` – weekoverzichten
+- Alle nieuwe bestanden staan klaar in OneDrive voordat je op kantoor bent
 
 ---
 
@@ -39,8 +42,10 @@ Kopieer onderstaand commando en vervang `/PAD/NAAR/BUMAI-AGENTS` met je eigen re
 
 ```bash
 REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
+ONEDRIVE_PATH="/PAD/NAAR/ONEDRIVE"   # bijv. ~/Library/CloudStorage/OneDrive-Ctac
 
-sed "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+    -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
   "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
   > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 
