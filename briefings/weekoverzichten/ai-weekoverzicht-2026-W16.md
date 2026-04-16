@@ -117,3 +117,18 @@ NVIDIA's enterprise agent-platform (Adobe, SAP, Salesforce als early adopters) e
 - [Enterprise agentic AI landscape 2026 – Kai Waehner](https://www.kai-waehner.de/blog/2026/04/06/enterprise-agentic-ai-landscape-2026-trust-flexibility-and-vendor-lock-in/)
 - [OpenAI COO over enterprise adoptie – TechCrunch](https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/)
 - [Cloud infrastructure Q4 2025 – Omdia](https://omdia.tech.informa.com/pr/2026/mar/global-cloud-infrastructure-spending-rose-29percent-in-q4-2025-as-hyperscalers-scaled-ai-infrastructure-investment)
+
+---
+
+### Donderdag 16 april
+
+→ Dagbriefing: [ai-briefing-2026-04-16.md](../ai-briefing-2026-04-16.md)
+
+**Highlights:**
+- **Anthropic Mythos & Project Glasswing**: het meest capabele model ooit vond autonoom duizenden zero-day kwetsbaarheden in alle grote OS'en en browsers; 12 grote techpartners (waaronder Microsoft, Google, Apple) krijgen beperkt toegang voor defensieve security. De bewust gelimiteerde release is een waarschuwing: aanvallers krijgen vergelijkbare modellen onvermijdelijk ook.
+- **Stanford AI Index 2026**: SWE-bench codeerscores stegen van 60% naar ~100% in één jaar; 88% van organisaties gebruikt AI; de kloof VS–China slonk naar 2,7%. Tegelijk daalde de Foundation Model Transparency Index van 58 naar 40 — frontier labs worden minder open.
+- **Open-weight concurrentie en Microsoft-onafhankelijkheid**: Arcee AI Trinity (400B, Apache) en Zhipu GLM-4.6V (106B) dagen Meta's Llama uit; Microsoft lanceert eigen MAI-modellen om de OpenAI-afhankelijkheid te verminderen. Shadow AI wordt een serieus enterprise-risico naarmate autonome agents de norm worden.
+
+**Ctac-relevantie van de dag:** Project Glasswing maakt AI voor defensieve cybersecurity een concreet klantgesprek — met name voor finance en overheid. Tegelijk schept de dalende modelltransparantie een argument voor sovereign/private AI-deployment bij compliance-kritische klanten.
+
+---
