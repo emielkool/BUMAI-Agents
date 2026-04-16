@@ -17,32 +17,22 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 
 ## Installatie (éénmalig, ~3 minuten)
 
-### Stap 1 – Zoek je repo-pad op
-
-Open Terminal en voer uit:
+### Stap 1 – Zorg dat git auth geconfigureerd is
 
 ```bash
-find ~ -type d -name "BUMAI-Agents" -maxdepth 6 2>/dev/null
-```
-
-Of open **GitHub Desktop** → rechtsklik op het repo → **Show in Finder**.
-
-### Stap 2 – Zorg dat git auth geconfigureerd is
-
-```bash
-cd /pad/naar/repo
+cd "/Users/emiel.kool/GitHub/BUMAI-Agents"
 git fetch origin main && git checkout main && git reset --hard origin/main
 ```
 
 Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
 
-### Stap 3 – Installeer de LaunchAgent
+### Stap 2 – Installeer de LaunchAgent
 
-Kopieer onderstaand commando en vervang `/PAD/NAAR/BUMAI-AGENTS` met je eigen repo-pad:
+Kopieer en plak dit commando direct in Terminal (paden zijn al ingevuld):
 
 ```bash
-REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
-ONEDRIVE_PATH="/PAD/NAAR/ONEDRIVE"   # bijv. ~/Library/CloudStorage/OneDrive-Ctac
+REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/Organisatorisch/AI Briefings"
 
 sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
     -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
@@ -52,7 +42,7 @@ sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
-### Stap 4 – Controleer of het werkt
+### Stap 3 – Controleer of het werkt
 
 ```bash
 launchctl list | grep bumai

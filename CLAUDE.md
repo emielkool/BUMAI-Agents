@@ -79,3 +79,10 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
     - Voorbeeld: `weekoverzicht: dagentry 2026-04-15 toegevoegd aan week 2026-W15`
 
 16. Push naar main: `git push origin HEAD:main`
+
+## Machineconfiguratie (macOS)
+
+| Variabele | Pad |
+|-----------|-----|
+| `REPO_PATH` | `/Users/emiel.kool/GitHub/BUMAI-Agents` |
+| `ONEDRIVE_PATH` | `/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/Organisatorisch/AI Briefings` |
