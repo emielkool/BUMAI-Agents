@@ -35,12 +35,16 @@ Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
 
 ### Stap 3 – Installeer de LaunchAgent
 
-Kopieer onderstaand commando en vervang `/PAD/NAAR/BUMAI-AGENTS` met je eigen repo-pad:
+Kopieer onderstaand commando en vervang:
+- `/PAD/NAAR/BUMAI-AGENTS` met je eigen repo-pad
+- `/PAD/NAAR/ONEDRIVE-MAP` met het pad naar je OneDrive-map (bijv. `~/Library/CloudStorage/OneDrive-Ctac/AI-Briefings`)
 
 ```bash
 REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
+ONEDRIVE_PATH="/PAD/NAAR/ONEDRIVE-MAP"
 
-sed "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+    -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
   "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
   > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 
