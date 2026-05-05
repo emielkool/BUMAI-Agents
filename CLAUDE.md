@@ -10,8 +10,10 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 - `prompts/week_overzicht_prompt.md` – Instructies voor de vrijdag-synthesetaak
 - `briefings/dagoverzichten/` – Gegenereerde dagbriefings (één per werkdag)
 - `briefings/weekoverzichten/` – Weekoverzichten per ISO-weeknummer
+- `briefings/maandoverzichten/` – Maandoverzichten (één per maand)
 - `docs/setup-scheduled-task.md` – Handleiding voor de dagelijkse Scheduled Task
 - `docs/setup-weekly-task.md` – Handleiding voor de vrijdag-synthesetaak
+- `docs/setup-monthly-task.md` – Handleiding voor de maandelijkse synthesetaak
 
 ## Bij het genereren van een briefing
 
@@ -79,6 +81,36 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
     - Voorbeeld: `weekoverzicht: dagentry 2026-04-15 toegevoegd aan week 2026-W15`
 
 16. Push naar main: `git push origin HEAD:main`
+
+## Bij het genereren van een maandoverzicht
+
+Voer stappen 17–23 uit **alleen op de 1e van de maand**, na stap 16.
+
+17. Bepaal de vorige maand
+    - Formaat: `YYYY-MM` (bijv. op 1 mei 2026 → `2026-04`)
+    - Maandnaam: bijv. `april 2026`
+    - Periode: eerste t/m laatste dag van die maand (bijv. `2026-04-01 / 2026-04-30`)
+
+18. Idempotentiecheck
+    - Controleer of `briefings/maandoverzichten/ai-maandoverzicht-YYYY-MM.md` al bestaat
+    - Als het bestand bestaat én `Status: Afgerond` in de frontmatter staat: **stop**
+
+19. Bepaal welke weekoverzichten bij deze maand horen
+    - Lees alle bestanden in `briefings/weekoverzichten/`
+    - Selecteer weken waarvan de `Periode`-regel in de YAML frontmatter (deels) in de vorige maand valt
+
+20. Lees alle geselecteerde weekoverzichten volledig
+    - Lees `prompts/maand_overzicht_prompt.md` voor het volledige format en de tone-of-voice
+
+21. Genereer het maandoverzicht
+    - Begin het bestand met de YAML frontmatter (zie `prompts/maand_overzicht_prompt.md`)
+    - Synthese over weken heen — geen opsomming, maar patroonherkenning
+    - Sla op als `briefings/maandoverzichten/ai-maandoverzicht-YYYY-MM.md`
+
+22. Commit met bericht: `maandoverzicht: AI maandoverzicht YYYY-MM`
+    Voorbeeld: `maandoverzicht: AI maandoverzicht 2026-04`
+
+23. Push naar main: `git push origin HEAD:main`
 
 ## Mac-configuratie (Emiel Kool)
 

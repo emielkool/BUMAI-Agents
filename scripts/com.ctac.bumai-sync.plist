@@ -9,7 +9,7 @@
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>{ cd REPO_PATH_PLACEHOLDER &amp;&amp; git fetch origin main &amp;&amp; git checkout main &amp;&amp; git reset --hard origin/main &amp;&amp; LATEST=$(ls REPO_PATH_PLACEHOLDER/briefings/ai-briefing-*.md 2&gt;/dev/null | sort | tail -1) &amp;&amp; [ -n "$LATEST" ] &amp;&amp; cp "$LATEST" "ONEDRIVE_PATH_PLACEHOLDER/" &amp;&amp; echo "Gekopieerd: $LATEST"; } &gt;&gt; /tmp/bumai-sync.log 2&gt;&amp;1</string>
+        <string>{ cd REPO_PATH_PLACEHOLDER &amp;&amp; git fetch origin main &amp;&amp; git checkout main &amp;&amp; git reset --hard origin/main &amp;&amp; rsync -av --delete REPO_PATH_PLACEHOLDER/briefings/ "ONEDRIVE_PATH_PLACEHOLDER/" &amp;&amp; echo "Sync briefings/ voltooid"; } &gt;&gt; /tmp/bumai-sync.log 2&gt;&amp;1</string>
     </array>
 
     <key>StartCalendarInterval</key>
