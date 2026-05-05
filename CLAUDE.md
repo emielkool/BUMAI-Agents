@@ -86,14 +86,14 @@ Vaste paden voor de LaunchAgent op de Mac van Emiel:
 
 ```bash
 REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
-ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings/briefings"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings"
 ```
 
 Installatie-commando (éénmalig uitvoeren in Terminal):
 
 ```bash
 REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
-ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings/briefings"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings"
 
 sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
     -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
