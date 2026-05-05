@@ -80,9 +80,25 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
 
 16. Push naar main: `git push origin HEAD:main`
 
-## Machineconfiguratie (macOS)
+## Mac-configuratie (Emiel Kool)
 
-| Variabele | Pad |
-|-----------|-----|
-| `REPO_PATH` | `/Users/emiel.kool/GitHub/BUMAI-Agents` |
-| `ONEDRIVE_PATH` | `/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/Organisatorisch/AI Briefings` |
+Vaste paden voor de LaunchAgent op de Mac van Emiel:
+
+```bash
+REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings/briefings"
+```
+
+Installatie-commando (éénmalig uitvoeren in Terminal):
+
+```bash
+REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings/briefings"
+
+sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+    -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
+  "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
+  > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+```
