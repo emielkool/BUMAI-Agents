@@ -9,12 +9,12 @@
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>{ cd REPO_PATH_PLACEHOLDER &amp;&amp; git fetch origin main &amp;&amp; git checkout main &amp;&amp; git reset --hard origin/main &amp;&amp; cp -rX REPO_PATH_PLACEHOLDER/briefings/. "ONEDRIVE_PATH_PLACEHOLDER/" &amp;&amp; echo "Sync briefings/ voltooid"; } &gt;&gt; /tmp/bumai-sync.log 2&gt;&amp;1</string>
+        <string>{ git -C REPO_PATH_PLACEHOLDER fetch origin main &amp;&amp; git -C REPO_PATH_PLACEHOLDER checkout main &amp;&amp; git -C REPO_PATH_PLACEHOLDER reset --hard origin/main &amp;&amp; cp -rX REPO_PATH_PLACEHOLDER/briefings/. "ONEDRIVE_PATH_PLACEHOLDER/" &amp;&amp; echo "Sync briefings/ voltooid"; } &gt;&gt; /tmp/bumai-sync.log 2&gt;&amp;1</string>
     </array>
 
     <key>StartCalendarInterval</key>
     <dict>
-        <key>Hour</key><integer>7</integer>
+        <key>Hour</key><integer>9</integer>
         <key>Minute</key><integer>30</integer>
     </dict>
 
