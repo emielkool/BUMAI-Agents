@@ -28,11 +28,13 @@ Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
 
 ### Stap 2 – Installeer de LaunchAgent
 
-Kopieer en plak dit commando direct in Terminal (paden zijn al ingevuld):
+Kopieer onderstaand commando en vervang:
+- `/PAD/NAAR/BUMAI-AGENTS` met je eigen repo-pad
+- `/PAD/NAAR/ONEDRIVE-MAP` met het pad naar je OneDrive-map (bijv. `~/Library/CloudStorage/OneDrive-Ctac/AI-Briefings`)
 
 ```bash
-REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
-ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/Organisatorisch/AI Briefings"
+REPO_PATH="/PAD/NAAR/BUMAI-AGENTS"
+ONEDRIVE_PATH="/PAD/NAAR/ONEDRIVE-MAP"
 
 sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
     -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
