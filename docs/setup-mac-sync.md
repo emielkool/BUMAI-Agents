@@ -8,32 +8,25 @@ Zet een macOS LaunchAgent in om ze elke ochtend automatisch naar je Mac te halen
 
 - Scheduler pusht om **07:00** naar GitHub
 - LaunchAgent doet een `git pull` om **07:30** op je Mac, elke dag
-- De nieuwe briefing staat dan klaar in je lokale repo
+- Vervolgens synchroniseert de LaunchAgent de hele `briefings/`-map naar OneDrive:
+  - `briefings/dagoverzichten/` – dagelijkse briefings
+  - `briefings/weekoverzichten/` – weekoverzichten
+- Alle nieuwe bestanden staan klaar in OneDrive voordat je op kantoor bent
 
 ---
 
 ## Installatie (éénmalig, ~3 minuten)
 
-### Stap 1 – Zoek je repo-pad op
-
-Open Terminal en voer uit:
+### Stap 1 – Zorg dat git auth geconfigureerd is
 
 ```bash
-find ~ -type d -name "BUMAI-Agents" -maxdepth 6 2>/dev/null
-```
-
-Of open **GitHub Desktop** → rechtsklik op het repo → **Show in Finder**.
-
-### Stap 2 – Zorg dat git auth geconfigureerd is
-
-```bash
-cd /pad/naar/repo
+cd "/Users/emiel.kool/GitHub/BUMAI-Agents"
 git fetch origin main && git checkout main && git reset --hard origin/main
 ```
 
 Als dit zonder wachtwoordprompt werkt, is de authenticatie goed ingesteld.
 
-### Stap 3 – Installeer de LaunchAgent
+### Stap 2 – Installeer de LaunchAgent
 
 Kopieer onderstaand commando en vervang:
 - `/PAD/NAAR/BUMAI-AGENTS` met je eigen repo-pad
@@ -51,7 +44,7 @@ sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
 launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
 ```
 
-### Stap 4 – Controleer of het werkt
+### Stap 3 – Controleer of het werkt
 
 ```bash
 launchctl list | grep bumai

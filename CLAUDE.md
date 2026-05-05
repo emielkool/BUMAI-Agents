@@ -8,7 +8,7 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 - `config/sources.yml` – Bronnenconfiguratie met 3 prioriteitsniveaus
 - `prompts/system_prompt.md` – Volledige briefing-instructies, format en tone-of-voice
 - `prompts/week_overzicht_prompt.md` – Instructies voor de vrijdag-synthesetaak
-- `briefings/` – Gegenereerde dagbriefings (één per werkdag)
+- `briefings/dagoverzichten/` – Gegenereerde dagbriefings (één per werkdag)
 - `briefings/weekoverzichten/` – Weekoverzichten per ISO-weeknummer
 - `docs/setup-scheduled-task.md` – Handleiding voor de dagelijkse Scheduled Task
 - `docs/setup-weekly-task.md` – Handleiding voor de vrijdag-synthesetaak
@@ -18,13 +18,13 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 1. Lees `prompts/system_prompt.md` voor de volledige instructies, tone-of-voice en Markdown-structuur
 2. Lees `config/sources.yml` voor de bronnenprioritering
 3. Bepaal de datum van vandaag
-4. Controleer of `briefings/ai-briefing-{datum}.md` al bestaat — zo ja, stop
+4. Controleer of `briefings/dagoverzichten/ai-briefing-{datum}.md` al bestaat — zo ja, stop
 5. Gebruik web search om actueel AI-nieuws op te halen (minimaal 6 zoekopdrachten)
    - Verdeel over de domeinen: Technologie & Modellen, Governance & Beleid, Security & Risk, Markt & Adoptie
    - Prioriteer bronnen uit `sources.yml` (prioriteit 1 = altijd, 2 = bij voorkeur, 3 = aanvullend)
 6. Genereer de briefing — begin het bestand met de YAML frontmatter uit `prompts/system_prompt.md`
    (het `---` blok met Stakeholders, Datum, Status en tags), direct gevolgd door de H1 en secties
-7. Sla op als `briefings/ai-briefing-YYYY-MM-DD.md`
+7. Sla op als `briefings/dagoverzichten/ai-briefing-YYYY-MM-DD.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing YYYY-MM-DD`
 9. Push direct naar de main branch: `git push origin HEAD:main`
    (Dit zorgt dat de briefing op main terechtkomt, ongeacht de huidige branch)
@@ -67,7 +67,7 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
 
 13. Schrijf de dagentry van vandaag in het weekbestand:
     - Koptekst: `### [Dagnaam] [dag maand]` (bijv. `### Woensdag 15 april`)
-    - Link naar dagbriefing: `→ Dagbriefing: [ai-briefing-YYYY-MM-DD.md](../ai-briefing-YYYY-MM-DD.md)`
+    - Link naar dagbriefing: `→ Dagbriefing: [ai-briefing-YYYY-MM-DD.md](../dagoverzichten/ai-briefing-YYYY-MM-DD.md)`
     - **Highlights:** 3 bullets uit de dagbriefing (maximaal 2 zinnen elk)
     - **Ctac-relevantie van de dag:** 1–2 zinnen strategische kern uit de dagbriefing
     - Sluit de dagentry af met een horizontale regel `---`
@@ -79,3 +79,10 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
     - Voorbeeld: `weekoverzicht: dagentry 2026-04-15 toegevoegd aan week 2026-W15`
 
 16. Push naar main: `git push origin HEAD:main`
+
+## Machineconfiguratie (macOS)
+
+| Variabele | Pad |
+|-----------|-----|
+| `REPO_PATH` | `/Users/emiel.kool/GitHub/BUMAI-Agents` |
+| `ONEDRIVE_PATH` | `/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/Organisatorisch/AI Briefings` |

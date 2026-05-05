@@ -24,7 +24,7 @@ Elke vrijdag genereer je een weekoverzicht dat alle dagbriefings van de afgelope
    met `Status: Concept` in de frontmatter en lege syntheseblokken.
 
 4. **Lees alle dagbriefings van de betreffende werkweek** (maandag t/m vrijdag):
-   `briefings/ai-briefing-YYYY-MM-DD.md` voor elke aanwezige dag
+   `briefings/dagoverzichten/ai-briefing-YYYY-MM-DD.md` voor elke aanwezige dag
 
 5. **Vul de syntheseblokken in** op basis van de gelezen briefings:
    - `## 🏆 Weekhighlights` – top 5 meest impactvolle ontwikkelingen van de week
