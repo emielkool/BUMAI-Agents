@@ -73,6 +73,19 @@ tags:
 
 ---
 
+### Zaterdag 16 mei
+
+→ Dagbriefing: [ai-briefing-2026-05-16.md](../ai-briefing-2026-05-16.md)
+
+**Highlights:**
+- **OpenAI GPT-5.5 Instant** (uitgebracht 5 mei) is nu de standaard in ChatGPT met 52,5% minder hallucinaties op hoog-risico-domeinen; hallucinatiereductie wordt een zichtbare concurrentiedifferentiator.
+- **EU AI Act omnibus-akkoord + transparantie-richtlijnen artikel 50** gepubliceerd in mei; volledige AI Act-toepasselijkheid nadert op 2 augustus 2026 — nog minder dan 3 maanden.
+- **Microsoft Agent 365 GA ($15/user)** en Anthropic's overwinning in enterprise-adoptie plus $200M Gates Foundation-partnerschap illustreren hoe de enterprise AI-slag op meerdere fronten tegelijk wordt uitgevochten.
+
+**Ctac-relevantie van de dag:** Microsoft Agent 365 is het meest directe aanknopingspunt voor Ctac: klanten op het M365-platform hebben nu een concreet governanceproduct voor AI-agents. Tegelijk maakt de EU Act-deadline (augustus 2026) een compliance-gesprek urgent — met name rond artikel 50-transparantie voor chatbot-toepassingen.
+
+---
+
 ## 🏆 Weekhighlights
 
 - **Anthropic Mythos: bewuste zelfinperking als veiligheidsparadigma.** Mythos, Anthropic's krachtigste model ooit, werd beperkt uitgerold wegens security-risico's. Tegelijk weigert Anthropic de EU toegang te verlenen – in contrast met OpenAI dat GPT-5.5-Cyber wel opengesteld heeft voor vetted EU-teams. De geopolitieke dimensie van modeltoegang is daarmee permanent onderdeel van het AI-landschap.
