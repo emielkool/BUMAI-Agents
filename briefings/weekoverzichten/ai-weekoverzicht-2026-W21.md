@@ -69,6 +69,21 @@ Twee tegengestelde signalen domineren deze week. Enerzijds: historisch hoge inve
 
 ---
 
+---
+
+### Zaterdag 23 mei
+
+→ Dagbriefing: [ai-briefing-2026-05-23.md](../ai-briefing-2026-05-23.md)
+
+**Highlights:**
+- **Claude Opus 4.7 live + Mythos besloten launch** – Anthropic bracht vandaag Opus 4.7 breed beschikbaar (Bedrock, Vertex AI, Foundry). Tegelijk rolde het besloten model "Mythos" uit bij select partners met focus op cybersecurity-toepassingen.
+- **AI Omnibus akkoord + EC-consultatie implementatierichtlijnen** – Op 7 mei bereikte de EC politiek akkoord over AI Omnibus-amendementen; op 19 mei opende de feedbackronde over implementatierichtlijnen. De volledige AI Act treedt in werking op 2 augustus 2026.
+- **Prompt injection escaleert met agentic AI** – OWASP rangschikt prompt injection als kwetsbaarheid #1 voor LLM-toepassingen; aanvalssuccespercentages overstijgen 85%. OpenAI erkent dat een volledige oplossing waarschijnlijk nooit haalbaar is — risicomanagement is de enige aanpak.
+
+**Ctac-relevantie van de dag:** De combinatie van de naderende AI Act-deadline (augustus 2026) en de explosieve groei van Microsoft Agent 365 (tienduizenden klanten in twee maanden) maakt dit het moment om klanten actief te benaderen voor compliance-scans én een duidelijk Microsoft-agentplatform-propositie te formuleren.
+
+---
+
 ## 📚 Bronnenlijst
 
 **Technologie & Modellen**
