@@ -84,6 +84,19 @@ Twee tegengestelde signalen domineren deze week. Enerzijds: historisch hoge inve
 
 ---
 
+### Zondag 24 mei
+
+→ Dagbriefing: [ai-briefing-2026-05-24.md](../ai-briefing-2026-05-24.md)
+
+**Highlights:**
+- **Google Gemini 3.5 Flash + agentic agents in Search** – Google positioneert AI niet meer als chatbot maar als autonome werkkracht; het model bouwde in interne tests een OS en draait continu op de achtergrond in Search.
+- **EU AI Omnibus akkoord & transparantierichtlijnen gepubliceerd** – Politiek akkoord van 7 mei gevolgd door conceptrichtlijnen (Art. 50) op 8 mei; volledige handhaving start 2 augustus 2026 (~80 dagen).
+- **Prompt injection >85% aanvalssuccesratio** – Drie AI coding agents lekten secrets via één aanval; structurele mitigaties (minimale privileges, human-in-the-loop) zijn basiseis bij elke agentic deployment.
+
+**Ctac-relevantie van de dag:** De combinatie van SAP's nieuw geïntegreerde AI-platform, de naderende EU AI Act-deadline en de stagnatie bij twee derde van enterprise pilots maakt het moment rijp voor Ctac om een concrete propositie te formuleren rondom de overgang van pilot naar productie — inclusief security-by-design als standaard onderdeel.
+
+---
+
 ## 📚 Bronnenlijst
 
 **Technologie & Modellen**
