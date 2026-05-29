@@ -3,6 +3,7 @@ Stakeholders:
   - Emiel Kool
   - Eloy Schultz
 Week: 2026-W22
+Periode: 2026-05-25 / 2026-05-31
 Datum: 2026-05-29
 Status: Afgerond
 tags:
@@ -12,47 +13,92 @@ tags:
 # AI Weekoverzicht – Week 22, 2026
 
 > Synthese van de AI-ontwikkelingen van 25 mei t/m 29 mei 2026.
-> Dagbriefings voor deze week waren niet beschikbaar; dit overzicht is opgesteld op basis van directe web-research.
+
+## Dagentries
+
+### Maandag 25 mei
+
+→ Dagbriefing: [ai-briefing-2026-05-25.md](../ai-briefing-2026-05-25.md)
+
+**Highlights:**
+- **EU AI Act Omnibus akkoord (7 mei):** Politiek akkoord bereikt over de 'AI omnibus'-amendementen; de hoog-risico deadline verschuift van augustus 2026 naar december 2027 omdat benodigde standaarden nog niet gereed zijn.
+- **Anthropic Mythos Preview via Project Glasswing:** Anthropic's meest capabele model ooit is uitsluitend beschikbaar voor ~40 gevettede kritieke-infrastructuurpartners. De cybersecurity-mogelijkheden overstijgen menselijke experts.
+- **Microsoft 365 E7 + Agent 365 live (1 mei):** Microsoft's Frontier Suite is GA; Agent 365 ($15/gebruiker) biedt centrale governance van AI-agents in de enterprise — direct relevant voor Ctac-klanten.
+
+**Ctac-relevantie van de dag:** Agent governance wordt een gestandaardiseerd enterprise-product (Microsoft + Google); Ctac kan dit direct koppelen aan bestaande Microsoft 365-trajecten. Tegelijkertijd maakt de verschoven EU AI Act-deadline proactieve compliance-begeleiding nu commercieel aantrekkelijker dan ooit.
+
+---
+
+### Dinsdag 26 mei
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Woensdag 27 mei
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Donderdag 28 mei
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Vrijdag 29 mei
+
+→ Dagbriefing: [ai-briefing-2026-05-29.md](../ai-briefing-2026-05-29.md)
+
+**Highlights:**
+- **Google Gemini 3.5 Flash + Antigravity 2.0:** Google zet met I/O 2026 de switch van chatbot naar agent als primaire interface; het Flash-model presteert op niveau van flagships maar is aanzienlijk goedkoper — enterprise-kostenbesparingen van >$1 miljard per jaar worden geclaimd.
+- **RSI als nieuwe buzzword na AGI:** 'Recursive Self-Improvement' domineert vendor-roadmaps, maar daadwerkelijke zelfverbeterende AI-systemen bestaan nog niet. TechCrunch (28 mei) roept terecht op tot nuchterheid.
+- **Prompt injection: 30+ CVEs in coding assistants:** Naast kwetsbaarheden in Google Antigravity IDE en een multi-stap aanvalsketen op Claude ('Claudy Day') bevestigt het NCSC UK dat dit risico nooit volledig oplosbaar is — structureel architectuurrisico voor agentic AI.
+
+**Ctac-relevantie van de dag:** De combinatie van Microsoft Agent 365 (GA) en Google Antigravity 2.0 maakt agent governance een concreet salesgesprek; prompt-injection als standaard security-deliverable in agentic projecten is nu urgenter dan ooit.
+
+---
 
 ## 🏆 Weekhighlights
 
-1. **Anthropic overstijgt OpenAI qua waardering ($900B+).** De $30 miljard funding ronde sloot deze week, mede geleid door Sequoia, Dragoneer, Altimeter en Greenoaks. Met een pre-money waardering boven $900 miljard passeert Anthropic OpenAI's $852 miljard voor het eerst. Drijvende kracht: Claude Code, dat in mei 2026 $45 miljard ARR realiseert – verdubbeld ten opzichte van begin dit jaar. KPMG zette Claude in voor 276.000 medewerkers in 138 landen.
+1. **Agent-first paradigma breekt definitief door.** Zowel Google (Gemini 3.5 Flash, Antigravity 2.0, Managed Agents API) als Microsoft (Agent 365 GA, computer-using agents in Copilot Studio) brachten deze week hun enterprise-agent platforms operationeel. De chatbot-fase is voorbij; agents die zelfstandig taken uitvoeren zijn de nieuwe standaard.
 
-2. **EU AI Omnibus: 16 maanden uitstel voor high-risk verplichtingen.** Het politieke akkoord van 7 mei verschuift de compliance-deadline voor standalone high-risk AI-systemen (HR, onderwijs, biometrie, kritieke infrastructuur) van 2 augustus 2026 naar 2 december 2027. De transparantie- en watermarking-verplichting gaat wél op 2 december 2026 in. Het Europees Parlement stemt 14–17 juni over de definitieve tekst.
+2. **Anthropic overstijgt OpenAI qua waardering ($900B+).** De $30 miljard funding ronde sloot deze week, mede geleid door Sequoia, Dragoneer, Altimeter en Greenoaks. Met een pre-money waardering boven $900 miljard passeert Anthropic OpenAI's $852 miljard voor het eerst. Drijvende kracht: Claude Code dat in mei 2026 $45 miljard ARR realiseert, verdubbeld ten opzichte van begin 2026. KPMG zette Claude in voor 276.000 medewerkers in 138 landen.
 
-3. **Google I/O-uitrol maakt agentic infrastructuur de nieuwe battleground.** Gemini 3.5 Flash (frontier-intelligentie op Flash-snelheid, klopt Gemini 3.1 Pro op coding en agentic benchmarks), Managed Agents API (één API-call, sandboxed Linux-agent), en Antigravity 2.0 (desktop agent-orchestratie) zijn deze week breed beschikbaar. Tegelijkertijd zijn Microsoft's computer-using agents in Copilot Studio nu GA. De race van assistants naar autonome agenten die taken uitvoeren is de facto gewonnen.
+3. **EU AI Omnibus: 16 maanden uitstel voor high-risk verplichtingen.** Het politieke akkoord van 7 mei verschuift de compliance-deadline voor standalone high-risk AI-systemen (HR, onderwijs, biometrie, kritieke infrastructuur) van 2 augustus 2026 naar 2 december 2027. De transparantie- en watermarking-verplichting gaat wél op 2 december 2026 in. EP-stemming op 14–17 juni.
 
-4. **ROI-crisis bij enterprise AI verdiept: 48% noemt adoptie een teleurstelling.** Deloitte's State of AI 2026 toont dat slechts 29% significant ROI ziet van generatieve AI en 23% van AI-agents – terwijl 79% van organisaties deployment-obstakels rapporteert, een dubbelcijferige stijging. Gartner voorspelt dat 40%+ van agentic AI-projecten voor eind 2027 geannuleerd wordt door onduidelijke businesswaarde en inadequate risicobeheersing.
+4. **ROI-crisis bij enterprise AI verdiept: 48% noemt adoptie een teleurstelling.** Deloitte's State of AI 2026 toont dat slechts 29% significant ROI ziet van generatieve AI en 23% van AI-agents, terwijl 79% van organisaties deployment-obstakels rapporteert. Gartner voorspelt dat 40%+ van agentic AI-projecten voor eind 2027 geannuleerd wordt door onduidelijke businesswaarde en inadequate risicobeheersing.
 
-5. **Paus Leo XIV publiceert eerste pauselijke AI-encycliek.** "Magnifica Humanitas" is een 42.300 woorden tellend document, op 25 mei gepresenteerd mede door Anthropic-medeoprichter Christopher Olah. Het is het eerste formele morele kader voor AI vanuit de Katholieke Kerk – een governance-signaal met mondiale culturele impact dat verder reikt dan wettelijke regulering.
+5. **Prompt injection: 30+ CVEs in één week, structureel onoplosbaar.** NCSC UK bevestigt dat prompt injection nooit volledig te elimineren is. Een multi-stap aanvalsketen op Claude ('Claudy Day') en kwetsbaarheden in Google Antigravity IDE tonen dat agentic AI-systemen een structureel nieuw aanvalsoppervlak creëren — security-architectuur is geen optie maar vereiste.
 
 ## 🔍 Domeinpatronen
 
 ### 🧠 Technologie & Modellen
 
-De week bevestigde een structurele verschuiving: niet frontier-modelprestaties, maar agentic infrastructuur is de nieuwe concurrentiefactor. Google's I/O-uitrol (Gemini 3.5 Flash, Managed Agents, Antigravity 2.0) en Microsoft's GA van computer-using agents in Copilot Studio signaleren dat autonome agents standaard zijn, niet premium. Anthropic's $45B ARR en $900B-waardering tonen wat de markt werkelijk waardeert: deployment, niet het model zelf. Claude Code – een coding agent – is de groeimotor, niet de chatbot. De architectuurinnovatie van mei (subquadratische modellen, MoE) zet door, maar de praktische impact zit bij agentic tooling.
+De week bevestigde een structurele verschuiving: niet frontier-modelprestaties, maar agentic infrastructuur is de nieuwe concurrentiefactor. Google's Gemini 3.5 Flash (frontier-intelligentie op Flash-snelheid), Managed Agents API en Antigravity 2.0 desktop-orchestratie, samen met Microsoft's GA van Agent 365 en computer-using agents, signaleren dat autonome agents standaard zijn geworden, niet premium. Anthropic's $45B ARR en $900B-waardering tonen wat de markt werkelijk waardeert: deployment, niet het model zelf. Claude Code — een coding agent, geen chatbot — is de groeimotor. De RSI-hype ('Recursive Self-Improvement') die vendor-roadmaps domineert, vraagt nuchtere analyse: daadwerkelijke zelfverbeterende AI-systemen bestaan nog niet.
 
 ### 🏛️ Governance & Beleid
 
-Het EU AI Omnibus-akkoord is de beleidsgebeurtenis van de week. Het 16-maanden-uitstel voor high-risk-verplichtingen geeft middelgrote organisaties ruimte, maar schept ook een vals gevoel van veiligheid: watermarking (2 dec 2026) staat vast, de AI Office versterkt zijn bevoegdheden, en nieuwe verboden op CSAM-generatie gelden al per 2 december 2026. De EP-stemming op 14–17 juni is de volgende concretisering. Parallel: de pauselijke encycliek is een signaal dat AI-ethiek niet langer alleen via wetgeving wordt ingevuld. De transatlantische divergentie groeit: het White House herbevestigt zijn vrijwillige governance-model op het moment dat de EU-deadline nadert.
+Het EU AI Omnibus-akkoord is de beleidsgebeurtenis van de week. Het 16-maanden-uitstel voor high-risk-verplichtingen geeft organisaties ruimte, maar schept ook een vals gevoel van veiligheid: de watermarking-verplichting (2 dec 2026) staat vast, de AI Office versterkt zijn bevoegdheden, en nieuwe verboden op CSAM-generatie gelden al per 2 december 2026. De EP-stemming op 14–17 juni is de volgende concretisering. De A2A-interoperabiliteitsafspraak tussen Microsoft en Google opent een precedent voor open agent-standaarden. Het White House herbevestigt zijn vrijwillige governance-model terwijl de EU-deadline nadert — de transatlantische divergentie groeit.
 
 ### 🔐 Security & Risk
 
-Cisco's State of AI Security 2026 en de Verizon DBIR 2026 leveren twee harde conclusies: kwetsbaarheidsexploitatie is nu de #1 aanvalsvector (31% van incidenten, voor het eerst boven credential-misbruik), en NIST registreerde een 2.000%+ stijging in AI-specifieke CVEs since 2022. Het meest urgent voor teams die agentic AI bouwen: 80% van organisaties rapporteert riskant agent-gedrag (ongeautoriseerde datatoegang, externe systeemkoppelingen), terwijl 60% geen governance-raamwerk heeft. CVE-2026-46333 (Linux ptrace privilege escalation) en actieve Defender-exploits tonen dat het aanvalsoppervlak breed blijft. Agentic AI zonder expliciete security-architectuur is al een productierisico, geen hypothetisch scenario.
+Prompt injection domineerde het security-beeld deze week. 30+ nieuwe CVEs in coding assistants, de 'Claudy Day' multi-stap aanvalsketen op Claude, en NCSC UK's bevestiging dat het risico nooit volledig oplosbaar is, vormen samen een structureel architectuursignaal. Cisco's State of AI Security 2026 en de Verizon DBIR 2026 onderstrepen: kwetsbaarheidsexploitatie is nu de #1 aanvalsvector (31% van incidenten, voor het eerst boven credential-misbruik). NIST registreerde een 2.000%+ stijging in AI-specifieke CVEs. 80% van organisaties rapporteert riskant agent-gedrag; 60% heeft geen governance-kader. Agentic AI zonder expliciete security-architectuur is al een productierisico.
 
 ### 📈 Markt & Adoptie
 
-AI-investering overstijgt $650 miljard per jaar, enterprise-adoptie groeit van 22% (2025) naar 40% (2026 verwacht), maar de ROI-kloof neemt evenredig toe. 48% noemt adoptie een teleurstelling; de kloof tussen individuele productiviteitswinst (5x bij AI-superusers) en organisatiebrede ROI wordt structureel. OpenAI's $4 miljard "DeployCo" consulting-dochter en KPMG's 276K-rollout markeren een nieuwe fase: de grote labs en accountancyfirma's gaan zelf de enterprise-implementatiemarkt in. Dit is een directe concurrentiestelling richting onafhankelijke implementatiepartners. Anthropic's groei (+400% ARR in vijf maanden) toont bovendien dat enterprise-gebruik de AI-economie drijft, niet consumentenabonnees.
+AI-investering overstijgt $650 miljard per jaar, enterprise-adoptie groeit van 22% (2025) naar 40% (2026 verwacht), maar de ROI-kloof neemt evenredig toe. 48% noemt adoptie een teleurstelling; de kloof tussen individuele productiviteitswinst (5x bij AI-superusers) en organisatiebrede ROI wordt structureel. OpenAI's $4 miljard "DeployCo" consulting-dochter en KPMG's 276K-rollout markeren een nieuwe fase: labs en grote accountants stappen rechtstreeks de enterprise-implementatiemarkt in. Anthropic's groei (+400% ARR in vijf maanden) toont dat enterprise-gebruik de AI-economie drijft, niet consumentenabonnees.
 
 ## 💼 Ctac-weekperspectief
 
-- **Het EU Omnibus-uitstel is geen reden tot vertraging, maar een kans voor early movers.** De 16-maanden-verschuiving voor high-risk-AI kan klanten verleiden tot uitstel. Ctac-boodschap: watermarking (2 dec 2026) staat vast, de AI Office versterkt zijn bevoegdheden, en wie nu governance-architectuur opbouwt loopt structureel voor op wie wacht. Een compliance-readiness assessment is urgenter dan ooit – juist omdat de concurrentie nu ook denkt te kunnen pauzeren.
+- **Evalueer Microsoft Agent 365 als concrete upsell-propositie voor bestaande M365-klanten.** Agent 365 ($15/gebruiker/maand) biedt gecentraliseerde governance van AI-agents en sluit direct aan bij lopende M365-trajecten. Dit is een onmiddellijk inzetbaar gesprek bij klanten die al Teams, Copilot of Power Platform gebruiken.
 
-- **De ROI-crisis is Ctac's sterkste verkoopargument.** Het gat zit niet in modellen of infrastructuur, maar in governance, integratie en structurele transformatie – precies Ctac's speelveld. Positioneer actief als partner die van pilot naar productie begeleidt, met een heldere businesscase en aantoonbare resultaten als basis. 79% van bedrijven mist dit; dat is de markt.
+- **Het EU Omnibus-uitstel is geen reden tot vertraging, maar een kans voor early movers.** De 16-maanden-verschuiving voor high-risk AI kan klanten verleiden tot uitstel. Ctac-boodschap: watermarking (2 dec 2026) staat vast, de AI Office versterkt zijn bevoegdheden, en vroege starters bouwen nu concurrentievoordeel op. Een compliance-readiness assessment is urgenter dan ooit — juist omdat concurrenten denken te kunnen pauzeren.
 
-- **OpenAI DeployCo en KPMG's rollout veranderen het competitieve landschap.** Labs en grote accountants stappen rechtstreeks de enterprise-deploymentmarkt in. Ctac's differentiatie: onafhankelijkheid (geen vendor-agenda), domeinkennis per sector, en het vermogen om technologie te koppelen aan bestaande processen en governance-eisen – iets wat vendor-eigen consultingarms structureel missen.
+- **De ROI-crisis (48% teleurstelling, 40% projectkans op cancellatie) is Ctac's sterkste verkoopargument.** Het gat zit niet in modellen of infrastructuur, maar in governance, integratie en structurele transformatie. Positioneer als partner die van pilot naar productie begeleidt met een heldere businesscase als basis — 79% van bedrijven mist dit.
 
-- **Agentic security is nu een productieprobleem dat concrete actie vraagt.** 80% van organisaties rapporteert riskant agent-gedrag; 60% heeft geen governance-kader. Elke nieuwe agentic implementatie die Ctac uitvoert, moet een security-architectuur bevatten vanaf dag één. Dit is ook een directe propositie richting bestaande klanten die agents draaien zonder monitoring of governance.
+- **Maak prompt-injection mitigatie onderdeel van elke agentic projectarchitectuur.** 30+ CVEs in één week, NCSC-bevestiging dat het structureel onoplosbaar is, en 80% van organisaties die al riskant agent-gedrag rapporteren maken security-architectuur tot een niet-onderhandelbare deliverable — én een concreet aanbod richting bestaande klanten die agents zonder governance draaien.
 
 ## 📚 Bronnenlijst
 
@@ -67,6 +113,7 @@ AI-investering overstijgt $650 miljard per jaar, enterprise-adoptie groeit van 2
 - [Weekly AI news 24–28 mei 2026 – unrot.co](https://unrot.co/blogs/weekly-ai-news-may-24-28-2026)
 - [AI news 25 mei 2026 – buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-may-25-2026)
 - [AI news 27 mei 2026 – buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-may-27-2026)
+- [AI news 28 mei 2026 – buildfastwithai](https://www.buildfastwithai.com/blogs/ai-news-today-may-28-2026)
 
 **Governance & Beleid**
 - [EU AI Omnibus politiek akkoord 7 mei – Consilium](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/)

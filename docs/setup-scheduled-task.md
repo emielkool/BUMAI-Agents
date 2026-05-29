@@ -46,7 +46,7 @@ Voer de volgende stappen uit:
    en het exacte Markdown-format van de briefing
 2. Lees `config/sources.yml` voor de bronnenprioritering
 3. Bepaal de datum van vandaag (formaat: YYYY-MM-DD)
-4. Controleer of `briefings/ai-briefing-{datum}.md` al bestaat — zo ja, stop
+4. Controleer of `briefings/dagoverzichten/ai-briefing-{datum}.md` al bestaat — zo ja, stop
 5. Zoek met web search naar actueel AI-nieuws van vandaag en gisteren:
    - Voer minimaal 6 gerichte zoekopdrachten uit
    - Verdeel over de domeinen: Technologie & Modellen, Governance & Beleid,
@@ -60,7 +60,7 @@ Voer de volgende stappen uit:
    - In het Nederlands
    - Vermeld bij elke bevinding de bron (URL)
    - Wees kritisch: niet elke aankondiging is een doorbraak
-7. Sla op als `briefings/ai-briefing-{datum}.md`
+7. Sla op als `briefings/dagoverzichten/ai-briefing-{datum}.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing {datum}`
 9. Push direct naar de main branch: `git push origin HEAD:main`
    (Dit zorgt dat de briefing op main terechtkomt, ongeacht de huidige werkomgeving)
