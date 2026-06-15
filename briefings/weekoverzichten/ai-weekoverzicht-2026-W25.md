@@ -1,0 +1,66 @@
+---
+Stakeholders:
+  - Emiel Kool
+  - Eloy Schultz
+Week: 2026-W25
+Periode: 2026-06-15 / 2026-06-21
+Status: In uitvoering
+tags:
+  - weekoverzicht
+---
+
+# AI Weekoverzicht – Week 25 (15–21 juni 2026)
+
+## Dagentries
+
+### Maandag 15 juni
+
+→ Dagbriefing: [ai-briefing-2026-06-15.md](../ai-briefing-2026-06-15.md)
+
+**Highlights:**
+- **EU AI Act finale deadline nadert:** Code of Practice voor AI-contentmarkering gepubliceerd op 10 juni; volledige toepasselijkheid per 2 augustus 2026 — nog zeven weken voor compliance-acties bij klanten.
+- **Anthropic onder druk:** VS-overheid schakelde Claude Fable 5 en Mythos 5 af wegens nationale veiligheidszorgen (12 juni); Claude Mythos 1 gelimiteerd uitgerold voor cybersecurity-partners. Google I/O leverde Gemini Omni en 3.5 Flash met agentic platform Antigravity.
+- **Supply chain aanval op LiteLLM:** 47.000 downloads van vergiftigde Python-package in 40 minuten — directe wake-up call voor AI-pipeline security. OWASP Agentic Top 10 2026 gepubliceerd als nieuwe beveiligingsstandaard voor multi-agent systemen.
+
+**Ctac-relevantie van de dag:** De combinatie van de naderende AI Act deadline, de enterprise agentic gap (85% ambitie vs. 76% infrastructureel ongereed) en de LiteLLM aanval maakt deze week strategisch urgent: Ctac kan klanten onmiddellijk helpen met compliance-readiness én veilige agentic AI-architectuur als gedifferentieerde propositie.
+
+---
+
+### Dinsdag 16 juni
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Woensdag 17 juni
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Donderdag 18 juni
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+### Vrijdag 19 juni
+
+*(geen briefing beschikbaar voor deze dag)*
+
+---
+
+## Weeksynthese
+
+*(Wordt aangevuld na afloop van de werkweek)*
+
+### Rode draad van de week
+*(Wat was het dominante thema of de belangrijkste verschuiving deze week?)*
+
+### Top 3 strategische inzichten voor Ctac
+1. *(placeholder)*
+2. *(placeholder)*
+3. *(placeholder)*
+
+### Aandachtspunten voor volgende week
+*(Wat verdient follow-up of monitoring?)*
