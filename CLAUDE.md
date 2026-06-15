@@ -8,23 +8,25 @@ voor Emiel Zuurbier (BUM AI, Ctac).
 - `config/sources.yml` – Bronnenconfiguratie met 3 prioriteitsniveaus
 - `prompts/system_prompt.md` – Volledige briefing-instructies, format en tone-of-voice
 - `prompts/week_overzicht_prompt.md` – Instructies voor de vrijdag-synthesetaak
-- `briefings/` – Gegenereerde dagbriefings (één per werkdag)
+- `briefings/dagoverzichten/` – Gegenereerde dagbriefings (één per werkdag)
 - `briefings/weekoverzichten/` – Weekoverzichten per ISO-weeknummer
+- `briefings/maandoverzichten/` – Maandoverzichten (één per maand)
 - `docs/setup-scheduled-task.md` – Handleiding voor de dagelijkse Scheduled Task
 - `docs/setup-weekly-task.md` – Handleiding voor de vrijdag-synthesetaak
+- `docs/setup-monthly-task.md` – Handleiding voor de maandelijkse synthesetaak
 
 ## Bij het genereren van een briefing
 
 1. Lees `prompts/system_prompt.md` voor de volledige instructies, tone-of-voice en Markdown-structuur
 2. Lees `config/sources.yml` voor de bronnenprioritering
 3. Bepaal de datum van vandaag
-4. Controleer of `briefings/ai-briefing-{datum}.md` al bestaat — zo ja, stop
+4. Controleer of `briefings/dagoverzichten/ai-briefing-{datum}.md` al bestaat — zo ja, stop
 5. Gebruik web search om actueel AI-nieuws op te halen (minimaal 6 zoekopdrachten)
    - Verdeel over de domeinen: Technologie & Modellen, Governance & Beleid, Security & Risk, Markt & Adoptie
    - Prioriteer bronnen uit `sources.yml` (prioriteit 1 = altijd, 2 = bij voorkeur, 3 = aanvullend)
 6. Genereer de briefing — begin het bestand met de YAML frontmatter uit `prompts/system_prompt.md`
    (het `---` blok met Stakeholders, Datum, Status en tags), direct gevolgd door de H1 en secties
-7. Sla op als `briefings/ai-briefing-YYYY-MM-DD.md`
+7. Sla op als `briefings/dagoverzichten/ai-briefing-YYYY-MM-DD.md`
 8. Commit met bericht: `briefing: dagelijkse AI-briefing YYYY-MM-DD`
 9. Push direct naar de main branch: `git push origin HEAD:main`
    (Dit zorgt dat de briefing op main terechtkomt, ongeacht de huidige branch)
@@ -67,7 +69,7 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
 
 13. Schrijf de dagentry van vandaag in het weekbestand:
     - Koptekst: `### [Dagnaam] [dag maand]` (bijv. `### Woensdag 15 april`)
-    - Link naar dagbriefing: `→ Dagbriefing: [ai-briefing-YYYY-MM-DD.md](../ai-briefing-YYYY-MM-DD.md)`
+    - Link naar dagbriefing: `→ Dagbriefing: [ai-briefing-YYYY-MM-DD.md](../dagoverzichten/ai-briefing-YYYY-MM-DD.md)`
     - **Highlights:** 3 bullets uit de dagbriefing (maximaal 2 zinnen elk)
     - **Ctac-relevantie van de dag:** 1–2 zinnen strategische kern uit de dagbriefing
     - Sluit de dagentry af met een horizontale regel `---`
@@ -79,3 +81,56 @@ Voer stappen 10–16 uit **na** stap 9 (push van de dagbriefing).
     - Voorbeeld: `weekoverzicht: dagentry 2026-04-15 toegevoegd aan week 2026-W15`
 
 16. Push naar main: `git push origin HEAD:main`
+
+## Bij het genereren van een maandoverzicht
+
+Voer stappen 17–23 uit **alleen op de 1e van de maand**, na stap 16.
+
+17. Bepaal de vorige maand
+    - Formaat: `YYYY-MM` (bijv. op 1 mei 2026 → `2026-04`)
+    - Maandnaam: bijv. `april 2026`
+    - Periode: eerste t/m laatste dag van die maand (bijv. `2026-04-01 / 2026-04-30`)
+
+18. Idempotentiecheck
+    - Controleer of `briefings/maandoverzichten/ai-maandoverzicht-YYYY-MM.md` al bestaat
+    - Als het bestand bestaat én `Status: Afgerond` in de frontmatter staat: **stop**
+
+19. Bepaal welke weekoverzichten bij deze maand horen
+    - Lees alle bestanden in `briefings/weekoverzichten/`
+    - Selecteer weken waarvan de `Periode`-regel in de YAML frontmatter (deels) in de vorige maand valt
+
+20. Lees alle geselecteerde weekoverzichten volledig
+    - Lees `prompts/maand_overzicht_prompt.md` voor het volledige format en de tone-of-voice
+
+21. Genereer het maandoverzicht
+    - Begin het bestand met de YAML frontmatter (zie `prompts/maand_overzicht_prompt.md`)
+    - Synthese over weken heen — geen opsomming, maar patroonherkenning
+    - Sla op als `briefings/maandoverzichten/ai-maandoverzicht-YYYY-MM.md`
+
+22. Commit met bericht: `maandoverzicht: AI maandoverzicht YYYY-MM`
+    Voorbeeld: `maandoverzicht: AI maandoverzicht 2026-04`
+
+23. Push naar main: `git push origin HEAD:main`
+
+## Mac-configuratie (Emiel Kool)
+
+Vaste paden voor de LaunchAgent op de Mac van Emiel:
+
+```bash
+REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings"
+```
+
+Installatie-commando (éénmalig uitvoeren in Terminal):
+
+```bash
+REPO_PATH="/Users/emiel.kool/GitHub/BUMAI-Agents"
+ONEDRIVE_PATH="/Users/emiel.kool/Library/CloudStorage/OneDrive-Gedeeldebibliotheken-Ctac/AI Unit - Documents/General/AI BU Notitie Vault/3. Organisatorisch/AI Briefings"
+
+sed -e "s|REPO_PATH_PLACEHOLDER|$REPO_PATH|g" \
+    -e "s|ONEDRIVE_PATH_PLACEHOLDER|$ONEDRIVE_PATH|g" \
+  "$REPO_PATH/scripts/com.ctac.bumai-sync.plist" \
+  > ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ctac.bumai-sync.plist
+```
