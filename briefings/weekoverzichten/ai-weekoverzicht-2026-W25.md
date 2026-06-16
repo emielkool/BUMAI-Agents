@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 16 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-16.md](../ai-briefing-2026-06-16.md)
+
+**Highlights:**
+- **US overheid sluit Anthropic's twee krachtigste modellen af:** Claude Fable 5 en Mythos 5 zijn per overheidsorder offline gehaald drie dagen na lancering — eerste concrete overheidsinterventie in AI-releases, met grote precedentwerking.
+- **EU AI Act: 47 dagen tot volledige toepasselijkheid (2 augustus).** EC publiceert Code of Practice voor AI-content labeling; tijd voor compliance-actie bij klanten is nu kritisch.
+- **Microsoft Agent 365 GA + shadow AI alarm:** 29% van AI-agents in enterprises draait zonder IT-goedkeuring; Agent 365 biedt nu runtime-blokkering, Defender-integratie en asset context mapping als antwoord.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act countdown (47 dagen) en de shadow AI-problematiek bij Microsoft enterprises maakt dit een ideale week om klanten proactief te benaderen met een AI-governance en compliance-readiness aanbod — twee concrete, afgebakende diensten die Ctac nu kan positioneren.
 
 ---
 
