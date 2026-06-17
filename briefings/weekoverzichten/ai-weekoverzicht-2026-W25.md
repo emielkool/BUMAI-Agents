@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 17 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-17.md](../ai-briefing-2026-06-17.md)
+
+**Highlights:**
+- **Claude Opus 4.8 op #1**: Anthropic's meest recente model staat bovenaan de Artificial Analysis Intelligence Index (score 61.4) en is ~4× minder likely om codefouten onopgemerkt te laten — directe relevantie voor Ctac's AI-unit tooling.
+- **EU AI Act D-47**: Over 47 dagen is de wet volledig van kracht; de Europese Commissie publiceert nu praktijkrichtlijnen voor high-risk classificatie, terwijl twee derde van bedrijven nog in de pilotfase zit.
+- **Shadow AI en machine-identiteiten**: 29% van AI-agents draait zonder IT-goedkeuring; machine-identiteiten overtreffen mensen met 82:1, terwijl traditionele IAM-systemen hier niet op zijn ingericht.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act D-47 en de shadow AI-problematiek maakt dit een urgente week voor twee concrete Ctac-proposities: een compliance-readiness dienst voor klanten in overheid en finance, én een AI-governance aanbod rond agent-visibility en runtime-policy-enforcement op de Microsoft-stack.
 
 ---
 
