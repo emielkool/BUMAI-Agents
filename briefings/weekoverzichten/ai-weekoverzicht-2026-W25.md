@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 18 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-18.md](../ai-briefing-2026-06-18.md)
+
+**Highlights:**
+- **Anthropic overtreft OpenAI in omzet én waardering:** Met $30B ARR (vs. OpenAI's $25B) en een $965B-waardering na de $65B Series H-ronde heeft Anthropic vertrouwelijk een IPO-aanvraag ingediend voor de Nasdaq (oktober 2026) — de AI-rangorde kantelt.
+- **Microsoft MAI-Thinking-1 matcht Opus 4.6 in coding:** Het eerste eigen reasoning model van Microsoft (35B parameters, 256K context) haalt Claude Opus 4.6-niveau op SWE Bench Pro en is nu beschikbaar via Azure AI Foundry en GitHub Copilot.
+- **A2A-protocol naar Linux Foundation + EU AI Act deadline 2 augustus:** Google doneert het Agent2Agent-interoperabiliteitsprotocol aan de Linux Foundation (nu vendor-agnostisch, >50 enterprise-partners). Tegelijk benadrukt de gepubliceerde Code of Practice dat organisaties nog <7 weken hebben voor AI-transparantienaleving.
+
+**Ctac-relevantie van de dag:** De GA-status van A2A + MCP, gecombineerd met de naderende EU AI Act transparantiedeadline, creëert twee concrete propositie-ankerpunten deze week: een referentiearchitectuur voor veilige multi-agent integraties op de Microsoft-stack, en een compacte compliance-readiness dienst voor klanten die hun AI-contentmarkering nog niet op orde hebben.
 
 ---
 
