@@ -4,7 +4,7 @@ Stakeholders:
   - Eloy Schultz
 Week: 2026-W25
 Periode: 2026-06-15 / 2026-06-21
-Status: In uitvoering
+Status: Afgerond
 tags:
   - weekoverzicht
 ---
@@ -78,17 +78,124 @@ tags:
 
 ---
 
-## Weeksynthese
+---
 
-*(Wordt aangevuld na afloop van de werkweek)*
+## 🏆 Weekhighlights
 
-### Rode draad van de week
-*(Wat was het dominante thema of de belangrijkste verschuiving deze week?)*
+1. **VS-overheid haalt Claude Fable 5 en Mythos 5 offline – historisch precedent.** Drie dagen na de lancering van Claude Fable 5 greep het Amerikaanse ministerie van Handel in en schakelde het Anthropic's twee krachtigste modellen wereldwijd uit wegens nationale veiligheidszorgen. Dit is de eerste keer dat een frontier AI-model door exportregulering van de markt wordt gehaald. Het signaleert dat de VS AI-beschikbaarheid als geopolitiek instrument beschouwt, vergelijkbaar met halfgeleiderrestricties. Ironisch genoeg speelden Anthropic's eigen veiligheidswaarschuwingen over de modellen mee in het overheidsbesluit – een dual-use paradox die Emiel Kool eerder al zag aankomen.
 
-### Top 3 strategische inzichten voor Ctac
-1. *(placeholder)*
-2. *(placeholder)*
-3. *(placeholder)*
+2. **Microsoft lanceert zeven eigen AI-modellen: het einde van de OpenAI-monocultuur.** Bij Build 2026 presenteerde Microsoft het AI Superintelligence Team met MAI-Thinking-1 (35B parameters, 256K context, coding-niveau van Opus 4.6) als vlaggenschip, plus MAI-Image-2.5 en vijf andere modellen. Dit markeert een fundamentele verschuiving: Microsoft is geen reseller meer van OpenAI, maar positioneert zich als eigenstandig AI-lab. Voor Ctac is dit direct relevant: de Microsoft-stack evolueert naar meerdere eigen modellen die via Azure AI Foundry, GitHub Copilot en Copilot Studio worden aangeboden – en Ctac kan hier early-mover expertise opbouwen.
 
-### Aandachtspunten voor volgende week
-*(Wat verdient follow-up of monitoring?)*
+3. **Prompt injection treft drie grote AI-codeeragenten tegelijk – van risico naar bewezen exploit.** Claude Code, Gemini CLI en GitHub Copilot bleken via kwaadaardige GitHub-comments kwetsbaar voor prompt injection, met API-sleuteldiefstal als aantoonbaar resultaat. Tegelijk werden Microsoft Semantic Kernel-kwetsbaarheden (CVE-2026-25592 en CVE-2026-26030) gepubliceerd die prompt injection escaleren naar host-level remote code execution. Combineer dit met de LiteLLM supply chain-aanval (47.000 downloads van vergiftigde package in 40 minuten) en het OWASP Agentic Top 10-framework dat deze week uitkwam, en het beeld is helder: AI-security is geen theoretisch thema meer maar een operationele prioriteit.
+
+4. **EU AI Act D-44: zes weken tot de transparantieverplichting, harmonised standards ontbreken.** Met 2 augustus als harde deadline voor Art. 50-transparantieverplichtingen (AI-contentmarkering) en nog geen gepubliceerde geharmoniseerde technische standaarden, zitten organisaties in een compliancevacuüm. De EC publiceerde de Code of Practice als praktische handleiding, maar de onzekerheid is reëel – en dat is een adviesopening. Tegelijk: machine-identiteiten overtreffen mensen met 82:1 in enterprise-omgevingen, terwijl 29% van AI-agents draait buiten IT-goedkeuring. Shadow AI maakt compliance oncontroleerbaar.
+
+5. **Anthropic overtreft OpenAI op alle fronten; beide gaan naar de beurs.** Anthropic bereikte $30B ARR (vs. OpenAI's $25B), een waardering van $965B (vs. OpenAI's $852B) en diende vertrouwelijk IPO-papieren in voor een Nasdaq-beursgang in oktober 2026. De groeifactor van Anthropic (~10× per jaar) ligt bijna drie keer hoger dan OpenAI (~3,4×). Tegelijk doneert Google het A2A-protocol aan de Linux Foundation – meer dan 50 enterprise-partners, vendor-agnostisch, en steun van Microsoft, SAP en Salesforce. Agentic AI-interoperabiliteit wordt industriestandaard.
+
+---
+
+## 🔍 Domeinpatronen
+
+### 🧠 Technologie & Modellen
+
+De modelrenningsrace versnelde deze week langs twee assen. Aan de kwaliteitskant: Claude Opus 4.8 pakt #1 op de Artificial Analysis Intelligence Index (score 61,4), terwijl Microsoft met MAI-Thinking-1 nu serieus meedoet op coding-benchmarks. Aan de volumekant: Google's Gemini 3.5 Flash is de nieuwe standaard in Search voor miljarden gebruikers, en Gemini 3.5 Pro (2M tokens, Deep Think) wordt voor 30 juni verwacht.
+
+De structurele verschuiving is de consolidatie van de agentische infrastructuurlaag. A2A (nu Linux Foundation, vendor-agnostisch) en MCP als tool-protocol zijn volwassen industriestandaarden geworden – geen Google-project meer, maar enterprise-infrastructuur. Microsoft Work IQ APIs zijn GA. Adobe heeft agentic workflows in Creative Cloud gezet. De infrastructuur voor productie-klare agentische AI is er; het gebrek aan adoptie is nu een organisatorisch, niet meer een technologisch probleem.
+
+Open-source sluit de kloof verder: Kimi K2.6 (1,1T parameters, Modified MIT), Cohere North Mini Code (30B MoE, Apache 2.0) en Xiaomi MiMo Code (MIT) tonen dat enterprise-kwaliteit voor coding zonder proprietary-afhankelijkheid haalbaar is.
+
+### 🏛️ Governance & Beleid
+
+Twee gouvernance-mechanismen rijpen simultaan en botsen. De EU AI Act nadert haar voltooiing: transparantieverplichtingen per 2 augustus (vast), hoog-risico systemen per december 2027 (uitgesteld via Digital Omnibus). De Code of Practice voor AI-contentmarkering is gepubliceerd – concreet, uitvoerbaar, maar zonder geharmoniseerde technische standaarden is implementatie nog geen zekerheid.
+
+Tegelijk handelt de VS via exportcontrole als de EU nog wetgeving schrijft: het offline halen van Claude Fable 5/Mythos 5 is een beleidsinterventie op modelreleases die Europa niet kent en niet direct kan nabootsen. Nederland past aan: de Vifo-wet wordt uitgebreid zodat het kabinet AI-overnames door partijen uit onvriendelijke landen kan blokkeren. De geopolitisering van AI-gouvernance is geen discussie meer maar beleid.
+
+Benelux-context: 61% (NL) en 62% (BE) AI-adoptie – hoogste in Europa. Het Vlam-platform (soeverein rijks-AI) gaat in H2 2026 breed in productie. AI wordt in de Benelux serieus genomen, maar het digitale talenttekort (58% van bedrijven) is de concrete bottleneck.
+
+### 🔐 Security & Risk
+
+Week 25 was de meest security-intensieve week van het jaar tot nu toe. Drie thema's domineren:
+
+**Prompt injection is operationeel, niet theoretisch.** Drie concurrent exploits in productietooling (Claude Code, Gemini CLI, GitHub Copilot), twee kritieke Semantic Kernel CVE's die escaleren naar RCE, en een ServiceNow Now Assist kwetsbaarheid die privilege-escalatie mogelijk maakt. OpenAI en het UK NCSC erkennen beiden dat prompt injection nooit volledig elimineerbaar is – de aanpak moet risicobeperking zijn, niet eliminatie.
+
+**Supply chain is het nieuwe aanvalsfront.** De LiteLLM-aanval (vergiftigde Python-package, 47K downloads in 40 min) toont dat AI-infrastructuur via dependency-aanvallen te raken is. OWASP Agentic Top 10 2026 formuleert dit als een van de tien kernrisico's voor multi-agent systemen.
+
+**Machine identities als blinde vlek.** 82 machine-identiteiten per menselijke medewerker, maar traditionele IAM-systemen zijn hier niet op ingericht. 29% van AI-agents draait buiten IT-goedkeuring. Microsoft Agent 365 biedt asset context mapping als gedeeltelijk antwoord, maar dit is een inhaalbeweging op een structureel groeiend probleem.
+
+### 📈 Markt & Adoptie
+
+De markt splitst in twee werelden. De frontier-investeerders: Google Cloud >$20B kwartaalomzet, Microsoft + AWS >$500B capex in 2026, Anthropic $65B Series H, SpaceX als kritieke compute-provider voor meerdere labs. Hier stroomt het geld onbegrensd.
+
+De enterprise-praktijk: twee derde van bedrijven zit vast in de pilot-fase, verwacht gemiddeld 27% ROI op korte termijn, en slaagt er niet in van experimenteren naar productieschaal te gaan. De investeringsgolf en de adoptiegolf zijn niet gesynchroniseerd – en dat gat is precies waar dienstverleners als Ctac het verschil kunnen maken.
+
+Microsoft Agent 365 GA, A2A als Linux Foundation-standaard en Work IQ APIs GA verlagen de technische drempel voor productie-klare agentic AI aanzienlijk. De infrastructuur is beschikbaar; de ontbrekende laag is implementatie, governance en change management.
+
+---
+
+## 💼 Ctac-weekperspectief
+
+- **Maak van de 2-augustus-deadline een concreet klantgesprek deze week.** Met zes weken tot de EU AI Act Art. 50-verplichting (AI-contentmarkering) is dit het moment om bij klanten in overheid, finance en zorg een AI-inventarisatie te starten. Wie AI-gegenereerde content produceert voor publieke communicatie, moet dit labelen. De Code of Practice is gepubliceerd en geeft voldoende handvatten voor een gestandaardiseerde audit van 2-4 weken. Wie in juli begint, is te laat – wie nu begint, heeft nog net genoeg tijd.
+
+- **Bouw agent-governance als afgebakende dienst, niet als projectonderdeel.** Shadow AI (29% onbeheerde agents), machine-identiteiten (82:1), prompt injection in productietooling – dit zijn drie concrete pijnpunten bij elke enterprise die Microsoft-stack gebruikt. Microsoft Agent 365 GA + Defender-integratie is de technische basis; Ctac kan als implementatiepartner de governance-laag neerzetten: visibility op agent-landschap, policy-enforcement, incident-response. Dit is een repeatable service, geen maatwerk.
+
+- **Voeg een security-checkpoint toe aan elk agentic AI-project.** De gelijktijdige prompt injection-kwetsbaarheid in Claude Code, Gemini CLI en GitHub Copilot, gecombineerd met de LiteLLM supply chain-aanval, maakt duidelijk dat agentic AI-projecten een structureel security-component nodig hebben van dag één. Minimale baseline: prompt injection mitigatie, dependency-controle (supply chain), en IAM voor machine-identiteiten. Dit is geen extra werk – het is het verschil tussen een productie-klare en een niet-productie-klare implementatie.
+
+- **Positioneer Ctac expliciet als pilot-naar-productie partner.** Twee derde van enterprises loopt vast op de overgang van experimenteren naar schalen. De ontbrekende laag is niet technologie (die is er: A2A, MCP, Work IQ APIs, Agent 365) maar orkestratie, integratie, change management en governance. Dit is precies het profiel van een custom software- en transformatiepartner. Gebruik de Benelux-adoptiecijfers (NL/BE koploper Europa) als opener in klantgesprekken: de markt is klaar, maar de implementatiekapaciteit loopt achter.
+
+---
+
+## 📚 Bronnenlijst
+
+**Technologie & Modellen**
+- [Google I/O 2026 – alle aankondigingen](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+- [Google Search AI Mode I/O 2026](https://blog.google/products-and-platforms/products/search/search-io-2026/)
+- [Gemini app next evolution – blog.google](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/)
+- [Gemini in Apple Foundation Models – blog.google](https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/)
+- [TechCrunch WWDC 2026 – Apple Intelligence & Siri](https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)
+- [Claude Opus 4.8 benchmarks – Artificial Analysis](https://artificialanalysis.ai/articles/claude-opus-4-8-analysis-and-benchmarks)
+- [June 2026 AI launch wave – WaveSpeed](https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/)
+- [Microsoft Build 2026 – MAI-modellen](https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/)
+- [OpenAI GPT-Rosalind – Life Sciences](https://openai.com/index/introducing-gpt-rosalind/)
+- [Cohere North Mini Code open source – VentureBeat](https://venturebeat.com/technology/cohere-open-sources-a-coding-agent-that-runs-on-a-single-h100)
+- [State of Open Source HuggingFace Spring 2026](https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026)
+- [LLM Stats – AI updates juni 2026](https://llm-stats.com/ai-news)
+- [Adobe Agentic Creative Cloud – VentureBeat](https://venturebeat.com/orchestration/adobe-embeds-agentic-ai-workflows-across-creative-cloud-shifting-from-media-generation-to-production-orchestration)
+- [Microsoft MXC OS-sandbox voor agents – VentureBeat](https://venturebeat.com/security/microsoft-launches-mxc-an-os-level-sandbox-for-ai-agents-with-openai-and-nvidia-already-on-board)
+
+**Governance & Beleid**
+- [EU AI Act governance en handhaving – digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement)
+- [EU AI Act implementatietijdlijn – artificialintelligenceact.eu](https://artificialintelligenceact.eu/implementation-timeline/)
+- [EC – richtlijnen AI Act implementatie](https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines)
+- [TechCrunch – Anthropic en de VS-overheid](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)
+- [Anthropic CEO – FAA-model voor AI – VentureBeat](https://venturebeat.com/technology/anthropic-ceo-calls-for-faa-style-regulation-of-powerful-ai-models-what-enterprises-should-know/)
+- [Computable – Nederland blokkeert AI-overnames uit onvriendelijke landen](https://www.computable.nl/2026/06/09/kabinet-kan-spoedig-ai-overnames-uit-niet-bevriende-landen-blokkeren/)
+- [Computable – Benelux koploper in AI](https://www.computable.nl/2026/05/29/benelux-koploper-in-ai-maar-tekort-aan-digitaal-talent-speelt-parten/)
+- [Computable – Vlam rijksbreed AI-platform](https://www.computable.nl/2026/06/10/vlam-in-de-ai-pan-bij-rijksambtenaren/)
+- [Computable – Project Enki AI-datacenters op zee](https://www.computable.nl/2026/06/18/kort-project-enki-bouwt-ai-datacenters-op-zee-netwerken-binnen-drie-jaar-aan-limiet-en-meer/)
+- [EU AI Act hoog-risico compliance deadline – Cloud Security Alliance](https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-compliance-deadline-20/)
+
+**Security & Risk**
+- [VentureBeat – LiteLLM supply chain aanval](https://venturebeat.com/security/supply-chain-incidents-openai-anthropic-meta-release-surface-vendor-questionnaire-matrix)
+- [Schneier on Security – kwetsbaarheid in het AI-tijdperk](https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html)
+- [VentureBeat – AI agent security prompt injection](https://venturebeat.com/security/ai-agent-runtime-security-system-card-audit-comment-and-control-2026)
+- [VentureBeat – Prompt injection blijft structureel](https://venturebeat.com/security/openai-admits-that-prompt-injection-is-here-to-stay)
+- [OpenAI Lockdown Mode – TechCrunch](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)
+- [VentureBeat – Machine identities 82:1](https://venturebeat.com/security/machine-identities-outnumber-humans-82-to-1-legacy-iam-cant-keep-up)
+- [VentureBeat – Microsoft double agents / shadow AI](https://venturebeat.com/technology/microsoft-says-ungoverned-ai-agents-could-become-corporate-double-agents-its)
+- [The Hacker News – ServiceNow prompt injection](https://thehackernews.com/2026/01/servicenow-patches-critical-ai-platform.html)
+- [CIO Dive – Shadow AI risico's](https://www.ciodive.com/news/shadow-ai-security-risks-netskope/808880/)
+- [DataNews – Meer cyberaanvallen door AI in Benelux](https://datanews.knack.be/nieuws/security/cybercrime/meer-cyberaanvallen-door-ai-ook-in-ons-land/)
+
+**Markt & Adoptie**
+- [TechCrunch – Anthropic IPO-aankondiging](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/)
+- [TechCrunch – Anthropic $65B Series H](https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/)
+- [Fortune – Anthropic IPO $965B waardering](https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/)
+- [TechCrunch – OpenAI confidentieel IPO ingediend](https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/)
+- [VentureBeat – A2A & MCP interoperabiliteit](https://venturebeat.com/ai/ais-big-interoperability-moment-why-a2a-and-mcp-are-key-for-agent-collaboration)
+- [CIO Dive – Microsoft A2A-ondersteuning](https://www.ciodive.com/news/-Microsoft-AI-agent-standard-Google-a2a-interoperability/747593/)
+- [VentureBeat – Microsoft Agent 365 GA](https://venturebeat.com/technology/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat)
+- [VentureBeat – Copilot Cowork + Anthropic](https://venturebeat.com/orchestration/microsoft-announces-copilot-cowork-with-help-from-anthropic-a-cloud-powered)
+- [CIO Dive – Microsoft en Google enterprise AI-dominantie](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/)
+- [CIO Dive – Google Cloud >$20B](https://www.ciodive.com/news/google-cloud-tops-20b-on-ai-boom/819018/)
+- [VentureBeat – Enterprise agentic AI process layer](https://venturebeat.com/orchestration/enterprise-agentic-ai-requires-a-process-layer-most-companies-havent-built)
+- [OpenAI Partner Network – OpenAI.com](https://openai.com/news/)
