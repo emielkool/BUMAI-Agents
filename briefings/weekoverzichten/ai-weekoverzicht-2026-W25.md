@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 19 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-19.md](../ai-briefing-2026-06-19.md)
+
+**Highlights:**
+- **Microsoft lanceert eigen modelstack met MAI-Thinking-1:** Een 35B-parameter reasoning model met 256K context, gekoppeld aan Microsoft IQ en Work IQ (GA) — strategische onafhankelijkheid van OpenAI neemt een concrete vorm aan.
+- **Prompt injection treft Claude Code, Gemini CLI én GitHub Copilot tegelijk:** Aanvallers kunnen via kwaadaardige GitHub-comments API-sleutels stelen; Microsoft Semantic Kernel-kwetsbaarheden (CVE-2026-25592/26030) escaleren dit naar host-level RCE.
+- **EU AI Act: 2 augustus nadert, harmonised standards ontbreken nog:** De EC publiceerde gisteren de State of the Digital Decade 2026; Benelux leidt Europa (NL 61%, BE 62% AI-adoptie) maar 58% van bedrijven stuit op talenttekort als flessenhals.
+
+**Ctac-relevantie van de dag:** De brede prompt injection-kwetsbaarheid in agentic coding workflows maakt AI-security een urgente propositie. Gecombineerd met de naderende EU AI Act deadline (2 augustus) en het wijdverspreide 'pilot-fase'-probleem (2/3 van bedrijven) heeft Ctac drie concrete kapstokken voor klantgesprekken: agent-security audits, compliance-readiness en de overgang van pilot naar productie.
 
 ---
 
