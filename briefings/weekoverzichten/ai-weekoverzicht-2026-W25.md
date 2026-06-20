@@ -78,6 +78,19 @@ tags:
 
 ---
 
+### Zaterdag 20 juni
+
+→ Dagbriefing: [ai-briefing-2026-06-20.md](../ai-briefing-2026-06-20.md)
+
+**Highlights:**
+- **Claude Fable 5 wereldwijd geblokkeerd:** De VS-overheid vaardigt exportcontrolemaatregel uit die Fable 5 en Mythos 5 verbiedt voor niet-Amerikanen; Anthropic schakelt beide modellen voor alle klanten ter wereld uit — een direct precedent voor geopolitieke AI-restricties.
+- **EU AI Act: nog zes weken:** Volledige toepasselijkheid per 2 augustus 2026; de AI Omnibus biedt vereenvoudiging voor het MKB maar verandert niets aan kernverplichtingen voor hoog-risico systemen.
+- **AI coding agents lekken stelselmatig secrets:** Drie agents gecompromitteerd via één prompt-injection-aanval; Claude Code-commits lekken credentials bij 3,2% van repo's vs. 1,5% baseline; AI-credential-lekken stegen 81% jaar op jaar.
+
+**Ctac-relevantie van de dag:** De combinatie van de Fable 5-blokkade (Nederlandse gebruikers direct geraakt), de EU AI Act countdown van zes weken en het structurele prompt-injection-risico in agentic coding tools maakt dit een week voor concrete actie: controleer Anthropic API-afhankelijkheden, start klant-compliancegesprekken en verstevig secrets-beleid in AI-engineering workflows.
+
+---
+
 ---
 
 ## 🏆 Weekhighlights
