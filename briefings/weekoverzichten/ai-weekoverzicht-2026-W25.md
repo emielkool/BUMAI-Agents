@@ -91,6 +91,19 @@ tags:
 
 ---
 
+### Zondag 21 juni
+
+→ Dagbriefing: [ai-briefing-2026-06-21.md](../ai-briefing-2026-06-21.md)
+
+**Highlights:**
+- **LiteLLM RCE actief misbruikt (CVSS 8.7):** CVE-2026-42271 wordt zonder authenticatie geëxploiteerd via een Starlette host-header bypass; elke organisatie die LiteLLM als AI-gateway gebruikt zonder update naar v1.83.14-stable loopt acuut risico op API-sleuteldiefstal en volledige serverovertname.
+- **EU AI Act: 6 weken te gaan:** Op 2 augustus treedt de volledige AI Act in werking inclusief transparantieverplichtingen (Art. 50 – AI-contentmarkering); de meeste bedrijven zijn nog niet compliant en urgentie neemt snel toe.
+- **Nobel-laureaat John Jumper (AlphaFold) verlaat DeepMind voor Anthropic:** De overstap van Jumper, gevolgd door Noam Shazeer naar OpenAI, signaleert een versnellende talent-race waarbij frontier labs toppublicisten actief weghalen bij Big Tech.
+
+**Ctac-relevantie van de dag:** De combinatie van de kritieke LiteLLM-kwetsbaarheid (direct actiepunt voor klanten die AI-gateways gebruiken) en de naderende EU AI Act-deadline van 6 weken creëert twee concrete proposities: een security-advisory aan betreffende klanten én een compliance-readiness dienst voor de transparantieverplichtingen — beide tijdgebonden en urgent.
+
+---
+
 ---
 
 ## 🏆 Weekhighlights
