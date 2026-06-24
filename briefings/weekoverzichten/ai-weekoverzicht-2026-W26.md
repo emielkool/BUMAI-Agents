@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 24 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-24.md](../ai-briefing-2026-06-24.md)
+
+**Highlights:**
+- **Anthropic lanceert Claude Fable 5 & Mythos 5:** State-of-the-art op vrijwel alle benchmarks voor minder dan de helft van de prijs van de vorige topmodellen; Anthropic diende tegelijk confidentieel een IPO-aanvraag in bij een waardering van $965 miljard.
+- **EU AI Act: volledige toepasselijkheid over 6 weken:** Per 2 augustus 2026 is de AI Act volledig van kracht; de stakeholderconsultatie over hoog-risico richtlijnen sloot gisteren — organisaties zonder compliance-plan lopen direct risico.
+- **Exploit-window gekrompen tot 24 uur:** AI-tools versnellen aanvallen zo drastisch dat 28% van CVE's binnen een dag na openbaarmaking wordt misbruikt, terwijl remediatietijd op 74 dagen staat.
+
+**Ctac-relevantie van de dag:** De Fable 5-lancering met drastisch lagere prijzen herstart het gesprek over modelkeuze bij enterprise-klanten; de EU AI Act-deadline van 2 augustus maakt governance-assessments acuut — Ctac kan beide combineren als een concrete dienstverlening.
 
 ---
 
