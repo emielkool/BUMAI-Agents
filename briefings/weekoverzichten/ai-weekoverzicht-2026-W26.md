@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 25 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-25.md](../ai-briefing-2026-06-25.md)
+
+**Highlights:**
+- **Alibaba Qwen-AgentWorld** (24 juni): world model pre-training verbetert agentische prestaties op zeven benchmarks zonder directe agentische training — een methodologische stap met implicaties voor de hele sector.
+- **CVE-2026-5027 actief in het wild**: aanvallen op 7.000+ LangFlow/LangChain-servers; onderzoek bevestigt dat 94,4% van LLM-agents kwetsbaar is voor prompt injection. Microsoft Copilot Studio (CVE-2026-21520) lekte data ondanks de patch; Microsoft antwoordt met MXC, een OS-niveau agent-sandbox.
+- **EU AI Act Advisory Forum** hield op 19 juni zijn inaugurele sessie — op 2 augustus 2026 treedt de wet volledig in werking. Nederlandse rijksoverheid bereidt Vlam-productie-uitrol voor in H2 2026.
+
+**Ctac-relevantie van de dag:** Agent governance is de nieuwe compliance-uitdaging voor enterprise-klanten die agentic AI inzetten; de EU AI Act-deadline van 2 augustus maakt dit urgent. De Vlam-uitrol bij de rijksoverheid biedt een concrete adviesopening voor Ctac's publieke-sectorklanten.
 
 ---
 
