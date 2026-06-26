@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 26 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-26.md](../ai-briefing-2026-06-26.md)
+
+**Highlights:**
+- **White House legt OpenAI GPT 5.6 aan banden:** De Trump-administratie eist dat toegang tot het nieuwe model "klant voor klant" door de overheid wordt goedgekeurd — ongekende overheidsbemoeienis met frontier-AI die een gevaarlijk precedent zet voor Europese beschikbaarheid.
+- **EU AI Act high-risk deadline verschoven naar december 2027:** Via het Digital Omnibus-akkoord is de Annex III-deadline met 16 maanden uitgesteld — geeft bedrijven meer tijd, maar compliance-uitstel is geen vrijblijvendheid.
+- **Prompt injection #1 AI-bedreiging: 340% meer aanvallen in 2026.** CVE-2025-53773 (GitHub Copilot RCE, CVSS 9.6) en EchoLeak (M365 Copilot data-exfiltratie) tonen aan dat enterprise AI-tools een serieuze aanvalsoppervlakte vormen.
+
+**Ctac-relevantie van de dag:** Microsoft M365 Copilot wordt per 1 juli een permanente SKU — directe aanleiding voor Copilot-onboarding bij klanten. Tegelijk maken de twee actieve Copilot-CVE's een security-review van enterprise AI-configuraties tot een concrete en urgente dienstverlening.
 
 ---
 
