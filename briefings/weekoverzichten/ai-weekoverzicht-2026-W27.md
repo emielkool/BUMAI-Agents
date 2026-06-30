@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 30 juni
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-06-30.md](../ai-briefing-2026-06-30.md)
+
+**Highlights:**
+- **OpenAI limiteert GPT-5.6** op aandringen van het Witte Huis — het eerste precedent van directe overheidsbemoeienis met modelreleases in de VS; Sol overtreft Anthropic's Mythos 5 licht op coding bij een derde van de tokens.
+- **EU AI Act transparantieverplichtingen (Artikel 50) op 38 dagen**: de Code of Practice voor AI-gegenereerde content is gepubliceerd; organisaties zonder watermarking-strategie lopen nu concreet risico op non-compliance.
+- **Prompt injection actief misbruikt in productie**: CVE-2026-5027 op de exploited-vulnerabilities lijst; drie AI coding agents lekten data via één aanval — agent-security is geen toekomstige zorg meer.
+
+**Ctac-relevantie van de dag:** De naderende EU AI Act deadline plus actieve agent-security exploits scheppen directe propositionele kansen: EU AI Act compliance-begeleiding voor klanten met generatieve AI in productie, en een AI-security assessment voor bestaande Copilot Studio- en RAG-deployments. Microsoft's MAI-Thinking-1 en Work IQ APIs zijn relevant voor advies aan klanten op de Microsoft-stack.
 
 ---
 
@@ -59,3 +66,4 @@ tags:
 ## 🔗 Alle dagbriefings deze week
 
 - [Maandag 29 juni](../ai-briefing-2026-06-29.md)
+- [Dinsdag 30 juni](../ai-briefing-2026-06-30.md)
