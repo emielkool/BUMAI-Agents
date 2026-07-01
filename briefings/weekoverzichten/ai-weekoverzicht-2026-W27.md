@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 1 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-01.md](../ai-briefing-2026-07-01.md)
+
+**Highlights:**
+- **Claude Sonnet 5 gelanceerd** (Anthropic, 30 juni): bijna-Opus-prestaties voor een derde van de prijs ($2/$10 per M tokens), volledig gericht op agentic workflows. Dit maakt autonome AI-agenten betaalbaar voor enterprise-inzet en verlaagt de PoC-drempel aanzienlijk.
+- **Microsoft M365-prijzen stijgen per vandaag met gemiddeld 16%** vanwege ingebedde Copilot-functionaliteiten. Microsoft heeft >20 miljoen Copilot-seats; AI-omzet bedraagt >$37 miljard run-rate (+123% YoY). De OpenAI-exclusiviteit is tegelijkertijd opgeheven – OpenAI nu ook via AWS en Google Cloud.
+- **EU AI Act handhavingsdeadline: 32 dagen** – op 2 augustus krijgt de Europese AI Office volledige handhavingsbevoegdheden over GPAI-modellen en treden transparantieregels voor AI-content in werking. Kritieke CVE (2026-22708) in Cursor IDE toont agentic AI als nieuwe aanvalsvector.
+
+**Ctac-relevantie van de dag:** De prijsdaling van agentic AI (Claude Sonnet 5) in combinatie met de EU AI Act-deadline (2 augustus) en de Microsoft M365-prijsverhoging levert Ctac drie concrete gespreksopeningen tegelijk: een PoC-voorstel voor agentic workflows, EU AI Act compliance-begeleiding voor klanten in gereguleerde sectoren, en ROI-advies rond Copilot-adoptie bij klanten die meer betalen maar het nog niet benutten.
 
 ---
 
@@ -67,3 +74,4 @@ tags:
 
 - [Maandag 29 juni](../ai-briefing-2026-06-29.md)
 - [Dinsdag 30 juni](../ai-briefing-2026-06-30.md)
+- [Woensdag 1 juli](../ai-briefing-2026-07-01.md)
