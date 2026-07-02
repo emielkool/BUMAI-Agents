@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 2 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-02.md](../ai-briefing-2026-07-02.md)
+
+**Highlights:**
+- **Claude Sonnet 5 is nu standaard voor alle gebruikers** (per 1 juli): bijna-Opus-prestaties op Sonnet-prijs, de meest agentische Sonnet ooit — en tegelijk werd Fable 5 wereldwijd teruggezet na opheffing van het VS-exportverbod.
+- **EU AI Act: 31 dagen tot volledige handhaving** (2 augustus 2026) — met name high-risk AI in HR, biometrie en kritieke infrastructuur vereist directe complianceactie bij Ctac-klanten.
+- **Twee derde van bedrijven zit vast in pilotfase**: enterprise AI-adoptie stagneert bij de overgang naar productie — een structureel implementatieprobleem en directe kans voor Ctac als implementatiepartner.
+
+**Ctac-relevantie van de dag:** De combinatie van dalende model-kosten (Sonnet 5), een harde EU AI Act-deadline over 31 dagen en de bewezen pilot-naar-productie kloof bij twee derde van bedrijven levert Ctac drie concrete verkoopopeners: versneld agentic PoC-traject, EU AI Act compliance-begeleiding voor gereguleerde klanten, en een positionering als implementatiepartner die AI daadwerkelijk landt.
 
 ---
 
@@ -75,3 +82,4 @@ tags:
 - [Maandag 29 juni](../ai-briefing-2026-06-29.md)
 - [Dinsdag 30 juni](../ai-briefing-2026-06-30.md)
 - [Woensdag 1 juli](../ai-briefing-2026-07-01.md)
+- [Donderdag 2 juli](../ai-briefing-2026-07-02.md)
