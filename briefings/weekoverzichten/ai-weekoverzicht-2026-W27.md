@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 3 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-03.md](../ai-briefing-2026-07-03.md)
+
+**Highlights:**
+- **Claude Fable 5 wereldwijd terug** na opheffing van de US-exportbeperkingen op 30 juni; de 19-daagse shutdown toonde hoe kwetsbaar enterprise AI-stacks zijn bij afhankelijkheid van één aanbieder — multi-provider architectuur is nu een strategische noodzaak.
+- **Europarlementariërs eisen urgente EU AI-top** (2 juli); tegelijk verstrijkt op 2 augustus de deadline voor nationale AI-sandboxen — de Benelux scoort hoog in adoptie (NL 61%, BE 62%), maar moet governance-infrastructuur nu opschalen.
+- **79% van enterprises haalt AI niet uit de pilotfase** (Writer survey, 2.400 executives); organisaties met actief change management zijn zes keer zo succesvol in productie-transitie.
+
+**Ctac-relevantie van de dag:** De 19-daagse Fable 5-outage levert Ctac een concreet gespreksopener voor vendor-diversificatie en AI-stack redundantie-advies. De hardnekkige pilot-naar-productie kloof bij 79% van enterprises positioneert Ctac als implementatiepartner met change management-capaciteit — precies het gat dat de markt open laat.
 
 ---
 
@@ -83,3 +90,4 @@ tags:
 - [Dinsdag 30 juni](../ai-briefing-2026-06-30.md)
 - [Woensdag 1 juli](../ai-briefing-2026-07-01.md)
 - [Donderdag 2 juli](../ai-briefing-2026-07-02.md)
+- [Vrijdag 3 juli](../ai-briefing-2026-07-03.md)
