@@ -4,7 +4,7 @@ Stakeholders:
   - Eloy Schultz
 Week: 2026-W27
 Periode: 2026-06-29 / 2026-07-05
-Status: In uitvoering
+Status: Afgerond
 tags:
   - weekoverzicht
 ---
@@ -78,9 +78,81 @@ tags:
 
 ---
 
-## 📊 Weeksynthese
+## 🏆 Weekhighlights
 
-*(Wordt aangevuld op vrijdag 3 juli — overzicht van de belangrijkste thema's en Ctac-relevantie van de week.)*
+**1. Claude Fable 5-exportban onthult structurele kwetsbaarheid in enterprise AI**
+De 19-daagse schorsing van toegang tot Fable 5 en Mythos 5 door de VS (aanleiding: een jailbreak voor kwetsbaarheidsidentificatie) trof enterprise-klanten wereldwijd die afhankelijk zijn van één AI-aanbieder. Na opheffing op 30 juni is Fable 5 volledig terug. De les is structureel: single-vendor AI-afhankelijkheid is nu aantoonbaar een bedrijfsrisico. Multi-provider architectuur verschuift van best-practice naar noodzaak.
+
+**2. Claude Sonnet 5 democratiseert agentic AI (30 juni)**
+Anthropic lanceerde Sonnet 5 met near-Opus-prestaties voor het middensegment: $2/$10 per miljoen tokens (t/m 31 augustus), verbeterde prompt injection-resistentie en volledig autonome multi-stap workflows. Wat drie maanden geleden alleen bij Opus haalbaar was, is nu standaard in het goedkopere segment. Dit verlaagt de PoC-drempel voor agentic enterprise-implementaties drastisch en maakt schaling van bestaande pilots reëel.
+
+**3. EU AI Act: 30 dagen tot handhaving én definitieve vereenvoudiging**
+Op 2 augustus 2026 krijgt de Europese AI Office volledige handhavingsbevoegdheden over GPAI-modellen en treden transparantieregels (Artikel 50) in werking. Op 29 juni gaf de EU-Raad definitief groen licht aan het Digital Omnibus-pakket: hoog-risico Annex III-systemen (HR, biometrie, krediet) krijgen 16 maanden uitstel naar december 2027. Het onderscheid is cruciaal: GPAI-verplichtingen gaan door, hoog-risico use-cases hebben meer tijd.
+
+**4. Prompt injection geëscaleerd tot actief uitgebuite kwetsbaarheid**
+CVE-2026-5027 stond deze week op de CISA Known Exploited Vulnerabilities-lijst; CVE-2026-22708 (Cursor IDE) en CVE-2026-21520 (Copilot Studio) kwamen eveneens aan het licht. Drie AI-coding-agents lekten data via één aanval. Agentic AI vergroot het aanvaloppervlak exponentieel: één geïnjecteerde instructie kan een agent omvormen tot een stille insider die databases exfiltreert, back-ups wist of transacties uitvoert.
+
+**5. 79% van enterprises haalt AI niet uit de pilotfase**
+Writer's survey onder 2.400 executives bevestigt: de dominante enterprise-uitdaging is niet AI vinden, maar AI laten werken. Organisaties met actief change management zijn zes keer zo succesvol in de transitie naar productie. Tegelijkertijd verdubbelde het globale gebruik van werkplek-AI van 34% naar 73% in één jaar. De groeicijfers zijn indrukwekkend; de waarderealisatie per organisatie is dat veel minder.
+
+---
+
+## 🔍 Domeinpatronen
+
+### 🧠 Technologie & Modellen
+
+De rode draad van week 27 is **prijscompressie in agentic AI**. Sonnet 5 markeerde de definitieve doorbraak: autonoom agentgedrag — plannen, tools gebruiken, meerstappenworkflows uitvoeren — is geen privilege meer van de duurste modellen. Tegelijk liep Google achter op schema met Gemini 3.5 Pro (vertraagd naar later in juli), terwijl het Chinese GLM-5 de #1-positie veroverde onder open-gewicht modellen op zowel Artificial Analysis als LMArena. De geopolitieke dimensie domineerde via de Fable 5-exportban: frontier-modellen worden behandeld als strategische exportgoederen, vergelijkbaar met halfgeleiders. Multi-provider en open-source alternatieven (GLM-5, Kimi K2.7, Qwen) zijn daarmee niet meer alleen een kostenkeuze maar ook een continuïteitskeuze. Microsoft's besluit om OpenAI's exclusiviteit los te laten en ook AWS en Google Cloud toe te laten, illustreert dezelfde diversificatietrend van aanbiederskant.
+
+### 🏛️ Governance & Beleid
+
+Twee parallelle sporen bepaalden de beleidsdynamiek. **Europees**: de EU-Raad voltooide op 29 juni het Digital Omnibus-pakket — de meest ingrijpende AI Act-wijziging sinds juni 2024. GPAI-verplichtingen gaan ongewijzigd per 2 augustus; hoog-risico Annex III-systemen krijgen tot december 2027. Dertig Europarlementariërs lanceerden op 2 juli een oproep voor een urgente EU AI-top, met zorg over Europa's concurrentieachterstand. **Amerikaans**: de Witte Huis-interventie in GPT-5.6-toegang en het besluit om de Anthropic-exportban op 30 juni op te heffen tonen dat de VS AI-modellen als strategisch exportinstrument inzet. De transatlantische kloof in reguleringsfilosofie groeit zichtbaar.
+
+### 🔐 Security & Risk
+
+Prompt injection domineerde het security-landschap als acuut, niet theoretisch risico. Drie actief uitgebuite CVE's in veelgebruikte AI-tools toonden dat aanvallers het aanvalsvlak van agentic AI systematisch exploiteren. De drempel voor schadelijke AI-inzet daalt: de jailbreak die de Fable 5-exportban triggerde was een aanwijzing hoe frontier-modellen als offensief cyberwapen bruikbaar zijn. In de Benelux signaleerde Data News dat AI-gestuurde phishing en ransomware meetbaar effectiever zijn geworden. De overkoepelende les: elke agentic AI-implementatie heeft een aanvalsvector die traditionele security-tooling mist — runtime monitoring en prompt-injection-hardening zijn geen optionele lagen.
+
+### 📈 Markt & Adoptie
+
+De marktcijfers voor 2026 zijn historisch sterk: globale AI-spend $301 miljard (+35% YoY), Microsoft-AI-omzet $37 miljard run-rate (+123%), Copilot boven 20 miljoen betaalde seats. Microsoft verhoogde M365-prijzen per 1 juli met gemiddeld 16% om de AI-waarde direct door te belasten. De agentic AI-markt bereikt $9–12 miljard in 2026 met een CAGR van 44–46%. Het markante contrast: ondanks indrukwekkende adoptiecijfers (73% globaal werkplek-gebruik) haalt 79% van enterprises geen productieve deployments. De waarderealisatiekloof tussen individuen en organisaties is de centrale marktuitdaging van 2026.
+
+---
+
+## 💼 Ctac-weekperspectief
+
+- **EU AI Act compliance-advies is nú omzetbaar.** Per 2 augustus krijgt de Europese AI Office handhavingsbevoegdheden en treden GPAI-transparantieverplichtingen in werking — 30 dagen. Het Digital Omnibus-pakket heeft de hoog-risico Annex III-deadline verschoven naar december 2027, maar klanten moeten dit onderscheid snappen: wie met een AI-systeem voor HR, biometrie of kredietscoring werkt heeft meer tijd; wie een foundation model inzet of AI-gegenereerde content publiceert, heeft dat niet. Ctac kan dit onderscheid voor klanten helder maken en hun readiness-check uitvoeren — een concrete, tijdgebonden adviesopdracht.
+
+- **Vendor-diversificatie als directe propositie: Fable 5 was 19 dagen weg.** De exportban-saga levert een kant-en-klaar verkoopargument voor AI-stack-redundantie. Klanten die kritieke processen op één model of aanbieder hebben ingericht, zijn nu aantoonbaar kwetsbaar. Ctac kan architectuuradvies bieden voor multi-provider inrichting — inclusief de positionering van kostenefficiënte open-source alternatieven (GLM-5, Kimi K2.7) als redundantie-opties voor minder kritieke workloads.
+
+- **Pilot-naar-productie is dé marktgap en Ctac's onderscheidende terrein.** Dat 79% van enterprises AI niet uit de pilotfase haalt, is geen technologisch vraagstuk — het is een vraagstuk over change management, data-architectuur, integratie en governance. Dit zijn precies de competenties waarmee Ctac zich onderscheidt als implementatiepartner op Microsoft-, SAP- en Azure-stacks. Sonnet 5's introductieprijs (geldig t/m 31 augustus) biedt een kostentechnische opening om pilots die vorig kwartaal te duur waren om te schalen, nu versneld naar productie te brengen.
+
+- **AI-security integreren als standaarddeel van elke agentic implementatie.** Drie actief uitgebuite CVE's in één week — in Copilot Studio, Cursor IDE en AI coding agents — tonen dat prompt injection een operationeel risico is, geen academisch begrip. Ctac moet security-by-design als non-onderhandelbaar onderdeel van elke agentic AI-opdracht positioneren: van agent-design-principes en runtime-monitoring tot audittrails en rolgebaseerde toegangscontrole. Dit differentieert Ctac van partijen die AI bouwen maar niet beveiligen.
+
+---
+
+## 📚 Bronnenlijst
+
+- [Introducing Claude Sonnet 5 – Anthropic](https://www.anthropic.com/news/claude-sonnet-5)
+- [Anthropic launches Claude Sonnet 5 as a cheaper way to run agents – TechCrunch](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)
+- [Claude Sonnet 5 System Card – Anthropic](https://www.anthropic.com/claude-sonnet-5-system-card)
+- [EU AI Act Update: Timeline Relief and New Prohibitions – Inside Privacy](https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/)
+- [EU agrees to delay key AI Act compliance deadlines – Travers Smith](https://www.traverssmith.com/knowledge/knowledge-container/eu-agrees-to-delay-key-ai-act-compliance-deadlines/)
+- [Digital AI Omnibus: Deferral of high risk AI obligations – DLA Piper](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/The-Digital-AI-Omnibus-Proposed-deferral-of-high-risk-AI-obligations-under-the-AI-Act)
+- [EU AI Act implementation timeline – artificialintelligenceact.eu](https://artificialintelligenceact.eu/implementation-timeline/)
+- [AI-Driven Threats, Global Breaches – eSecurity Planet](https://www.esecurityplanet.com/threats/ai-driven-threats-global-breaches-and-compliance-shifts-define-the-week-in-cybersecurity-for-july-2026/)
+- [Cybersecurity Trends 2026: Defending against agentic threats – Fortinet](https://www.fortinet.com/resources/cyberglossary/cybersecurity-trends-2026)
+- [Agentic AI Enterprise Adoption 2026: 72% Production Proven – Agentic AI Institute](https://agenticaiinstitute.org/agentic-ai-enterprise-adoption-2026-governance-gap/)
+- [Enterprise AI adoption: Why 79% face challenges – Writer](https://writer.com/blog/enterprise-ai-adoption-2026/)
+- [How AI Is Driving Revenue and Productivity – NVIDIA Blog](https://blogs.nvidia.com/blog/state-of-ai-report-2026/)
+- [AI News Today June 30 2026 – BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026)
+- [AI News Today July 1 2026 – BuildFastWithAI](https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026)
+- [Microsoft M365 Copilot enterprise adoption – CIO Dive](https://www.ciodive.com/news/microsoft-earnings-Q3-2026/819009/)
+- [Microsoft vs Google in enterprise AI – CIO Dive](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/)
+- [Aziatische AI-startups vullen gat na Anthropic-exportverbod – TechCrunch](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)
+- [OpenAI AgentKit – OpenAI](https://openai.com/index/introducing-agentkit/)
+- [Microsoft Agent Control Specification – TechCrunch](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)
+- [AI security: Five Eyes-waarschuwing – The Register](https://forums.theregister.com/forum/all/2026/06/23/20262/)
+- [LLM Stats – model rankings July 2026](https://llm-stats.com/ai-news)
+- [AI-sector in Nederland blijft achter – Accountant.nl](https://www.accountant.nl/nieuws/2026/2/ai-sector-in-nederland-blijft-achter-bij-andere-eu-landen/)
 
 ---
 
