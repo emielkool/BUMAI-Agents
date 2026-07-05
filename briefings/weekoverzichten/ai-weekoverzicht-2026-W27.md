@@ -78,6 +78,19 @@ tags:
 
 ---
 
+### Zondag 5 juli
+
+→ Dagbriefing: [ai-briefing-2026-07-05.md](../ai-briefing-2026-07-05.md)
+
+**Highlights:**
+- **Claude Fable 5 volledig terug** – per 1 juli wereldwijd herstel na de exportcontrole-schorsing; nieuw geopolitiek precedent nu VS AI-frontier modellen tijdelijk als strategisch exportgoed blokkeerde en herstelde.
+- **Microsoft Frontier Company gelanceerd** (2 juli): $2,5 miljard investering, 6.000 AI-engineers direct bij enterprise-klanten ingezet — een directe concurrerende positionering ten opzichte van IT-consultancies.
+- **EU AI Act volledige toepasselijkheid 28 dagen weg** (2 augustus): nationale AI-sandboxen verplicht, GPAI-transparantieregels van kracht; Benelux-bedrijven scoren 61% AI-adoptie maar talent shortage (58%) remt verdere uitrol.
+
+**Ctac-relevantie van de dag:** Microsoft Frontier Company verschuift het speelveld: de focus voor Ctac moet naar diepgaande domeinkennis en maatwerk-AI die een generiek engagementmodel niet kan leveren. De EU AI Act-deadline (2 augustus) biedt een tijdgebonden adviesopening voor klanten zonder governance-aanpak.
+
+---
+
 ## 🏆 Weekhighlights
 
 **1. Claude Fable 5-exportban onthult structurele kwetsbaarheid in enterprise AI**
