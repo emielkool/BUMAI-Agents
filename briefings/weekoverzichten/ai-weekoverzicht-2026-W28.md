@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 7 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-07.md](../ai-briefing-2026-07-07.md)
+
+**Highlights:**
+- **EU AI Act D-26:** Over 26 dagen start handhaving van GPAI-verplichtingen met boetes tot €15M of 3% wereldwijde omzet — urgentie voor compliance is nu maximaal voor klanten in gereguleerde sectoren.
+- **Z.ai GLM-5.2 frontier-kwaliteit voor een vijfde van de prijs:** Open-source model (MIT) presteert bijna gelijk aan Claude Opus 4.8 op agentic benchmarks; $1.40/$4.40 per miljoen tokens versus $5/$25 voor Opus — herdefinieert de open vs. gesloten afweging.
+- **Prompt injection-aanvallen stegen 340% YoY:** 88% van ondernemingen rapporteerde AI-agentbeveiligingsincidenten; Unit 42 documenteerde eerste grootschalige indirecte aanvallen in productieomgevingen.
+
+**Ctac-relevantie van de dag:** De combinatie van imminente EU AI Act-handhaving en volwassen open-source modellen schept twee concrete kansen: compliancedienstverlening als urgente kortetermijndeal, en model-agnostisch implementatieadvies waarbij open-weight alternatieven nu serieuze optie zijn voor kostenbesparingen bij klanten.
 
 ---
 
