@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 8 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-08.md](../ai-briefing-2026-07-08.md)
+
+**Highlights:**
+- **OpenAI GPT-5.6 Sol op Cerebras** draait 750 tokens per seconde — 10× sneller dan standaard GPU-clusters; nieuwe modelreeks (Sol, Terra, Luna) maakt frontier-AI ook prijstechnisch bereikbaar via Terra (2× goedkoper dan GPT-5.5).
+- **Microsoft Frontier Company actief**: $2,5 miljard en 6.000 AI-engineers ingezet bij enterprise-klanten; LSEG, Unilever en Accenture als eerste partners — deployment is het nieuwe strategische slagveld.
+- **AI-agentbeveiliging kritisch**: 88% van enterprises rapporteerde een security-incident, slechts 21% heeft runtime-zichtbaarheid; OWASP publiceert Top 10 voor Agentic Applications 2026 met goal hijack en privilege abuse als zwaarste risico's.
+
+**Ctac-relevantie van de dag:** Met de EU AI Act-deadline over 25 dagen en Microsoft dat actief enterprise AI-deployments overneemt, ligt er een concrete kans voor Ctac om compliance-assessments én agent-governance-diensten als urgente propositie in te zetten bij bestaande klanten in gereguleerde sectoren.
 
 ---
 
