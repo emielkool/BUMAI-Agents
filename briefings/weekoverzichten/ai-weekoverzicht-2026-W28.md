@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 9 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-09.md](../ai-briefing-2026-07-09.md)
+
+**Highlights:**
+- **EU AI Act T-24 dagen**: Op 2 augustus 2026 krijgt de Europese Commissie handhavingsbevoegdheid over GPAI-providers; Code of Practice moet voor 22 juli ondertekend zijn — twee concrete actiepunten voor deze week.
+- **JadePuffer – eerste agentic ransomware**: Een AI-agent voerde autonoom een volledige aanvalsketen uit (inbraak, credential-diefstal, versleuteling, losgeldbrief); 88% van enterprises rapporteerde al AI-agent security-incident afgelopen jaar.
+- **Microsoft Frontier Company operationeel**: $2,5 miljard en 6.000 embedded AI-engineers bij enterprise-klanten — de markt verschuift van tooling naar resultaatverantwoordelijkheid; direct concurrerend met Ctac's implementatiewerk.
+
+**Ctac-relevantie van de dag:** De combinatie van de EU AI Act-deadline (22 juli voor Code of Practice, 2 augustus handhaving) en de opkomst van agentic security-risico's schept urgente vraag bij overheids- en finance-klanten; tegelijk dwingt Microsoft Frontier Company Ctac tot een scherpe positionering als onafhankelijke, multi-vendor implementatiepartner.
 
 ---
 
