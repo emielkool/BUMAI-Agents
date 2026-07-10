@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 10 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-10.md](../ai-briefing-2026-07-10.md)
+
+**Highlights:**
+- **OpenAI GPT-5.6 – drie tiers:** Sol (top-tier), Terra (GPT-5.5-kwaliteit voor half de prijs) en Luna ($1/M input) verlagen de toegangsdrempel tot frontier-AI aanzienlijk; GPT-Live introduceert gelijktijdig luisteren en spreken.
+- **Microsoft Frontier Company vs. AWS FDE:** Microsoft (6.000 experts, $2,5 mrd) en AWS ($1 mrd Forward Deployed Engineering) brengen AI-deployment rechtstreeks bij enterprise-klanten — het slagveld verschuift van modellen naar implementatie.
+- **Agentic AI-aanvallen: 85% exploitatiescore:** Fake Sentry-foutmeldingen sturen AI-coding agents aan als bot; "GuardFall" hergebruikt 30 jaar oude shell-injection; EU AI Act herschrijft deadlines — high-risk AI nu pas verplicht per december 2027.
+
+**Ctac-relevantie van de dag:** Microsoft en AWS versterken hun greep op de enterprise AI-markt als deployers; Ctac moet zich nu hard positioneren als onafhankelijke, multi-vendor implementatiepartner met sectorkennis — tegelijk biedt de uitgestelde EU AI Act-deadline kans om compliance-trajecten proactief te starten bij gereguleerde klanten die vals zekerheid voelen.
 
 ---
 
