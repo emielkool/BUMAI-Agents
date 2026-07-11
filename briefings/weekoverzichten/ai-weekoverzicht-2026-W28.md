@@ -78,6 +78,19 @@ tags:
 
 ---
 
+### Zaterdag 11 juli
+
+→ Dagbriefing: [ai-briefing-2026-07-11.md](../ai-briefing-2026-07-11.md)
+
+**Highlights:**
+- **Historische simultane lancering (9 juli):** OpenAI (GPT-5.6 Sol/Terra/Luna), Anthropic (Mythos + Sonnet 5) en Meta (Muse Spark 1.1) lanceerden op dezelfde dag elk een frontier-model — voor het eerst in de AI-geschiedenis; prijsverlaging is concreet: Sonnet 5 voor $2/M tot eind augustus.
+- **EU AI Act: nog 22 dagen:** Op 2 augustus start volledige handhaving voor High-Risk AI en transparantievereisten (art. 50); de Code of Practice-deadline van 22 juli is volgende week — voor organisaties die GPAI integreren of distribueren is dit urgent.
+- **Agent Zero Trust als nieuwe standaard:** EchoLeak (CVE-2025-32711) bewijst dat zero-click exploits in Microsoft 365 Copilot mogelijk zijn; prompt injection steeg 340% YoY; Google DeepMind en Anthropic behandelen AI-agents nu structureel als potentiële insider threats.
+
+**Ctac-relevantie van de dag:** Microsoft Frontier Company ($2,5 mrd, 6.000 embedded engineers) is structureel concurrent in de implementatiemarkt die Ctac bedient — differentiatie via onafhankelijkheid, multi-vendor aanpak en sectorkennis is nu strategische prioriteit. De EU AI Act-deadline van 2 augustus schept concrete compliance-vraag bij gereguleerde klanten.
+
+---
+
 ## 🏆 Weekhighlights
 
 **1. Microsoft Frontier Company — implementatie als frontlinie**
