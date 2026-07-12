@@ -91,6 +91,19 @@ tags:
 
 ---
 
+### Zondag 12 juli
+
+→ Dagbriefing: [ai-briefing-2026-07-12.md](../ai-briefing-2026-07-12.md)
+
+**Highlights:**
+- **GPT-5.6 volledig live / Claude Fable 5 wereldwijd terug:** OpenAI en Anthropic staan oog in oog: Sol (54% efficiënter op code, beste codeermodel ooit) versus Fable 5 (exportbeperkingen opgeheven); frontier-AI wordt tegelijk breder beschikbaar en goedkoper.
+- **EU AI Act: nog 21 dagen tot volledige handhaving:** Op 2 augustus treedt volledige toepasselijkheid in werking; 66% van bedrijven zit nog in pilot-fase en loopt compliance-achterstand op; nationale regulatory sandboxes moeten dan operationeel zijn.
+- **AI-agent exploiteert Langflow RCE voor ransomware:** CVE-2025-3248 werd autonoom benut voor een volledige database-aanval; 28,3% van nieuwe CVEs wordt binnen 24 uur actief uitgebuit — het traditionele patch-venster bestaat niet meer.
+
+**Ctac-relevantie van de dag:** Microsoft's $37 miljard AI run rate (+123% YoY) en Google's Agentic Data Cloud markeren het definitieve einde van de experimentfase in enterprise AI; het pilotprobleem (66% vastgelopen) is het concrete servicegat dat Ctac nu moet opvullen, gecombineerd met urgente EU AI Act-compliancediensten vóór de 2 augustus-deadline.
+
+---
+
 ## 🏆 Weekhighlights
 
 **1. Microsoft Frontier Company — implementatie als frontlinie**
