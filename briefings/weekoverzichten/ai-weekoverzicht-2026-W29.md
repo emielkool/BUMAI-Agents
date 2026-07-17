@@ -50,8 +50,14 @@ tags:
 ---
 
 ### Donderdag 16 juli
+→ Dagbriefing: [ai-briefing-2026-07-16.md](../ai-briefing-2026-07-16.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **OpenAI GPT-5.6 familie nu volledig beschikbaar:** drie varianten (Sol, Terra, Luna) én nieuwe spraakmodellen (GPT-Live-1) zijn gelanceerd — modellandschap wordt breder maar kwaliteitsverschillen in de top worden kleiner, waardoor prijs en integraties de enterprise-keuze bepalen.
+- **EU AI Act-deadline over 17 dagen:** per 2 augustus 2026 gelden volledige nalevingsverplichtingen voor hoog-risico AI-systemen — conformiteitsbeoordeling, CE-markering en EU-database registratie zijn verplicht; een directe propositiekans voor IT-consultants.
+- **Microsoft Frontier Company en prompt injection CVE:** Microsoft's $2,5 miljard deployment-arm concurreert direct met IT-consultants, terwijl een CVE-2026-21520 (CVSS 7.5) in Copilot Studio het risico van agentic systemen in productie onderstreept.
+
+**Ctac-relevantie van de dag:** De AI Act-deadline van 2 augustus is een tijdgevoelige kans voor een compliance-scan als instapproduct richting klanten in overheid, zorg en finance. Tegelijk vraagt Microsoft Frontier Company om snelle propositiedifferentiatie — Ctac's lokale klantkennis en sectorexpertise (NL/BE) zijn de onderscheidende factoren ten opzichte van een globale deployment-speler.
 
 ---
 
