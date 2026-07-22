@@ -62,8 +62,14 @@ tags:
 ---
 
 ### Vrijdag 17 juli
+→ Dagbriefing: [ai-briefing-2026-07-17.md](../ai-briefing-2026-07-17.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Google Gemini 3.5 Pro gelanceerd vandaag:** 2M-token contextvenster en 4× lagere inputkosten dan GPT-5.6 Sol; dit herschrijft de cost-per-token berekeningen voor enterprise AI en geeft inkopers nieuwe onderhandelingspositie.
+- **EU AI Act: nog 16 dagen tot volledige werking** – per 2 augustus 2026 zijn alle transparantie- en nalevingsregels afdwingbaar; klanten in high-risk categorieën hebben geen marge meer om te wachten.
+- **Drie AI coding agents lekten secrets via één prompt injection:** een directe beveiligingswaarschuwing voor elke organisatie met AI coding assistants in CI/CD-pipelines of productieomgevingen.
+
+**Ctac-relevantie van de dag:** De combinatie van Gemini 3.5 Pro's lage kosten en groot contextvenster biedt directe besparingsargumenten in klantgesprekken over AI-architecturen. De naderende EU AI Act-deadline maakt compliance-advisory vandaag een tijdgevoelige propositiekans; de prompt injection-incidenten onderbouwen de behoefte aan AI security reviews als standaardonderdeel van Ctac-implementatietrajecten.
 
 ---
 
