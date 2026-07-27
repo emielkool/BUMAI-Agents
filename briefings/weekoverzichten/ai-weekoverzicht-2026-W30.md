@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 21 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-21.md](../ai-briefing-2026-07-21.md)
+
+**Highlights:**
+- **EU AI Act-deadline over 11 dagen** – Per 2 augustus worden transparantieverplichtingen van kracht; lidstaten moeten dan een nationaal AI-sandbox operationeel hebben. Concreet en urgent voor NL/BE-organisaties.
+- **Nieuwe "Agent Data Injection"-aanval** – 94,4% van state-of-the-art LLM-agents blijkt kwetsbaar voor prompt injection; kwaadaardige instructies worden vermomd als vertrouwde agentdata. CrowdStrike documenteerde al echte aanvallen bij 90+ organisaties.
+- **Modelmarkt in hoogste versnelling** – OpenAI GPT-5.6 (Sol/Terra/Luna) en Anthropic Sonnet 5 maken enterprise agentic AI nu economisch haalbaar; Sonnet 5 met introductieprijs tot 31 augustus, near-Opus 4.8 performance.
+
+**Ctac-relevantie van de dag:** De 2-augustus-deadline biedt een direct propositiemoment: klanten die AI-systemen inzetten richting eindgebruikers moeten nú handelen op transparantieverplichtingen. Tegelijk maakt de introductieprijs van Sonnet 5 dit zomerraam ideaal om een eerste agentic pilot te starten vóór de reguliere prijzen van kracht worden.
 
 ---
 
