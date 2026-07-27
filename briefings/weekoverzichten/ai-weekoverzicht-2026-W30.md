@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 23 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-23.md](../ai-briefing-2026-07-23.md)
+
+**Highlights:**
+- **AMD Advancing AI 2026 (vandaag)** – AMD lanceert de Instinct MI450-accelerator, Zen6 EPYC Venice en het Helios rack-scale AI-systeem in San Francisco; Microsoft breidt Azure-infrastructuur uit met AMD MI455X. Directe concurrent van NVIDIA's Blackwell-lijn.
+- **EU AI Act D-9: 2 augustus is nu urgent** – Transparantieverplichtingen gelden over negen dagen. Organisaties die AI-chatbots of geautomatiseerde besluitvorming inzetten moeten aantoonbaar voldoen — niet volgende maand, maar nu.
+- **Satya Nadella waarschuwt: AI-labs worden concurrent** – Bedrijven die externe frontier-modellen gebruiken dragen ongemerkt bedrijfskennis over aan de modeleigenaar. Pleidooi voor eigen learning loops en fair data-terms — dit wordt de volgende enterprise-gouvernancediscussie.
+
+**Ctac-relevantie van de dag:** De EU AI Act-deadline van 2 augustus is een directe propositiekans voor compliance-advies en AI-implementatiebegeleiding. Tegelijk toont Nadella's waarschuwing waarom klanten baat hebben bij een onafhankelijke partner die hen helpt eigen data-eigenaarschap te behouden in plaats van te leunen op de stack van één vendor.
 
 ---
 
