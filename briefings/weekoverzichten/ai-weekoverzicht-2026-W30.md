@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 22 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-22.md](../ai-briefing-2026-07-22.md)
+
+**Highlights:**
+- **Kimi K3 zet open-source record** – Moonshot AI's Kimi K3 (2,8 biljoen parameters) behaalt 91,2% op BrowseComp en sluit de kloof met gesloten frontier-modellen verder; open weights volgen op 27 juli.
+- **EU AI Act vereenvoudigingspakket formeel goedgekeurd** – De compliance-deadline voor HR-systemen schuift van 2 augustus 2026 naar december 2027; nieuw verbod op "nudifier"-apps volgt in december 2026.
+- **99,9% van patchbare AI-kwetsbaarheden ongefixed** – 81% van bedrijven loopt bekende AI-infrastructuurrisico's; agentic tools zoals GitHub Copilot en Cursor IDE blijken actieve aanvalsvectoren (CVSS 9.6-kwetsbaarheid gedocumenteerd).
+
+**Ctac-relevantie van de dag:** De cloudoorlog is verschoven van "beste model" naar "beste agent-operatie" – governance, observability en inference-kosten zijn nu het echte differentiatieterein. Dat is precies het domein waar Ctac als onafhankelijke implementatiepartner waarde kan toevoegen, los van de modelkeuze van de klant.
 
 ---
 
