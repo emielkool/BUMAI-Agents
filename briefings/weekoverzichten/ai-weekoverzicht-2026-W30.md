@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 24 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-24.md](../ai-briefing-2026-07-24.md)
+
+**Highlights:**
+- **DeepSeek V4 stabiele release vandaag** – China brengt opnieuw een krachtig open-weight model uit; open Kimi K3-gewichten volgen op 27 juli, ondanks White House-beschuldigingen van grootschalige model-distillatie vanuit Anthropic's Fable.
+- **EU AI Act: 9 dagen tot volledige handhaving** – Per 2 augustus zijn verplichte AI-iconen en labeling van kracht; organisaties zonder compliance-pad lopen nu direct handhavingsrisico.
+- **Microsoft Copilot op 20 miljoen betaalde seats via GPT-5.6** – Enterprise agentic AI via Microsoft 365 is operationele realiteit voor grote organisaties, geen pilot meer.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act-deadline en exploderende agentic AI-adoptie vraagt om een partner die compliant implementeert én agentic systemen beveiligt. Ctac kan zich onderscheiden door security-by-design standaard mee te nemen in agentic implementaties voor klanten in overheid, zorg en finance.
 
 ---
 
