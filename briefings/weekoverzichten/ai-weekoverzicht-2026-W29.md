@@ -26,8 +26,14 @@ tags:
 ---
 
 ### Dinsdag 14 juli
+→ Dagbriefing: [ai-briefing-2026-07-14.md](../ai-briefing-2026-07-14.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **GPT-5.6 in gefaseerde preview, EU AI Act deadline nadert:** OpenAI's Sol/Terra/Luna modelfamilie is gelanceerd maar beschikbaar via gereguleerde klant-per-klant uitrol — een nieuw patroon waarbij overheidsgoedkeuring AI-releases stuurt. Tegelijk treedt de EU AI Act op 2 augustus volledig in werking, inclusief transparantieverplichtingen.
+- **Prompt injection escaleert naar agentic AI:** Meerdere productie-aanvallen bevestigen dat AI-agenten met toolaccess fundamenteel kwetsbaar zijn voor prompt injection. OWASP benoemt dit voor het tweede jaar op rij als de #1 LLM-kwetsbaarheid — een urgent signaal voor iedereen die agenten in productie brengt.
+- **Cloud-driehoek consolideert:** Microsoft (20M+ Copilot-seats, $37B AI-omzet +123% YoY), Google (Agentic Data Cloud) en AWS ($1B forward-deployed engineering) domineren enterprise AI volledig. Chinese open-source challenger GLM-5 (744B MoE, MIT-licentie) staat bovenaan de open-weight ranglijst.
+
+**Ctac-relevantie van de dag:** De EU AI Act transparantiedeadline van 2 augustus is een direct aanknopingspunt voor een compliance-scan richting klanten in overheid en zorg. De escalatie van prompt injection-aanvallen op AI-agenten biedt Ctac een propositiekans: een security audit en hardeningdienst voor klanten die Microsoft Copilot, Azure OpenAI of Claude-agenten implementeren.
 
 ---
 
