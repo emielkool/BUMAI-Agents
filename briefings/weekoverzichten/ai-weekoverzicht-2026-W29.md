@@ -38,8 +38,14 @@ tags:
 ---
 
 ### Woensdag 15 juli
+→ Dagbriefing: [ai-briefing-2026-07-15.md](../ai-briefing-2026-07-15.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **EU AI Act volledig van kracht op 2 augustus:** Het vereenvoudigingspakket (Digital AI Omnibus) is op 29 juni goedgekeurd door de Raad; de AI Office krijgt centraal toezicht op GPAI-modellen en high-risk verplichtingen worden deels uitgesteld — voor klanten in regulated sectoren is actie nu vereist.
+- **Microsoft investeert $2,5 miljard in deployment-unit:** Met 6.000 forward-deployed engineers die bij klanten worden ingebed, draait Microsoft volledig naar implementatie als strategisch speelveld — de modelstrijd is voorbij, de uitrolstrijd begint.
+- **Frontier-modellen convergeren, prompt injection escaleert:** Claude Sonnet 5, GPT-5.6 en Gemini 3.2 Pro zijn nagenoeg gelijkwaardig in kwaliteit; tegelijk stegen prompt injection-aanvallen 340% YoY met twee kritieke CVE's (CVSS 9.6 en 9.3) gericht op GitHub Copilot en Microsoft 365 Copilot.
+
+**Ctac-relevantie van de dag:** De 2 augustus-deadline van de EU AI Act is een direct aanknopingspunt voor compliance-advisory richting klanten in overheid, finance en zorg. Microsoft's deployment-pivot bevestigt Ctac's positie als lokale implementatiepartner — maar de concurrentiedruk van Microsoft's eigen forward-deployed engineers vraagt om snelle propositiedifferentiatie.
 
 ---
 
