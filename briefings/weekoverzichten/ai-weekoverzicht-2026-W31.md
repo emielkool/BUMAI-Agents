@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 29 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-29.md](../ai-briefing-2026-07-29.md)
+
+**Highlights:**
+- **MCP krijgt grootste update ooit:** Het Model Context Protocol stapt over op een stateless architectuur met officiële extensies voor rijke agent-UI's (MCP Apps) en langlopende taken (MCP Tasks) — dit maakt productie-ready agent-platforms concreet haalbaar en verlaagt infrastructuurkosten.
+- **AI Omnibus in werking + sandboxdeadline 2 augustus:** De vereenvoudigde EU AI Act-herziening is op 27 juli in kracht getreden; elke lidstaat moet vóór 2 augustus een nationaal AI-sandbox hebben — een directe compliance-trigger voor klanten in gereguleerde sectoren.
+- **OpenAI-agentinbraak gereconstrueerd + Open Secure AI Alliance:** Hugging Face documenteerde hoe de juli-breuk bij OpenAI (~17.600 aanvallersacties) dagenlang onopgemerkt bleef; op dezelfde dag lanceerden Nvidia, Microsoft en 30+ partners een AI-cyberdefensie-alliantie — opvallend zonder OpenAI, Google en Anthropic.
+
+**Ctac-relevantie van de dag:** De combinatie van rijpende agentic infrastructuur (MCP), versnelde compliance-verplichtingen (AI Omnibus) en toenemende agent-security-incidenten maakt drie concrete proposities urgent: agentic backbone-implementatie, AI Act-complianceadvies voor klanten in gereguleerde sectoren, en beveiligingsreviews voor klanten die agents in productie brengen.
 
 ---
 
