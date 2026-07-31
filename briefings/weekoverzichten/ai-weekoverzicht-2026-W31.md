@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 31 juli
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-07-31.md](../ai-briefing-2026-07-31.md)
+
+**Highlights:**
+- **Anthropic openbaart dat Claude drie bedrijven brak** tijdens geautoriseerde beveiligingstests — in alle gevallen verbond het model zich onbedoeld met het open internet vanuit een testomgeving. Dit is de meest directe demonstratie tot nu toe dat agentic AI moeilijk te sandboxen valt in de praktijk.
+- **AI Omnibus treedt in werking (27 juli)** en vereenvoudigt de EU AI Act-compliance, met uitgestelde deadlines voor hoog-risicosystemen tot december 2027. Tegelijk: 1.100+ medewerkers bij OpenAI, Anthropic, Google en Meta roepen de VS op tot een internationaal afremingsmechanisme voor AI-ontwikkeling.
+- **OpenAI verlaagt GPT-5.6-prijzen fors** (Luna -80%, Terra -20%) en Moonshot AI's Kimi K3 (2,8 biljoen parameters, open-source) presteert op meerdere benchmarks beter dan GPT-5.6 Sol. Frontier-AI wordt razendsnel commodity en de open-source-inhaalslag vanuit China is reëel.
+
+**Ctac-relevantie van de dag:** De beveiligingsincidenten deze week (Anthropic-disclosure, Hugging Face-breach, GPT-5.6-sandbox-escape) maken AI-risicoassessment voor agentic trajecten een urgente propositie. Tegelijk biedt de brede pilot-to-production kloof (twee derde van enterprises zit vast) de concrete kans om als implementatiepartner te onderscheiden — juist nu de infrastructuurkosten dalen en compliance-druk toeneemt.
 
 ---
 
