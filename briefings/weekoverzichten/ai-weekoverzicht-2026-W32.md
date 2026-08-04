@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 4 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-04.md](../ai-briefing-2026-08-04.md)
+
+**Highlights:**
+- **EU AI Act Artikel 50 nu gehandhaafd**: Transparantieverplichtingen zijn actief (2 augustus); chatbots moeten zichzelf als AI kenbaar maken en AI-media moet machineleesbaar worden gemarkeerd (C2PA). 78% van bedrijven was op de deadline nog niet compliant — boetes tot €15M of 3% omzet.
+- **Prompt injection blijft onopgelost architectureel probleem**: OWASP LLM01 voor 2026, aanvallen +340% YoY; kritieke CVEs in Copilot, GitHub Copilot en Cursor IDE bevestigen actieve productie-exploitatie.
+- **Cloud AI-markt verschuift van modellen naar operatie**: Google Cloud +63%, Azure +40%, AWS +28% groei; 89% enterprises gebruikt multi-cloud AI; focus bij hyperscalers verschuift naar verticaal geïntegreerde AI-stacks.
+
+**Ctac-relevantie van de dag:** De AI Act Artikel 50-deadline is gepasseerd met 78% niet-compliance — een directe en concrete adviesmarkt voor compliance-quickscans en implementatiebegeleiding. De verschuiving van "welk model" naar "hoe operationeel inrichten" is precies de ruimte die past bij Ctac's consultancypropositie.
 
 ---
 
