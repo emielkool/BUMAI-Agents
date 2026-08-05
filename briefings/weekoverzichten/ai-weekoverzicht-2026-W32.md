@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 5 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-05.md](../ai-briefing-2026-08-05.md)
+
+**Highlights:**
+- **EU AI Act Article 50 afdwingbaar**: Handhaving gestart per 2 augustus — chatbots, deepfakes en AI-gegenereerde content moeten nu verplicht gelabeld zijn; het AI Office en nationale autoriteiten kunnen boetes opleggen. Veel Nederlandse organisaties zijn nog niet compliant.
+- **OpenAI verlaagt GPT-5.6 Luna met 80%**: Frontier agentic AI is nu een fractie van de prijs van drie maanden geleden; eerder afgewezen PoC-trajecten worden hierdoor ineens rendabel.
+- **Prompt injection treft drie coding agents tegelijk**: Claude Code, Gemini CLI én Copilot lekten secrets via één aanval — OWASP noemt dit voor het tweede jaar op rij het grootste LLM-risico; 94,4% van productie-agents is kwetsbaar.
+
+**Ctac-relevantie van de dag:** De combinatie van AI Act enforcement (nu actief), dramatische prijsdalingen én de agent security-crisis biedt drie concrete aanknopingspunten: compliance-quickscans voor klanten met chatbots/AI-content, heractivering van eerder afgewezen AI-business cases, en een security-assessmentpropositie voor enterprises die coding agents of autonome workflows inzetten.
 
 ---
 
