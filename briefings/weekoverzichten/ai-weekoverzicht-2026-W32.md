@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 6 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-06.md](../ai-briefing-2026-08-06.md)
+
+**Highlights:**
+- **EU AI Act handhaving nu volledig actief**: Vier dagen na de ingangsdatum zijn de transparantieverplichtingen afdwingbaar — in Nederland houdt de AP toezicht; bedrijven die chatbots of AI-content inzetten zonder markering lopen nu concreet boeterisico.
+- **Prompt injection bereikt kritisch niveau**: Een gecoördineerde aanval trof Claude Code, Gemini CLI en Copilot gelijktijdig; onderzoek toont dat 94,4% van LLM-agents kwetsbaar is en frontier models 1 op de 3 productie-pogingen laten mislukken.
+- **Enterprise ROI-kloof blijft groot**: Gemiddeld $37,2M AI-uitgaven levert slechts $9,9M ROI op; tweederde zit gevangen in de pilotfase terwijl Microsoft en AWS elk miljarden investeren in deployment-ondersteuning.
+
+**Ctac-relevantie van de dag:** De EU AI Act is nu volledig van kracht en de ROI-kloof bij enterprise deployments is een directe kans voor Ctac als begeleider van compliance en implementatie — van quick-scan tot productie-inbedding. De agent security-crisis maakt een intern beveiligingsbeleid voor AI-tooling urgent.
 
 ---
 
