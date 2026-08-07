@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 7 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-07.md](../ai-briefing-2026-08-07.md)
+
+**Highlights:**
+- **EU AI Act handhaving volop actief (week 1)**: Vijf dagen na de ingangsdatum zijn de eerste enforcement-acties zichtbaar; transparantieverplichtingen en sandbox-deadlines zijn gepasseerd; organisaties zonder compliance lopen nu concreet boeterisico.
+- **Prompt injection raakt drie AI-codeeragenten tegelijk**: Een zero-click agentic aanval trof Claude Code, Gemini CLI en GitHub Copilot gelijktijdig in een productiesysteem; data-exfiltratie via een vergiftigde e-mail en image URL. Geen theoretisch risico meer.
+- **Microsoft Frontier Company + $37B run rate**: Microsoft richt een apart $2,5 miljard bedrijf op voor enterprise AI-implementaties; met 20 miljoen Copilot-seats en 123% omzetgroei heeft Microsoft het bewijs dat AI commercieel werkt — nu volgt de schaalbaarheidsuitdaging.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act enforcement, agressieve prompt injection-aanvallen en de Microsoft Frontier Company-strategie maakt duidelijk dat de markt verschuift van "AI uitproberen" naar "AI veilig en compliant in productie brengen" — exact de propositieruimte voor Ctac. Het is vrijdag: een goed moment om deze thema's te bundelen in de weeksynthese.
 
 ---
 
