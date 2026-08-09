@@ -78,6 +78,19 @@ tags:
 
 ---
 
+### Zondag 9 augustus
+
+→ Dagbriefing: [ai-briefing-2026-08-09.md](../ai-briefing-2026-08-09.md)
+
+**Highlights:**
+- **EU AI Act handhaving: week 1 voltooid** – De eerste volle handhavingsweek is afgerond; transparantieverplichtingen zijn actief, Nederlandse AI-telefonistsystemen moeten zich direct identificeren als AI, en een Europees netwerk onderzoekt AI in de rechtspraak.
+- **Agentic AI-race: Claude Opus 5 vs GPT-5.6 Sol** – Beide labs bieden nu parallel-subagent architecturen waarbij AI autonoom over meerdere gelijktijdige taken werkt; coding-benchmarks naderen het plafond (89,5% vs 89,1% op Terminal-Bench 2.1).
+- **Rabobank investeert €2 mrd in AI-opschaling** – 27.000+ Rabo-medewerkers volgden al geavanceerde AI-trainingen; dit onderstreept dat Nederlandse financiële instellingen AI nu serieus operationeel inzetten.
+
+**Ctac-relevantie van de dag:** De afsluiting van de eerste handhavingsweek bevestigt dat EU AI Act compliance-dienstverlening structureel deel uitmaakt van het AI-aanbod dat klanten verwachten. Rabobank toont aan dat grote NL-organisaties AI snel opschalen — een concrete kans voor Ctac om soortgelijke trajecten te begeleiden bij de eigen klantenbasis in finance, overheid en industrie.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **EU AI Act Article 50 – van aankondiging naar handhaving.** Op 2 augustus 2026 startte de Europese Commissie actief met handhaving van de transparantieverplichtingen. Chatbots moeten zich als AI identificeren, deepfakes en AI-content moeten worden gelabeld. Boetes kunnen oplopen tot €15 miljoen of 3% van de wereldwijde omzet — en 78% van bedrijven was op de deadline nog niet compliant.
