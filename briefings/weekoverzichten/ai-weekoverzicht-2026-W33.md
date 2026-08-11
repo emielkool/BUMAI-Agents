@@ -24,7 +24,14 @@ tags:
 ---
 
 ### Dinsdag 11 augustus
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-11.md](../ai-briefing-2026-08-11.md)
+
+**Highlights:**
+- **OpenAI lanceert GPT-5.6-Cyber via Daybreak:** OpenAI splitst zijn cybersecurityprogramma in twee lagen (Blue/Red) en introduceert een model dat zero-day-onderzoek ondersteunt. Defensief AI dat offensieve taken aankan — een nieuwe categorie.
+- **85% van bedrijven faalt bij AI-implementatie:** Bain & Company toont aan dat de meerderheid vastloopt in pilots; Microsoft reageert met een $2,5B Frontier Company om enterprise-implementaties te begeleiden.
+- **Prompt injection treft Claude Code, Gemini CLI en GitHub Copilot tegelijk:** IAM-misconfiguraties lekten credentials via agentic AI-stacks — een concrete beveiligingswaarschuwing voor alle teams die coding agents inzetten.
+
+**Ctac-relevantie van de dag:** De 85%-mislukkingnorm bij AI-implementaties is een directe businesscase voor Ctac: klanten hebben begeleiding nodig bij de stap van pilot naar productie. Tegelijk vereist het gebruik van AI coding tools intern een herziening van credential- en IAM-scoping.
 
 ---
 
