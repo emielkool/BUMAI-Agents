@@ -36,7 +36,14 @@ tags:
 ---
 
 ### Woensdag 12 augustus
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-12.md](../ai-briefing-2026-08-12.md)
+
+**Highlights:**
+- **EU AI Act juridisch afdwingbaar:** Vanaf 2 augustus handhaven de EC en nationale autoriteiten actief de transparantieregels — chatbots moeten zichzelf als AI kenbaar maken, deepfakes zijn verplicht gelabeld. Boetes zijn nu reëel voor Europese organisaties.
+- **OpenAI kondigt Astra aan + lanceert GPT-5.6-Cyber:** Het volgende OpenAI-flagship "Astra" kan mogelijk de "Critical" cybercapaciteitsdrempel halen; GPT-5.6-Cyber is al live als gespecialiseerd model voor offensief/defensief cyberwerk via de Daybreak-dienst.
+- **AWS investeert $1 miljard in Forward Deployed Engineering:** Amazon combineert engineers met AI-agents om rechtstreeks bij klanten AI in productie te brengen — een signaal over hoe enterprise AI-adoptie daadwerkelijk wordt uitgevoerd.
+
+**Ctac-relevantie van de dag:** EU AI Act-compliance is per direct een concrete klantopdracht — een readiness-assessment voor klanten in publieke sector, zorg en finance is nu onmiddellijk verkoopbaar. Het AWS FDE-model weerspiegelt exact de hands-on implementatiepositionering waarmee Ctac's AI-unit zich kan onderscheiden van pure toolverkopers.
 
 ---
 
