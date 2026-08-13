@@ -48,7 +48,14 @@ tags:
 ---
 
 ### Donderdag 13 augustus
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-13.md](../ai-briefing-2026-08-13.md)
+
+**Highlights:**
+- **EU AI Act handhaving (2 aug) is realiteit:** Transparantievereisten zijn wettelijk afdwingbaar — chatbots moeten zich kenbaar maken als AI, deepfakes verplicht gelabeld. Boetes tot €35 mln voor verboden praktijken.
+- **OpenAI breidt GPT-5.6 verder uit:** Luna gratis beschikbaar, Daybreak-cybermodel op AWS (11 aug), o3 sunset op 26 aug. MCP (Anthropic) wordt de-facto standaard door adoptie van OpenAI én Microsoft.
+- **2/3 van enterprises vast in pilot-fase:** 97% worstelt met het aantonen van businesswaarde — de implementatiekloof is het strategische kernprobleem, niet de modellen zelf. Microsoft passeert $37 mrd AI-omzet run-rate (+123% YoY).
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act-compliance als directe juridische noodzaak én de brede pilotfase-stagnatie maakt dit het ideale moment voor Ctac om met concrete diensten op de markt te komen: AI Act-readiness assessments én begeleiding van pilot naar productie zijn nu beide verkoopbaar en urgent.
 
 ---
 
