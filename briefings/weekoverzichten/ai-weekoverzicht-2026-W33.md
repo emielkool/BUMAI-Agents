@@ -60,7 +60,14 @@ tags:
 ---
 
 ### Vrijdag 14 augustus
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-14.md](../ai-briefing-2026-08-14.md)
+
+**Highlights:**
+- **OpenAI lanceert Ultrafast modus voor GPT-5.6 Sol:** via chipmaker Cerebras haalt het nieuwe servicetier tot 14× hogere snelheid (750 tokens/sec); Sol is ook 54% efficiënter bij coding dan zijn voorganger. Inference-optimalisatie is duidelijk de prioriteit.
+- **DeepSeek stoot Google van AI-troon bij bedrijven:** permanente 75%-prijsverlaging op V4-Pro maakt DeepSeek 7–17× goedkoper dan Claude Sonnet of GPT-5.5, met directe impact op enterprise vendor-keuzes in de Benelux.
+- **EU AI Act transparantieplicht geldt nu:** per 2 augustus moeten alle AI-systemen in de EU zich kenbaar maken; handhaving is actief; bedrijven zonder disclosuremechanisme lopen direct boeterisico.
+
+**Ctac-relevantie van de dag:** De gecombineerde druk van EU AI Act-handhaving, explosief dalende tokenkosten via DeepSeek en ernstige prompt injection-risico's bij agentic AI maakt dit hét moment om klanten te adviseren over drie concrete vraagstukken: compliance, leveranciersselectie en security-architectuur voor AI-agents.
 
 ---
 
