@@ -71,6 +71,18 @@ tags:
 
 ---
 
+### Zaterdag 15 augustus
+→ Dagbriefing: [ai-briefing-2026-08-15.md](../ai-briefing-2026-08-15.md)
+
+**Highlights:**
+- **OpenAI Ultrafast: GPT-5.6 Sol op 14× snelheid via Cerebras** (750 tokens/sec, API limited preview): inference-kosten en latency dalen snel; real-time enterprise-toepassingen zoals incident response en klantenservice worden financieel haalbaar.
+- **Atlassian Rovo prompt injection** (PromptArmor, 5 aug): verborgen instructies in geüploade bestanden laten Rovo Jira/Confluence-data weglekken naar aanvallers — niet volledig opgelost, directe dreiging voor Ctac-klanten met Atlassian.
+- **EU AI Act transparantie-handhaving actief** (per 2 aug): alle chatbots en AI-interfaces in de EU moeten zichzelf als AI kenbaar maken; boeterisico is reëel voor Ctac-klanten zonder compliance-mechanisme.
+
+**Ctac-relevantie van de dag:** De Rovo-kwetsbaarheid maakt proactieve klantcommunicatie urgent: Atlassian-gebruikers moeten web-search in Rovo uitschakelen totdat volledige mitigatie beschikbaar is. Tegelijk bevestigt de OpenAI Ultrafast-lancering dat de kosten van real-time AI-toepassingen structureel dalen — nu het moment om klanten te helpen nieuwe use cases te identificeren.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **OpenAI's IPO en Daybreak-uitbreiding: commercie én risico tegelijk.** OpenAI bevestigde deze week dat het IPO-prospectus binnen weken verwacht wordt (September-doel) terwijl het gelijktijdig "Daybreak Red" uitrolt met GPT-5.6-Cyber — een model dat zelfstandig twee onbekende zero-day kwetsbaarheden in Chrome V8 ontdekte en 95% van gevoelige cybersecurity-vragen beantwoordt. De combinatie van beursambitie en geavanceerde dual-use capaciteiten illustreert de spanning die de sector domineert.
