@@ -83,6 +83,18 @@ tags:
 
 ---
 
+### Zondag 16 augustus
+→ Dagbriefing: [ai-briefing-2026-08-16.md](../ai-briefing-2026-08-16.md)
+
+**Highlights:**
+- **Meta lanceert Muse Glimmer (30B, open-weight):** Een volledig lokaal draaibaar agentic model voor consumer-hardware — directe concurrent voor cloud-API's en relevant voor klanten met privacy-eisen (overheid, zorg).
+- **EU AI Act handhaving realiteit:** Transparantievereisten zijn nu afdwingbaar (geldig per 2 aug); chatbots moeten zich kenbaar maken als AI, deepfakes verplicht gelabeld. Boetes tot €35M of 7% wereldwijde omzet.
+- **Prompt injection bij 90+ organisaties (CrowdStrike 2026):** Aanvallers injecteerden kwaadaardige prompts in enterprise AI-tools; agentic AI vergroot het aanvalsoppervlak structureel.
+
+**Ctac-relevantie van de dag:** EU AI Act-handhaving maakt compliance-advies direct verkoopbaar; Meta Glimmer opent de deur voor on-premise AI-pilots bij privacy-gevoelige klanten; prompt injection-risico's bij Copilot en agentic tools vereisen een security-review als standaard onderdeel van elk AI-implementatietraject.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **OpenAI's IPO en Daybreak-uitbreiding: commercie én risico tegelijk.** OpenAI bevestigde deze week dat het IPO-prospectus binnen weken verwacht wordt (September-doel) terwijl het gelijktijdig "Daybreak Red" uitrolt met GPT-5.6-Cyber — een model dat zelfstandig twee onbekende zero-day kwetsbaarheden in Chrome V8 ontdekte en 95% van gevoelige cybersecurity-vragen beantwoordt. De combinatie van beursambitie en geavanceerde dual-use capaciteiten illustreert de spanning die de sector domineert.
