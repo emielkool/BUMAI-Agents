@@ -24,8 +24,14 @@ tags:
 ---
 
 ### Dinsdag 18 augustus
+→ Dagbriefing: [ai-briefing-2026-08-18.md](../ai-briefing-2026-08-18.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **EU AI Act handhaving: AI-telefonisten moeten zich direct identificeren** — NOS en Computable berichten dat de transparantieverplichting breed wordt opgepikt; consumenten én bedrijven krijgen nu rechtsbescherming bij AI-interacties.
+- **Meta Muse Glimmer 30B gelanceerd (Apache 2.0):** Een lokaal draaiend open-source model met agentische capaciteiten en multimodaliteit — direct concurrent voor cloud-gebaseerde AI, met grote gevolgen voor on-premise deployment bij overheid en finance.
+- **Atlassian Rovo kwetsbaar voor prompt injection:** Aanvallers kunnen Jira/Confluence-data exfiltreren via één aanval. OWASP bevestigt: prompt injection blijft de #1 LLM-kwetsbaarheid — enterprise AI-integraties creëren nieuwe aanvalsvectoren.
+
+**Ctac-relevantie van de dag:** De EU AI Act-handhaving maakt compliance-assessments urgent voor klanten met AI-klantcontact. Tegelijkertijd opent Muse Glimmer kansen voor Ctac bij privacy-bewuste klanten die cloud-AI mijden. De Atlassian-kwetsbaarheid vraagt om proactieve klantcommunicatie als security-partner.
 
 ---
 
