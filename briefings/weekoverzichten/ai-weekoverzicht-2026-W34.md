@@ -36,8 +36,14 @@ tags:
 ---
 
 ### Woensdag 19 augustus
+→ Dagbriefing: [ai-briefing-2026-08-19.md](../ai-briefing-2026-08-19.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **EU AI Act transparantievereisten van kracht:** Handhaving gestart 2 augustus — chatbots moeten zich identificeren als AI, deepfakes verplicht gelabeld. De AI Office én nationale autoriteiten hebben nu afdwingbevoegdheden; hoog-risico systemen (Annex I) krijgen uitstel tot augustus 2028 via de AI Omnibus.
+- **Google Gemini 3.7 Flash en OpenAI Ultrafast mode:** Google's coding benchmark steeg in drie weken van 34% naar 44%; OpenAI's GPT-5.6 Sol draait nu op 750 tokens/seconde (14× sneller) via Cerebras. De modelrace en infrastructuursnelheid versnellen tegelijkertijd.
+- **Stripe koopt OpenRouter voor $7 miljard:** Model-routing voor 400+ LLMs landt in betalingsinfrastructuur — betalingen en AI-orkestratie convergeren, met grote implicaties voor developer-tooling en enterprise AI-stacks.
+
+**Ctac-relevantie van de dag:** De EU AI Act-handhaving is nu volledig actief: compliance-trajecten voor klanten met chatbots en generatieve AI zijn urgent. Twee derde van bedrijven zit nog vast in de pilot-fase — dit is de openingsmarkt voor Ctac als productie-enabler. Meta Muse Glimmer (Apache 2.0, lokaal) biedt kansen bij privacy-bewuste klanten in overheid, zorg en finance.
 
 ---
 
