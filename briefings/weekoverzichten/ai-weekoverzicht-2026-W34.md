@@ -48,8 +48,14 @@ tags:
 ---
 
 ### Donderdag 20 augustus
+→ Dagbriefing: [ai-briefing-2026-08-20.md](../ai-briefing-2026-08-20.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **EU AI Act handhaving volledig actief (2 augustus):** Transparantie-eisen zijn nu juridisch afdwingbaar — chatbots moeten zich identificeren als AI, deepfakes moeten gelabeld zijn. Het AI Office en nationale toezichthouders kunnen nu boetes opleggen. Voor Ctac-klanten met klantcontact-AI is compliance geen optie meer.
+- **Prompt injection raak bij drie grote coding tools tegelijk:** Claude Code, Gemini CLI en GitHub Copilot werden gelijktijdig getroffen; credentials gelekt via besmette repositories. AI-coding agents in productie vereisen minimale IAM-permissies en onbetrouwbare input-behandeling — nu een aangetoond risico, geen theorie.
+- **Microsoft Frontier Company ($2,5 miljard):** Microsoft bouwt een eigen AI-implementatiebedrijf met 6.000 experts — directe concurrent voor IT-consultancies. Enterprise AI verschuift van experiment naar productie; hyperscalers investeren gezamenlijk >$500 miljard in capex voor 2026.
+
+**Ctac-relevantie van de dag:** Microsoft Frontier Company is de meest urgente strategische dreiging voor Ctac's implementatiediensten — maar biedt ook kansen in segmenten waar Microsoft niet direct actief is. EU AI Act-compliance assessments zijn nu tijdgevoelig. De prompt injection-incidenten creëren een onderscheidende propositieruimte rondom veilige AI-integratie.
 
 ---
 
