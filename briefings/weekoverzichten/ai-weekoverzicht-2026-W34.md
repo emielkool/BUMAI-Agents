@@ -60,8 +60,14 @@ tags:
 ---
 
 ### Vrijdag 21 augustus
+→ Dagbriefing: [ai-briefing-2026-08-21.md](../ai-briefing-2026-08-21.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **EU AI Act handhaving actief per 2 augustus:** Chatbots moeten zich als AI identificeren, deepfakes verplicht gelabeld; het AI Office en nationale autoriteiten handhaven nu actief met boetebevoegdheid. De AI Omnibus verlengt de deadline voor hoog-risico systemen tot december 2027, maar Artikel 50 is direct afdwingbaar.
+- **OpenAI GPT-5.6 Ultrafast + Meta Muse Glimmer 30B lokaal:** OpenAI's Sol-model draait nu 14× sneller en is 54% token-efficiënter in codeertaken; Meta's Muse Glimmer 30B brengt volledig lokale agentic AI op consumenten-hardware — zonder cloud-afhankelijkheid, interessant voor privacy-gevoelige sectoren.
+- **Prompt injection: 94% van LLM-agents kwetsbaar:** Drie AI-codeeragenten lekten secrets via één aanval; Microsoft patchte een CVE in Copilot Studio maar data werd alsnog geëxfiltreerd. Inference-spending ($23,3 mrd) overtreft nu training ($19 mrd) — enterprises operationaliseren in hoog tempo, terwijl de beveiligingsachterstand groeit.
+
+**Ctac-relevantie van de dag:** De combinatie van actieve EU AI Act-handhaving (Artikel 50 nu afdwingbaar) en snel stijgende Benelux-adoptie (NL: 61%, BE: 62%) bevestigt dat compliance-assessments en productie-implementaties de centrale klantbehoefte zijn. Prompt injection als #1 kwetsbaarheid vraagt om security-by-design als vast onderdeel van elk agentic AI-traject dat Ctac begeleidt.
 
 ---
 
