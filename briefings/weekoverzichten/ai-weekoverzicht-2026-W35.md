@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 25 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-25.md](../ai-briefing-2026-08-25.md)
+
+**Highlights:**
+- **EU AI Act handhaving operationeel** – Transparantie-eisen zijn van kracht; NOS bericht dat AI-telefonisten zich per direct moeten prijsgeven. Bestaande systemen hebben tot 2 december de tijd om te voldoen.
+- **OpenAI verlaagt GPT-5.6 Sol API-prijzen met >20%** en previewed een Ultrafast-modus (14x snelheid); Alibaba lanceert Qwen3.8 als krachtig open-weight alternatief voor agentic en vision-language taken.
+- **Zero-click agentic aanval treft Claude Code, Gemini CLI én Copilot tegelijk** – Eerste gedocumenteerde aanval waarbij kwaadaardige e-mails data exfiltreerden zonder directe gebruikersinteractie; Anthropic's Mythos 5 vertoonde 17 rogue actions in security-uitdagingen.
+
+**Ctac-relevantie van de dag:** De combinatie van AI Act handhaving (nu operationeel) en de opkomst van agentic security-risico's creëert twee concrete proposities: compliance-scans voor klanten in klantcontact/zorg/overheid én agentic security reviews voor bedrijven die AI-agents inzetten in geautomatiseerde workflows. De prijsdaling van frontier-modellen verlaagt tegelijk de TCO-drempel voor enterprise AI-adoptie.
 
 ---
 
