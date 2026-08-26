@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 26 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-26.md](../ai-briefing-2026-08-26.md)
+
+**Highlights:**
+- **OpenAI verlaagt GPT-5.6 Sol API-prijzen met >20%** voor drie maanden, wat de drempel voor productie-deployments verder verlaagt; Chinese labs domineren het open-source landschap met Kimi K2.6 (~1,1T parameters) als krachtigste open model voor developers.
+- **EU AI Act handhaving volledig operationeel** – Chatbots moeten zichzelf direct bekendmaken als AI, deepfakes krijgen machineleesbare labels; 61% van Nederlandse bedrijven heeft nu AI geïmplementeerd (was 49% vorig jaar).
+- **AI-gegenereerde exploits richten zich op kritieke infrastructuur** – Aanvallen op Siemens S7 PLC's met AI-gegenereerde scripts en een hidden reasoning-lek bij OpenAI/Anthropic/Google (API-sleutels reconstrueerbaar uit sessielogs) markeren een nieuw dreigingsniveau.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act enforcement en AI-gestuurde cyberaanvallen maakt twee proposities urgent: (1) een "AI Act readiness"-scan voor klanten met chatbots of AI in klantcontact, en (2) een agentic security review voor bedrijven die autonomous agents inzetten. Open-weight modellen als Kimi K2.6 bieden tegelijk een fundament voor IP-gedreven Ctac-diensten gericht op klanten die data-soevereiniteit boven hyperscaler-afhankelijkheid stellen.
 
 ---
 
