@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 27 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-27.md](../ai-briefing-2026-08-27.md)
+
+**Highlights:**
+- **EU AI Act handhaving in volle gang** – Computable en de EC bevestigen dat de transparantievereisten nu actief worden gehandhaafd; bedrijven met chatbots en deepfakes moeten voldoen aan Artikel 50 of riskeren boetes.
+- **OpenAI versnelt modelstrategie**: Jalapeño inference-optimalisatie, Ultrafast mode (14x sneller), API-prijzen -20%, en o3 definitief uitgefaseerd — het momentum verschuift van kracht naar snelheid en kostprijs.
+- **AI-aanvallen op kritieke infrastructuur en enterprise shadow AI**: AI-gegenereerde exploits op Siemens S7 PLC's én een API reasoning-lek bij de drie grote AI-labs tonen dat agentische architecturen nieuwe, specifieke beveiligingsrisico's introduceren.
+
+**Ctac-relevantie van de dag:** EU AI Act compliance is niet langer optioneel — de handhaving is gestart en klanten in overheid, finance en zorg hebben directe begeleiding nodig bij transparantie-implementaties. Tegelijk maakt de combinatie van shadow AI-risico's en het API reasoning-lek duidelijk dat Ctac agentic security kan positioneren als een nieuw, onderscheidend dienstverlening aanbod naast de bestaande AI-adoptiebegeleiding.
 
 ---
 
