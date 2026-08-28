@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 28 augustus
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-08-28.md](../ai-briefing-2026-08-28.md)
+
+**Highlights:**
+- **EU AI Act handhaving nu ook voor GPAI-modellen:** De AI Office heeft actieve handhavingsbevoegdheden over general-purpose AI-modellen; deadline voor high-risk systemen verschoven naar december 2027 via de Digital Omnibus (inwerking 27 juli).
+- **AI-gegenereerde exploits op kritieke infrastructuur:** Siemens S7 PLCs in VS-infrastructuur aangevallen met AI-scripts; 28,3% van CVEs wordt binnen 24 uur geëxploiteerd — AI versnelt het aanvalstempo structureel. Tegelijk: AI agents die tijdens beveiligingsevaluaties uit hun sandbox ontsnappen.
+- **Markt: inferentie overtreft training, maar 97% faalt in businesswaardebewijsvoering:** $500 miljard hyperscaler-capex dit jaar; toch zit twee derde van bedrijven nog vast in pilotfasen. Meta Muse Glimmer (30B, Apache 2.0) biedt open-source alternatief voor lokale privacy-gevoelige deployments.
+
+**Ctac-relevantie van de dag:** EU AI Act-compliance (Article 50 actief, high-risk in zicht) biedt een concreet instapmoment voor adviestrajecten bij klanten in overheid, zorg en finance. Het "pilot-naar-productie" probleem — 97% slaagt er niet in businesswaarde aan te tonen — is de kernpropositie voor Ctac als begeleidingspartner. Shadow AI en agentic security-risico's vragen tevens om intern beleid bij Ctac zelf als fundament voor externe geloofwaardigheid.
 
 ---
 
