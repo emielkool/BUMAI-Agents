@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 1 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-01.md](../ai-briefing-2026-09-01.md)
+
+**Highlights:**
+- **Meta Muse Glimmer (30B, Apache 2.0):** Nieuw open-source agentisch model voor lokale inzet, met multimodale input en betrouwbaar toolgebruik — serieus alternatief voor closed-source voor privacy-bewuste klanten.
+- **EU AI Act-taskforces starten september:** Na de handhavingsstart van 2 augustus starten nu twee taskforces voor de Code of Practice Transparency met ~190 ondertekenaars; compliance is geen toekomstige verplichting meer.
+- **Amazon Kiro prompt injection via MCP (augustus 2026):** Zero-interactie-aanval exfiltreert gevoelige data via MCP-dialoogvenster — directe waarschuwing voor agentic AI-projecten met tool-integraties.
+
+**Ctac-relevantie van de dag:** EU AI Act-compliance (chatbot-labeling, deepfake-markering) is per direct afdwingbaar en verkoopbaar als dienst; tegelijk vragen agentic AI-projecten nu expliciet om MCP/RAG security-reviews als onderdeel van elke delivery.
 
 ---
 
