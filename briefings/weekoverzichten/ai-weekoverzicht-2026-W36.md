@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 2 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-02.md](../ai-briefing-2026-09-02.md)
+
+**Highlights:**
+- **Meta Muse Glimmer & Inkling uitgebracht:** Meta's 30B agentisch open-source model (Apache 2.0) en Thinking Machines' multimodaal Inkling (1M context) zijn vandaag live op Hugging Face — open-source sluit verder aan op closed-source capabilities.
+- **EU AI Act transparantieregels al een maand van kracht:** AI-telefonisten en chatbots moeten zich direct identificeren; conformiteitschecklists zijn nu urgenter met deadline 2 december 2026 in zicht (CSAM-verboden).
+- **Big Tech noodklok kritieke infrastructuur:** Meer dan honderd techbedrijven waarschuwen voor bredere golf van AI-gedreven cyberaanvallen — en 16% van AI-extensies bevat al bekende CVE-kwetsbaarheden.
+
+**Ctac-relevantie van de dag:** De combinatie van open-source modellen (Muse Glimmer voor on-premise) en de "pilot-trap" (tweederde van bedrijven vastgelopen in PoC-fase) biedt Ctac een concrete propositie: van pilot naar productie, met ingebouwde governance en security. Dat sluit direct aan op de platform-transitie die intern gaande is.
 
 ---
 
