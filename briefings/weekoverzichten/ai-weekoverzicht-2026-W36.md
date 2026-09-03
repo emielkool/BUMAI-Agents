@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 3 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-03.md](../ai-briefing-2026-09-03.md)
+
+**Highlights:**
+- **EU AI Act handhaving actief + AI Omnibus van kracht:** Vanaf 2 augustus handhaaft de Europese AI Office actief; de AI Omnibus (van kracht 27 juli) centraliseert GPAI-toezicht en verlicht eisen voor kleine midcap-bedrijven.
+- **AI-assisted PLC exploit-porting via Claude:** Onderzoekers porteerden een pre-auth RCE-exploit naar een ander PLC-model met AI-assistentie — AI als aanvalswapen op industriële systemen is praktijkwerkelijkheid geworden.
+- **SAP Business AI Platform + Autonomous Suite:** SAP verenigt zijn volledige aanbod (BTP, Data Cloud, AI) en introduceert agentic procesautomatisering — direct relevant voor Ctac's SAP-praktijk.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act-handhaving (compliance nu urgent), de SAP Autonomous Suite (agentic SAP voor bestaande klanten), en de pilot-stagnatie (twee derde enterprises vast in PoC) geeft Ctac drie concrete propositiesporen voor Q4: compliance-begeleiding, SAP agent-implementatie, en van-pilot-naar-productie-trajecten.
 
 ---
 
