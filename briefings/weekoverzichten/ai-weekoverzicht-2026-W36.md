@@ -67,24 +67,31 @@ tags:
 
 ### Vrijdag 4 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-04.md](../ai-briefing-2026-09-04.md)
+
+**Highlights:**
+- **OpenAI lanceert GPT-6 Astra met AGI-claim:** Het model voert autonoom multi-step workflows uit op desktops en browsers, scoort als eerste model "Critical" op cybersecurity-capability, en OpenAI noemt dit het begin van het AGI-tijdperk.
+- **Anthropic Fable 5.1 met 75% lagere cache-kosten:** Cache reads dalen van $1,00 naar $0,25 per miljoen tokens; agentische workloads worden tot 45% goedkoper, met zero data retention voor enterprise-klanten.
+- **CrowdStrike SafeMind:** Duaal agentic security-systeem waarbij offensief (Red Tempest) en defensief (Blue Solano) AI in een gesloten lus samenwerken — een eerste praktisch voorbeeld van AI die AI-aanvallen bestrijdt.
+
+**Ctac-relevantie van de dag:** GPT-6 Astra plaatst agentic AI nu onomkeerbaar centraal in het enterprise-gesprek; de prijs-performance verbetering van Fable 5.1 maakt business cases voor klanten met hoge token-volumes direct aantrekkelijker. Dit is het moment om concrete agentic proposities bij klanten te openen — en om de security-component (prompt injection, AI-gedreven exploits) structureel mee te nemen in elke AI-delivery.
 
 ---
 
 ## 🔁 Weeksynthese
 
-*(Wordt gegenereerd op vrijdag 4 september 2026)*
-
 ### Rode draad van de week
 
-*(Vul in op vrijdag: wat was het overkoepelende thema of de dominante beweging deze week?)*
+Week 36 wordt gekenmerkt door twee parallelle bewegingen: **agentic AI bereikte een nieuw niveau van volwassenheid** (van Meta Muse Glimmer tot GPT-6 Astra, autonome multi-step uitvoering is mainstream geworden), terwijl **compliance en security urgentie kregen** (EU AI Act volledig actief, prompt injection bij 90+ organisaties, AI-gedreven exploits op industriële systemen). De week sluit af met OpenAI's provocatieve AGI-claim — een marketingstatement met serieuze onderliggende techniek.
 
 ### Top 3 strategische inzichten voor Ctac
 
-1. *(placeholder)*
-2. *(placeholder)*
-3. *(placeholder)*
+1. **EU AI Act-compliance is een verkoopbaar aanbod nú:** Transparantieregels, chatbot-labeling en high-risk AI-classificatie vragen direct actie bij klanten in zorg, overheid en finance. Ctac kan hier als implementatiepartner optreden.
+2. **Agentic AI is niet meer experimenteel:** GPT-6 Astra, SAP Autonomous Suite en Meta Muse Glimmer bevestigen dat autonoom werkende AI-agents productieklaar zijn. De tweederde van enterprises die vastzitten in pilots hebben een concrete "van pilot naar productie"-partner nodig.
+3. **Security moet integraal onderdeel van AI-delivery worden:** Prompt injection (OWASP #1), MCP-aanvallen, AI-gedreven exploits op OT/ICS — het risicoprofiel van AI-projecten is wezenlijk veranderd. Een security-review als standaard deliverable onderscheidt Ctac.
 
 ### Kansen & aandachtspunten voor de week erna
 
-*(placeholder)*
+- **Fable 5.1 en GPT-6 Astra prijsimpact**: Actualiseer business cases voor lopende of geplande AI-projecten — de kostenstructuur is gewijzigd.
+- **SAP Autonomous Suite**: Klanten met SAP-omgevingen verwachten concrete vragen over agentic SAP. Intern kennisopbouw is urgent voor de SAP-praktijk.
+- **EU AI Act december-deadline**: Verbod op CSAM-gerelateerde AI-toepassingen wordt 2 december 2026 van kracht — klanten met content-moderatiesystemen moeten nu handelen.
