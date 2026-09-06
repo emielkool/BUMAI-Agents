@@ -193,3 +193,16 @@ Nederland heeft een sterke marktpositie: #2 in Europa qua AI-goederen export (>�
 **Ctac-relevantie van de dag:** GPT-6 Astra plaatst agentic AI nu onomkeerbaar centraal in het enterprise-gesprek; de prijs-performance verbetering van Fable 5.1 maakt business cases voor klanten met hoge token-volumes direct aantrekkelijker. Dit is het moment om concrete agentic proposities bij klanten te openen — en om de security-component (prompt injection, AI-gedreven exploits) structureel mee te nemen in elke AI-delivery.
 
 ---
+
+### Zondag 6 september
+
+→ Dagbriefing: [ai-briefing-2026-09-06.md](../ai-briefing-2026-09-06.md)
+
+**Highlights:**
+- **GPT-6 Astra uitgerold naar alle ChatGPT-plannen:** Na de enterprise-preview rolt OpenAI het model nu breder uit; Artificial Analysis Index v4.2 zet Claude Fable 5.1 op #1 en GPT-6 Astra op #2 — eerste keer dat een nieuw OpenAI-model direct door een concurrent wordt overvleugeld.
+- **Prompt injection op epidemische schaal:** Drie AI-codeeragenten lekten secrets via één aanval; Microsoft Copilot Studio exfiltreerde toch data na een patch. OWASP rankt prompt injection voor de tweede editie op rij als #1 LLM-kwetsbaarheid.
+- **EU AI Act handhaving loopt:** Transparantie-eisen en deepfake-labelplicht zijn per 2 augustus actief; politie en OM waarschuwen (4 september) dat AI cybercrime in Nederland sneller en overtuigender maakt.
+
+**Ctac-relevantie van de dag:** EU AI Act compliance is direct verkoopbaar als dienst — klanten in overheid, zorg en finance lopen reëel handhavingsrisico. Tegelijk maakt de prompt injection-escalatie het noodzakelijk om security-reviews standaard op te nemen in elke agentic AI-delivery bij Ctac.
+
+---
