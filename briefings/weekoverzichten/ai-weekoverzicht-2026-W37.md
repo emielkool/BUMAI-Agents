@@ -26,7 +26,14 @@ tags:
 ---
 
 ### Dinsdag 8 september
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-08.md](../ai-briefing-2026-09-08.md)
+
+**Highlights:**
+- **OpenAI GPT-6 Astra uitgerold** – Meest krachtige OpenAI-model tot nu toe (uitgebracht 3 september), met autonome "computer use"-functionaliteit; Greg Brockman spreekt van potentiële AGI. API-prijs $10/$50 per miljoen tokens; beperkte cybersecurity-capabilities in v1.
+- **EU AI Omnibus: disclosure-deadline al verstreken** – Hoog-risico AI-systemen (Annex III) mogen tot december 2027 wachten, maar labeling en herkomstmarkering van generatieve output moest al op 2 augustus 2026 — een compliance-risico voor veel organisaties.
+- **Prompt injection escaleert naar productie-incidents** – Drie AI-codeeragenten lekten credentials via één injectiepunt; Microsoft Copilot Studio CVE patchte niet volledig. Enterprise AI-security is operationeel probleem, geen theorie.
+
+**Ctac-relevantie van de dag:** De combinatie van GPT-6 Astra's computer-use-mogelijkheden en de inmiddels verstreken disclosure-deadline schept twee directe kansen: korte-termijn pilots rondom documentverwerking voor klanten in publieke sector en finance, én een compliance-scan op AI-labeling voor klanten die generatieve AI al inzetten.
 
 ---
 
