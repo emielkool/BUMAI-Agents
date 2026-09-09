@@ -38,7 +38,14 @@ tags:
 ---
 
 ### Woensdag 9 september
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-09.md](../ai-briefing-2026-09-09.md)
+
+**Highlights:**
+- **Dichtste modelweek van het jaar:** Claude Fable 5.1 (Anthropic, 1 sept), Gemini 3.8 Flash (Google, 2 sept) en GPT-6 Astra (OpenAI, 3 sept) verschenen binnen 72 uur — GPT-6 Astra is het eerste model dat OpenAI's interne 'critical-cyber safeguard'-drempel triggert.
+- **Nvidia koopt Hugging Face voor $13 miljard:** De grootste open-source AI-hub wordt onderdeel van Nvidia's ecosysteem; het platform blijft open, maar verticale integratie van chip tot modelplatform is een marktbepalende stap.
+- **Prompt injection escaleert in enterprise:** Aanvalsucceskansen op AI-agenten liggen op 50–84% (OWASP LLM01); kritieke CVE's in GitHub Copilot (CVSS 9.6) en Cursor IDE (CVSS 9.8) bewijzen dat dit een operationeel productierisico is.
+
+**Ctac-relevantie van de dag:** EU AI Act handhaving is per 2 augustus een realiteit — klanten die GPAI-modellen in productie draaien hebben nu een directe compliancy-verplichting. Ctac kan zich onderscheiden met een vendor-agnostisch agentimplementatieraamwerk én een AI-security baseline (prompt injection defense-in-depth) als standaard onderdeel van elke enterprise AI-uitrol.
 
 ---
 
