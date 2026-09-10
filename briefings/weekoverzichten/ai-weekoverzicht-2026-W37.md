@@ -50,7 +50,14 @@ tags:
 ---
 
 ### Donderdag 10 september
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-10.md](../ai-briefing-2026-09-10.md)
+
+**Highlights:**
+- **Dichtstste modelweek bevestigd:** Binnen 72 uur lanceerden Anthropic (Claude Fable 5.1 + Mythos 5.1), Google (Gemini 3.8 Flash), Meta (Muse Spark 1.3) en OpenAI (GPT-6 Astra) nieuwe frontiermodellen — "model fatigue" is nu ook mediaonderwerp.
+- **Kritieke Azure OpenAI-kwetsbaarheid (CVE-2026-45499):** SSRF-flaw maakt zijwaartse beweging door aanvallers mogelijk in enterprise AI-omgevingen; 78% van de CISOs ziet AI als beveiligingsrisico (Proofpoint, vandaag gepubliceerd).
+- **EU AI Act 15 september-deadline:** GPAI-aanbieders boven 10²⁵ FLOPs moeten aanstaande zondag hun eerste systeemrisico-evaluaties indienen bij het Europees AI-kantoor — voor Ctac-klanten een directe compliancy-actie.
+
+**Ctac-relevantie van de dag:** De combinatie van de naderende GPAI-deadline én de kritieke Azure OpenAI-kwetsbaarheid vraagt om directe klantcommunicatie vóór het weekend. Tegelijk biedt de convergentie van hyperscaler-agentplatforms (Microsoft Foundry, Google, Amazon) een kans voor Ctac om klanten te helpen vendor-neutraal te evalueren — juist nu de adoptiedruk groot is maar ROI-bewijs ontbreekt.
 
 ---
 
