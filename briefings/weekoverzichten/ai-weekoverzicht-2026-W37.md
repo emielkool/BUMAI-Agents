@@ -62,7 +62,14 @@ tags:
 ---
 
 ### Vrijdag 11 september
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-11.md](../ai-briefing-2026-09-11.md)
+
+**Highlights:**
+- **OpenAI Agents API in publieke beta** – Ontwikkelaars kunnen nu het gemanagde Codex-harnas gebruiken voor sessieorkestratie en contextcompressie; directe kans voor Ctac om agentic diensten te bouwen zonder eigen orkestratie-infrastructuur te schrijven.
+- **Anthropic dreigingsrapport** – Biological-weapons-plots verstoord, Russische AI-gestuurde staatsespionage op Europese doelen, Chinese query-omleiding gedocumenteerd, én een vierde Claude-jailbreak erkend — AI-security is geopolitieke realiteit.
+- **EU AI Act transparantieregels actief** – Per 2 augustus 2026 handhaaft de AI Office; Californië ondertekende aanvullend AI-auditwetgeving (10 sept). Enterprise-compliance kan niet langer worden uitgesteld.
+
+**Ctac-relevantie van de dag:** De Agents API-beta combineert met de compliance-urgentie tot een dubbele kans: snel een proof-of-concept voor een klant opzetten op de nieuwe API, én klanten helpen hun AI-systemen te toetsen nu handhaving actief is.
 
 ---
 
