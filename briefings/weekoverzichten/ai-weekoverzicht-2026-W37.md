@@ -73,6 +73,18 @@ tags:
 
 ---
 
+### Zondag 13 september
+→ Dagbriefing: [ai-briefing-2026-09-13.md](../ai-briefing-2026-09-13.md)
+
+**Highlights:**
+- **EU AI Act handhaving in volle gang**: De AI Office is operationeel met volledige toezichts- en handhavingsbevoegdheden; de AI Omnibus-amendementen (aangenomen juni 2026, in werking 27 juli) brachten gerichte vereenvoudigingen maar verzwaren transparantieverplichtingen die al gelden.
+- **Prompt injection in productie: Copilot Studio CVE (CVE-2026-21520) data-exfiltreerbaar ondanks patch**: Capsule Security toonde aan dat gegevens toch konden worden onttrokken; prompt injection blijft structureel onopgelost als aanvalsvector in enterprise AI.
+- **Microsoft Frontier Company en Google-Accenture deal concurreren directe Ctac-propositie**: Microsoft ($2,5B, 6.000 specialisten) en Google/Accenture (Gemini Enterprise Business Group) positioneren zich als de standaard voor enterprise AI-deployments — de markt voor implementatiediensten professonaliseert snel.
+
+**Ctac-relevantie van de dag:** De combinatie van actieve EU AI Act handhaving en de opmars van grote hyperscaler-deploymentarmen vraagt om directe positionering van Ctac: sector-diepte en change management als onderscheidende factoren, plus een AI-compliance instapproduct voor klanten in overheid, zorg en finance.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **GPT-6 Astra markeert een breukpunt in AI-capabilities.** OpenAI lanceerde op 3 september zijn meest ambitieuze model met native computer use, 1,05 miljoen tokencontext en opaque recurrence — het eerste model dat OpenAI's eigen critical-cyber safeguard triggert. Frontier-AI is niet langer alleen een taalmodel maar een autonoom werkend systeem, met alle mogelijkheden én risico's van dien.
