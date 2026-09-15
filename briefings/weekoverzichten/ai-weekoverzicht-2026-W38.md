@@ -26,8 +26,14 @@ tags:
 ---
 
 ### Dinsdag 15 september
+→ Dagbriefing: [ai-briefing-2026-09-15.md](../ai-briefing-2026-09-15.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Amodei roept op tot pauzeren AI-race** – Anthropic-CEO Dario Amodei publiceerde "We Must Pace the Frontier" met een concreet plan voor embedded onafhankelijke evaluatoren; Sam Altman (OpenAI), Elon Musk en Demis Hassabis schaarden zich binnen uren achter het voorstel.
+- **Drie labs lanceren gezamenlijk Cyber AI-modellen** – Google (Gemini 3.8 Flash Cyber), Anthropic (Claude Mythos 5.1) en OpenAI presenteren gespecialiseerde veiligheidsmodellen met gecontroleerde toegang — een opmerkelijk niveau van samenwerking.
+- **Agentische AI: 71% chatbot, geen echte agent** – Nieuw onderzoek toont dat slechts 15% van organisaties multiagent-systemen werkelijk heeft opgeschaald; de meerderheid noemt single-prompt wrappers ten onrechte "agents."
+
+**Ctac-relevantie van de dag:** De deployment-kloof tussen hype en werkende agent-implementaties is precies de ruimte waar Ctac als implementatiepartner waarde kan toevoegen — niet als model-reseller, maar als architect van echte AI-workflows voor enterprise-klanten.
 
 ---
 
