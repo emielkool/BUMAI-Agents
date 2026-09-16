@@ -38,8 +38,14 @@ tags:
 ---
 
 ### Woensdag 16 september
+→ Dagbriefing: [ai-briefing-2026-09-16.md](../ai-briefing-2026-09-16.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **AI-sector stemt in met vrijwillige pauze** – Meer dan honderd techbedrijven kozen voor een gecoördineerde trainingspauze voor de meest geavanceerde modellen; een uniek signaal dat de sector catastrofale risico's serieus neemt.
+- **EU AI Act enforcement volledig actief** – Verboden praktijken worden actief gehandhaafd, nationale AI-sandboxes zijn verplicht operationeel; hoog-risico-toepassingen volgen per december 2027.
+- **Mistral haalt €3 miljard op met ASML als mede-investeerder** – Grootste aandelenronde voor een Europees techbedrijf ooit; bevestigt de groei van het Europese AI-ecosysteem als volwaardig alternatief voor Amerikaanse hyperscalers.
+
+**Ctac-relevantie van de dag:** Microsoft's lancering van Frontier Company ($2,5 miljard voor enterprise AI-deployment) valideert Ctac's propositie als implementatiepartner. Tegelijk opent de EU AI Act en de vraag naar soevereine AI (Fast LTA Benelux-lancering) concrete advies- en projectkansen bij overheids- en enterprise-klanten.
 
 ---
 
