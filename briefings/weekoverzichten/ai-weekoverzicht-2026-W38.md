@@ -50,8 +50,14 @@ tags:
 ---
 
 ### Donderdag 17 september
+→ Dagbriefing: [ai-briefing-2026-09-17.md](../ai-briefing-2026-09-17.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **WBSO uitgebreid voor AI-software (Prinsjesdag 2026)** – Het kabinet maakt AI-gerelateerde softwareontwikkeling fiscaal aantrekkelijker via de WBSO en een hogere innovatiebox voor het MKB; dit geldt per 2027.
+- **Browser-extensie kaapt vijf AI-assistenten tegelijk** – Eén kwaadaardige extensie blijkt genoeg om Gemini, Claude, Copilot Edge, Perplexity Comet en Opera Neon over te nemen; AI-coding-sessies worden ook actief gehijacked met verspreiding via ~100 GitHub-repositories.
+- **Microsoft Copilot: 20 miljoen betaalde seats, $37 mrd omzetrun** – Enterprise-adoptie van AI versnelt sterk; Gartner bevestigt Microsoft en Google als dominante aanbieders voor enterprise AI.
+
+**Ctac-relevantie van de dag:** De WBSO-uitbreiding is direct relevant voor de businesscase van AI-projecten bij Ctac en haar klanten in 2027. De browser-extensie-kwetsbaarheid maakt AI-gebruik-beleid en extensiebeheer urgent — een concrete adviesopportuniteit in bestaande security-trajecten.
 
 ---
 
