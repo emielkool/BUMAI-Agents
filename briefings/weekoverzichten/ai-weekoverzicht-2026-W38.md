@@ -62,8 +62,14 @@ tags:
 ---
 
 ### Vrijdag 18 september
+→ Dagbriefing: [ai-briefing-2026-09-18.md](../ai-briefing-2026-09-18.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **GPT-6 Astra's dual-use-risico bevestigd** – OpenAI's nieuwste model scoort 100% op ExploitBench en is daarmee ook uitzonderlijk goed in het exploiteren van computersystemen; de "opaque recurrence"-techniek blokkeert externe audit van het redeneerproces.
+- **EU AI Act volledig actief + WBSO verruimd** – Transparantieplicht gehandhaafd, volgende deadline 2 december. Gelijktijdig maakt het kabinet AI-softwareontwikkeling fiscaal aantrekkelijker via de WBSO.
+- **Prompt injection als enterprise-compliance-issue** – EchoLeak toont eerste zero-click exploit in productie; Microsoft's Copilot Studio werd gepatcht maar data exfiltreerde toch. OWASP #1 LLM-kwetsbaarheid blijft structureel onopgelost.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act-handhaving en prompt injection-escalatie maakt AI-security en compliance tot een directe propositiekans. De WBSO-uitbreiding (actief per 2027) versterkt de businesscase voor AI-software-projecten bij Ctac en haar klanten.
 
 ---
 
