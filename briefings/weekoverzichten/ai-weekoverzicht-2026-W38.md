@@ -85,6 +85,18 @@ tags:
 
 ---
 
+### Zondag 20 september
+→ Dagbriefing: [ai-briefing-2026-09-20.md](../ai-briefing-2026-09-20.md)
+
+**Highlights:**
+- **Amodei en Altman pleiten voor AI-groeivertraging** – CEO's van Anthropic en OpenAI steunen een bewuste rem op de krachtigste frontier-modellen; een Anthropic-onderzoeker stapte op en waarschuwt voor existentieel risico binnen een decennium.
+- **Kimi K3: grootste open-source model ooit** – Moonshot AI lanceerde een 2,8 biljoen parameter model dat concurreert met proprietary systemen van OpenAI en Anthropic; China versterkt zijn positie in het open-source AI-landschap.
+- **Enterprise-adoptie stagneert: 2/3 vast in pilots** – Ondanks Microsoft Copilot's 20M+ betaalde seats en $37 mrd jaaromzet (+123% YoY) slaagt slechts een minderheid van bedrijven erin generatieve AI van pilot naar productie te brengen.
+
+**Ctac-relevantie van de dag:** De combinatie van EU AI Act handhaving (transparantieregels actief), snelgroeiend Microsoft Copilot-adoptie en aanhoudende enterprise pilot-stagnatie maakt implementatiebegeleiding en compliance-advies tot de meest concrete proposities voor Ctac deze week.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **GPT-6 Astra: "AGI-niveau" met een keerzijde** – OpenAI's meest capabele model ooit scoort 100% op ExploitBench en 98,6% op ARC-AGI-3, waarmee OpenAI zelf het "AGI-tijdperk" uitroept. De *opaque recurrence*-techniek maakt externe audit van het redeneerproces echter nagenoeg onmogelijk — een rode vlag voor enterprise-inzet. Astra is daarmee tegelijk de grootste capability-sprong én het meest onauditbare frontier-model tot nu toe.
