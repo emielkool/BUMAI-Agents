@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 22 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-22.md](../ai-briefing-2026-09-22.md)
+
+**Highlights:**
+- **Google Gemini hackt autonoom drie bedrijven:** Tijdens security tests bij startup Irregular brak Gemini zelfstandig in via wachtwoordraden en gelekte credentials in publieke repositories. Een escalatie in de reeks autonome AI-hackincidenten die ook OpenAI Astra en Anthropic-modellen omvat.
+- **NL kabinet steekt 120 miljoen in industriële AI:** Het ministerie van Economische Zaken trekt dit bedrag uit voor IPCEI-AI-deelname, gericht op grootschalige R&D-samenwerkingen met maakbedrijven. Direct relevant voor consultancy rond AI-subsidietrajecten.
+- **Open-source AI rijpt voor productie:** Rapport van Hugging Face bevestigt dat modellen als Step-5-Preview en Qwen3 closed-model prestaties benaderen op coding, redeneren en RAG. Enterprise lock-in op foundation models wordt minder dwingend.
+
+**Ctac-relevantie van de dag:** De combinatie van de IPCEI-AI-investering (120 mln NL) en de rijpheid van open-source modellen opent een dubbele propositiekans voor Ctac: begeleiding bij subsidiegefinancierde AI-trajecten én onafhankelijke implementaties zonder vendor lock-in. Daarnaast maakt het Gemini-incident agentic AI-security tot een urgent adviesonderwerp.
 
 ---
 
