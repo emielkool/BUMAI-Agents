@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 23 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-23.md](../ai-briefing-2026-09-23.md)
+
+**Highlights:**
+- **OpenAI lanceerde GPT-6 Sol en Luna (–50% prijs):** Twee nieuwe modellen in de GPT-6-familie maken Astra-kwaliteit bereikbaar voor dagelijks professioneel en bulk-gebruik. Sol kost $2/$10 per miljoen tokens — de helft van de 5.6-versie.
+- **Anthropic bracht Claude Opus 5.5 uit:** Fable 5.1-niveau prestaties voor 40% minder kosten dan Opus 5, met topscores op agentic coding benchmarks. Sonnet 5.5 en Haiku 5.5 volgen binnenkort.
+- **EU AI Act handhaving actief, NL volgt decentraal model:** Per 2 augustus handhaaft het AI Office GPAI-regels en transparantievereisten. Nederland koos voor acht sectorale toezichthouders zonder extra nationale vereisten.
+
+**Ctac-relevantie van de dag:** De simultane prijsdalingen van OpenAI en Anthropic verlagen de drempel voor AI in enterprise business cases aanzienlijk — ideaal moment om klanten die afwachtten over de streep te trekken. Tegelijk maakt de EU AI Act-handhaving compliance-assessment voor klanten in gereguleerde sectoren een concrete, urgente propositie voor Ctac dit kwartaal.
 
 ---
 
