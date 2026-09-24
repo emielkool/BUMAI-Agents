@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 24 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-24.md](../ai-briefing-2026-09-24.md)
+
+**Highlights:**
+- **OpenAI GPT-6 Sol & Luna (22 sept) en Google Gemini 3.6 Flash**: September bewijst zich als een uitzonderlijk drukke modelmaand — vijf nieuwe frontier-modellen in drie weken; efficiëntie en lagere kosten zijn de rode draad.
+- **Agentic AI Foundation onder Linux Foundation**: OpenAI, Anthropic en Block richten een neutrale stichting op voor open, interoperabele agentic AI-standaarden — een serieuze tegenhanger voor vendor lock-in bij multi-agent implementaties.
+- **Prompt injection als gecoördineerde aanval**: Claude Code, Gemini CLI en Copilot werden tegelijkertijd getroffen; de combinatie van agentic autonomie en inadequate inputvalidatie maakt dit een structureel enterprise-risico.
+
+**Ctac-relevantie van de dag:** De open Agentic AI Foundation maakt standaard multi-agent architecturen voor klanten toegankelijker en minder leveranciersafhankelijk — een directe kans voor Ctac als implementatiepartner. Tegelijk eisen de aanhoudende prompt injection-incidenten dat security by design de standaard wordt in elke agentic AI-implementatie die Ctac begeleidt.
 
 ---
 
