@@ -12,54 +12,74 @@ tags:
 
 ## 🔑 Highlights van de dag
 
-- **Alibaba Apsara dag 2:** Details van de Qwen Book agentic computer worden gepresenteerd. Het device combineert Qwen Desktop OS, native cloud-integratie en een volledig Qwen-modelstack — de eerste serieuze poging om een AI-native hardwareplatform te bouwen dat de gehele stack controleert.
-- **Agentic AI dwingt reconstructie enterprise-stack af:** Analyse van Alibaba Apsara en Salesforce Dreamforce samen toont een structurele trend: enterprise-software beweegt richting "headless" AI-interfaces waarbij agentische systemen autonoom aan processen werken, los van traditionele UI-lagen.
-- **Cisco State of AI Security 2026:** Cisco publiceerde zijn jaarlijkse AI security-rapport. Conclusie: high-risk prompts verdubbeld (van 2% naar 4%), gemiddeld 10 AI-apps per organisatie per maand — veel zonder IT-goedkeuring. Shadow AI-probleem groeit structureel.
-- **Agentic integratieproblemen domineren:** 46% van enterprise-organisaties noemt integratie met bestaande systemen als primaire uitdaging bij agentic AI-deployments. Intelligentie is niet het knelpunt — veilige toegang tot productiesystemen wel.
+- **OpenAI lanceerde gisteren GPT-6 Sol en Luna**: twee "mini-Astra's" die 50% goedkoper zijn dan hun 5.6-voorgangers en tot de helft minder fouten maken. Sol kost $2/$10 per miljoen tokens; een directe prijsdruk op het hele enterprise-segment.
+- **Anthropic bracht Claude Opus 5.5 uit**: Fable-niveau prestaties voor 40% minder kosten dan Opus 5. Staat nu bovenaan agentic-coding-benchmarks – en kost minder dan GPT-4o kostte een jaar geleden.
+- **EU AI Act volledig in werking**: per 2 augustus handhaaft het AI Office actief GPAI-modellen, verboden praktijken en transparantieverplichtingen. Klanten in gereguleerde sectoren zijn nu aansprakelijk als ze niet compliant zijn.
+- **Prompt injection stijgt 340% jaar-op-jaar** en produceerde een CVSS 9.6-exploit in GitHub Copilot. Elke organisatie die AI-assistenten inzet in development of ops moet dit als productierisico behandelen.
+- **Microsoft richtte Frontier Company op** ($2,5 miljard, 6.000 experts) voor enterprise AI-deployments – en concurreert nu openlijk met zijn eigen partner OpenAI.
 
 ## 🧠 Technologie & Modellen
 
-**Qwen Book – diepere technische analyse:** Het Qwen Book-platform draait op het Qwen Desktop OS, dat AI-native is opgebouwd: geen afterthought-integratie maar modellen als first-class citizens in het OS. Het systeem integreert met Alibaba Cloud voor model-inference en databeheer. De Zhenwu V900-chip (eigen ontwerp) is de compute-ruggengraat — 3x krachtig vergeleken met de M890.
+**OpenAI – GPT-6 Sol & Luna (22 sept)**
+OpenAI breidde de GPT-6-familie uit met Sol (gericht op dagelijks professioneel werk) en Luna (hoog-volume, snelle respons). Sol is 50% goedkoper dan GPT-5.6 Sol ($2/$10 per M tokens) en maakt "ruim twee keer minder fouten" op OpenAI's eigen benchmarks. Luna is nog goedkoper ($0,10/$0,50) voor bulk-inferentie. Dit zijn geen theoretische verbeteringen: de modellen zijn direct beschikbaar in de API en via GitHub Copilot.
+Bron: [TechCrunch](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/) | [OpenAI](https://openai.com/index/gpt-6-astra/)
 
-**AI Wearables (Alibaba):** Naast de Qwen Book liet Alibaba AI-bril, earbuds en een notitie-apparaat zien die allemaal met elkaar communiceren via hetzelfde Qwen-model-backend. Dit vormt een ecosysteem-aanval op de AI-wearables ruimte waar ook Meta (Ray-Ban Smart Glasses), OpenAI/Microsoft en Google actief zijn.
+**Anthropic – Claude Opus 5.5 (22 sept)**
+Opus 5.5 biedt Fable-niveau prestaties voor $4/$20 per M tokens – een verlaging van 20% ten opzichte van Opus 5, met cache-read kosten die dalen van $0,50 naar $0,20. VentureBeat meldt dat het model Fable 5.1 overtreft op key agentic benchmarks. Sonnet 5.5 en Haiku 5.5 volgen "in de komende weken". De snelheid van iteratie (Opus 5 verscheen pas twee maanden geleden) illustreert dat de modellencyclus drastisch is versneld.
+Bron: [Anthropic](https://www.anthropic.com/claude-opus-5-5) | [VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price) | [TechCrunch](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)
 
-**Model-competitie verdicht:** 20 nieuwe AI-modellen uitgebracht in september 2026 tot nu toe, van 12 providers. De dichtste 48-uur release-cluster van het jaar vond dinsdag/woensdag plaats (Grok 4.7, Claude Opus 5.5, GPT-6 Sol/Luna). De markt normaliseert incrementele updates steeds sneller.
+**Open source: Kimi K3 als mijlpaal**
+Moonshot AI's Kimi K3 (2,8 biljoen parameters, uitgebracht 16 juli) is het eerste open-weight model in de 3B-parameterklasse. In combinatie met de groei van Hugging Face naar 3 miljoen+ publieke modelrepositories toont dit dat open-source serieus concurreert voor coding, reasoning en agentic workflows. Gesloten modellen hebben geen vanzelfsprekend voordeel meer.
+Bron: [Hugging Face Blog](https://huggingface.co/blog/state-of-open-models-summer-2026)
 
 ## 🏛️ Governance & Ethiek
 
-**CDT Europe AI Bulletin september 2026:** Het Center for Democracy and Technology signaleerde dat de September 15-deadline (GPAI systeemrisico-evaluaties) het European AI Office in een praktische handhavingspositie heeft gebracht. De kwaliteit van ingediende red-teaming rapporten varieert sterk tussen aanbieders — transparantie over methodologie blijft een aandachtspunt.
+**EU AI Act: handhaving nu volledig actief**
+Per 2 augustus 2026 handhaaft het AI Office de regels voor general-purpose AI-modellen (GPAI). Verboden praktijken zijn afdwingbaar; transparantievereisten gelden nu (chatbots moeten zich identificeren als AI, deepfakes moeten worden gelabeld). Volgende deadline: 2 december 2026 voor regels over non-consensuele intieme beelden en CSAM.
+Bron: [EC Digital Strategy](https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august) | [AI Act Tracker](https://artificialintelligenceact.eu/implementation-timeline/)
 
-**Agentic AI en verantwoordelijkheid:** Wie is verantwoordelijk als een AI-agent een fout maakt in een headless enterprise-omgeving? De juridische kaders lopen achter op de technologische realiteit. Meerdere rechtssystemen — inclusief de EU — worstelen met toewijzing van liability bij autonome systemen. Dit wordt een cruciaal discussiepunt voor 2027.
+**Nederland: decentraal toezichtmodel in consultatie**
+De Nederlandse overheid publiceerde in april 2026 een conceptimplementatiewet die het toezicht verdeelt over acht sectorale autoriteiten (AP en RDI als coördinatoren). De aanpak is bewust minimalistisch – geen extra vereisten bovenop de AI Act zelf. Het meeste GPAI-regime (high-risk systemen, transparantie) geldt nu.
+Bron: [Bird & Bird](https://www.twobirds.com/en/insights/2026/netherlands/dutch-government-publishes-draft-ai-act-implementing-legislation) | [Loyens & Loeff](https://www.loyensloeff.com/insights/news--events/news/dutch-implementation-of-the-ai-act-decentralised-ai-supervision/)
 
 ## 🔐 Security & Risk
 
-**Cisco AI Security – hoog-risico prompts verdubbeld:** Cisco's rapport toont dat high-risk prompts in organisaties zijn gestegen van 2% naar 4% van alle AI-verzoeken in het afgelopen jaar. In absolute termen is dit een enorme toename gezien de exponentiële groei in totaal AI-gebruik.
-
-**1 op 8 bedrijven rapporteert AI-breach via agentic systemen:** Gegevens uit meerdere 2026-rapporten (Mandiant, Darktrace) convergeren: agentic AI-breaches stijgen als percentage van het totaal. De specifieke kwetsbaarheid: agents met te brede machtigingen en onvoldoende audittrail.
-
-**Runaway agent – $50.000 cloud bill:** Een Google/Mandiant-casestudy (gepubliceerd 16 september) documenteerde een productie-incident waarbij een autonoom AI-agent door een combinatie van ontbrekende resource-limieten en prompt injection $50.000 aan cloudkosten genereerde in één sessie. Een waarschuwing voor het ontbreken van agent-guardrails in enterprise.
+**Prompt injection: #1 AI-bedreiging met 340% groei**
+OWASP bevestigt prompt injection als toprisico voor LLM-toepassingen in 2026. De meest zorgwekkende recente casus: CVE-2025-53773 toont aan dat kwaadaardige inhoud in pull request-beschrijvingen remote code execution kan veroorzaken via GitHub Copilot (CVSS 9.6). De Five Eyes (CISA, NSA + equivalenten in UK, CA, AU, NZ) gaven in mei 2026 gezamenlijke richtlijnen voor agentische AI. Huidige verdedigingen zijn onvoldoende: adaptieve aanvallen omzeilen vrijwel elke gepubliceerde mitigatie.
+Bron: [Help Net Security](https://www.helpnetsecurity.com/2026/06/11/owasp-prompt-injection-ai-security-failures/) | [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/infosec-europe-prompt-injection/)
 
 ## 📈 Markt & Adoptie
 
-**Headless applicaties en de SI-markt:** Als Salesforce, Alibaba en anderen actief UI-lagen decoupleN, heeft dat gevolgen voor systeemintegrators. SI-waarde verschuift van UI-implementatie naar integratie van agent-backends met legacy-systemen, veiligheidsarchitectuur en governance. Dit is een directe kans voor Ctac.
+**Microsoft: van partner naar concurrent**
+Microsoft lanceerde Microsoft Frontier Company met $2,5 miljard en 6.000 experts voor enterprise AI-deployments, verkoopt zijn eigen MAI-modellen op eigen Maia-chips en biedt 11.000+ modellen aan via Azure. De openlijke concurrentie met OpenAI en Anthropic is nu bevestigd. Intern rapport toont dat supply chain-cycli daalden van 10 naar 2,5 werkdagen door AI-inzet.
+Bron: [TechCrunch](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/) | [VentureBeat](https://venturebeat.com/technology/microsoft-releases-new-ai-playbook-for-enterprises/)
 
-**AI coding market groeit 26% per jaar:** De markt voor AI-coding tools groeit van $9,3 miljard nu naar ~$30 miljard in 2031. Microsoft (GitHub Copilot), Google (Gemini Code Assist) en OpenAI (Codex) concurreren direct; het segment is nog niet geconsolideerd.
-
-**Gartner: 40% agentic projecten afgeblazen vóór 2027:** Gartner's voorspelling is een nuancering van de hype: technische mogelijkheden zijn er, maar businesswaarde bewijzen en risico's beheersen is moeilijker. Organisaties die nu starten hebben meer succes als ze beginnen met goed begrensde use cases.
+**Agentic software development: groei vs. ROI-kloof**
+Investering in agentic software development groeit 12x van 2025 naar 2026, maar slechts 25% van bedrijven rapporteert betekenisvolle versnelling. Enterprises overschrijden hun AI-budgetten. Marktaandeel enterprise: Anthropic 44%, OpenAI 40% bij US-zakelijke gebruikers.
+Bron: [CIO Dive](https://www.ciodive.com/news/enterprises-bet-coding-agents-despite-ROI/830943/) | [TechCrunch](https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/)
 
 ## 💡 Ctac-relevantie
 
-Het runaway-agent incident ($50k cloudkosten) is een concrete case voor Ctac's klantgesprekken: het illustreert dat agentic AI zonder guardrails reële financiële risico's oplevert. Ctac kan dit inzetten als argument voor een governance-first aanpak bij agentic implementaties.
+De simultane prijsverlaging van OpenAI (GPT-6 Sol/Luna –50%) en Anthropic (Opus 5.5 –40%) is strategisch voor Ctac: geavanceerde AI-inzet in klantprojecten is nu aanzienlijk goedkoper te verantwoorden in business cases. Dit verlaagt de drempel voor klanten in overheid, zorg en finance die vanwege kosten afwachtten.
 
-De Gartner-prognose (40% projecten afgeblazen) is zowel een risicosignaal als een kans: klanten die nu starten zonder goede begeleiding lopen kans te stranden. Ctac kan zich positioneren als de begeleider die zorgt dat trajecten wél slagen door methodische aanpak, scoping en risicobeheer.
+De EU AI Act is actief afdwingbaar – geen theorie meer. Ctac kan klanten in gereguleerde sectoren direct helpen met compliance-assessments op GPAI-gebruik, transparantievereisten en het aankomende CSAM/intimiteitsregime (december 2026). Dit is een concrete propositie die dit kwartaal geleverd kan worden.
 
-De verschuiving van SI-waarde richting agent-integratie en governance is structureel gunstig voor Ctac: dit is precies het domein waar Ctac's combinatie van technische diepgang en klantkennis het verschil maakt ten opzichte van pure-play AI-vendors.
+Het prompt injection-risico (CVSS 9.6 via Copilot) maakt een security-review van alle lopende AI-assisted development trajecten urgent. Als Ctac coding agents inzet bij klanten, moet dit op de agenda van de volgende technische review.
+
+Microsoft Frontier Company is een nieuwe concurrent voor IT-consultancybedrijven die enterprise AI-deployments faciliteren. Het is tegelijk een marktsignaal dat de implementatiefase de volgende grote waardecreatie-mogelijkheid is – precies het domein waar Ctac's expertise relevant is.
 
 ## 📚 Bronnen & verder lezen
 
-- [Alibaba Qwen Book agentic computer and AI wearables at Apsara 2026 – TechNode Global](https://technode.global/2026/09/24/alibaba-qwen-book-ai-wearables-apsara-2026/)
-- [One runaway AI agent racked up a $50,000 cloud bill – Help Net Security](https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/)
-- [State of AI Cybersecurity 2026 – Darktrace](https://www.darktrace.com/resource/the-state-of-ai-cybersecurity-2026)
-- [State of AI Security Report 2026 – Cisco](https://www.cisco.com/c/en/us/products/security/state-of-ai-security.html)
-- [Scaling agentic AI pilots across the enterprise – MIT Technology Review](https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/)
-- [Agentic AI Takes the Wheel 2026 – Insentra](https://www.insentragroup.com/us/insights/not-geek-speak/generative-ai/agentic-ai-takes-the-wheel-a-deep-dive-into-2026/)
+- [OpenAI – GPT-6 Sol en Luna lancering (TechCrunch)](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/)
+- [OpenAI – GPT-6 Astra product page](https://openai.com/index/gpt-6-astra/)
+- [Anthropic – Claude Opus 5.5 aankondiging](https://www.anthropic.com/claude-opus-5-5)
+- [VentureBeat – Opus 5.5 benchmark analyse](https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price)
+- [TechCrunch – Opus 5.5 release](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)
+- [Hugging Face – State of Open Models Summer 2026](https://huggingface.co/blog/state-of-open-models-summer-2026)
+- [EC Digital Strategy – AI Act handhaving per 2 augustus](https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august)
+- [EU AI Act Tracker – implementatietijdlijn](https://artificialintelligenceact.eu/implementation-timeline/)
+- [Bird & Bird – Nederlandse AI Act implementatiewet](https://www.twobirds.com/en/insights/2026/netherlands/dutch-government-publishes-draft-ai-act-implementing-legislation)
+- [Help Net Security – OWASP prompt injection rapport](https://www.helpnetsecurity.com/2026/06/11/owasp-prompt-injection-ai-security-failures/)
+- [Infosecurity Magazine – Prompt injection onopgelost](https://www.infosecurity-magazine.com/news/infosec-europe-prompt-injection/)
+- [TechCrunch – Microsoft Frontier Company](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/)
+- [CIO Dive – Enterprise coding agents ROI-kloof](https://www.ciodive.com/news/enterprises-bet-coding-agents-despite-ROI/830943/)

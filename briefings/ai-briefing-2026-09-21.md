@@ -12,54 +12,80 @@ tags:
 
 ## 🔑 Highlights van de dag
 
-- **Grok 4.7 live:** xAI bracht maandag Grok 4.7 uit als incrementele update voor reasoning en codegeneratie. Nog geen benchmark-dominantie, maar prijsstelling blijft agressief ten opzichte van OpenAI en Anthropic.
-- **Apsara Conference opent morgen:** Alibaba kondigde de agenda aan voor de 2026 Apsara Conference (start 22 september, Hangzhou) met beloftes rond een volledige agentic AI-stack. De markt verwacht hardware- en modelaankondigingen met directe cloud-integratie.
-- **Schaduw-AI als groeiend governancerisico:** Een nieuw Akamai Enterprise AI Risk Report concludeert dat 76% van organisaties schaduw-AI als definitief of waarschijnlijk probleem ziet — een stijging van 15 procentpunt ten opzichte van 2025.
-- **AI agentic adoptie passeert 31%:** Volgens de State of AI Agents 2026 draait nu 31% van de enterprise-organisaties minstens één AI-agent in productie. Bankwezen en verzekeraars lopen voor met ~47%.
+- **AI-sector steunt vrijwillige pauze op frontier-modellen:** Op initiatief van Anthropic spraken vooraanstaande AI-labs af om de ontwikkeling van de krachtigste nieuwe modellen tijdelijk te vertragen. CEO's van Google DeepMind, OpenAI en xAI sloten zich aan — een historisch signaal over de risico's van frontier AI. ([Computable](https://www.computable.nl/2026/09/14/ai-sector-stemt-in-met-pauze-om-catastrofe-te-voorkomen/))
+- **EU AI Act-handhaving operationeel:** Per 2 augustus jl. handhaaft de Europese AI Office de AI Act actief, samen met nationale toezichthouders. Transparantieregels zijn van kracht; organisaties die hun huiswerk niet hebben gedaan, lopen nu aantoonbaar compliance-risico.
+- **Prompt injection escaleert naar productie-omgevingen:** Drie AI-codeeragenten lekten via één kwaadaardige prompt geheimen weg. Microsoft patchte CVE-2026-21520 in Copilot Studio. Agentic AI is het nieuwe aanvalsvlak — dit is geen academisch probleem meer.
+- **AI-cyberaanvallen stijgen scherp in NL (+38%) en BE (+14%):** De stijging werd gedreven door AI-ondersteunde aanvallen die sneller en persoonlijker zijn. ([Data News](https://datanews.knack.be/nieuws/security/cybercrime/meer-cyberaanvallen-door-ai-ook-in-ons-land/))
+- **Salesforce lanceert AIforce op Dreamforce:** Nieuwe agentische interface-laag met Google Cloud en AWS als partners; Salesforce-data wordt toegankelijk via Gemini Enterprise en Slack. Relevant voor enterprise-klanten met gecombineerde CRM- en cloudlandschappen.
 
 ## 🧠 Technologie & Modellen
 
-**Grok 4.7 (xAI):** De update richt zich op verbeterde redeneersnelheid en langere contextverwerking. xAI positioneert het als efficiëntere tussenlaag tussen Grok 4 en het aangekondigde Grok 5. Geen open-source release; beschikbaar via API en X Premium+.
+**Anthropic Fable 5.1 – goedkoper en minder restrictief** (1 september 2026)  
+Anthropic bracht Fable 5.1 uit, de meest toegankelijke variant van hun topmodel. Minder valse positieven bij veiligheidsfilters en lagere tokenkosten maken het aantrekkelijker voor zakelijke toepassingen. Beschikbaar via de Anthropic API en grote cloudplatforms.  
+*Bron: [TechCrunch](https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/)*
 
-**Alibaba Apsara 2026 – aankondiging:** Alibaba Cloud geeft dinsdag een volledige agentic AI-roadmap vrij inclusief nieuwe Qwen-modellen, hardware-lijn en de introductie van een "agentic cloud"-laag. Analisten (Citi) verwachten positieve verrassing.
+**Google DeepMind Institute for AGI Debate** (17 september 2026)  
+Google DeepMind lanceerde een instituut dat de maatschappelijke discussie rond AGI wil verbreden en buiten de techbubbel trekken. Geen nieuw model, maar een strategische reputatiepositie: Google wil meebepaald wie de AGI-agenda publiekelijk bepaalt.  
+*Bron: [TechCrunch](https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/)*
 
-**Trend – model pricing convergentie:** De modelmarkt beweegt structureel naar lagere inputkosten. Frontier-modellen die in 2025 nog $15–30 per miljoen tokens kostten, zitten nu gemiddeld op $4–10. Dit verlaagt de drempel voor enterprise-adoptie maar verhoogt de druk op pure-play aanbieders.
+**Open-source LLM-landschap 2026**  
+De sterkste open-weight modellen zijn momenteel Kimi K2.6 en Qwen3/Gemma 4 (Apache 2.0) en Phi-4/DeepSeek R1 (MIT). Voor lokale of private deployments zijn dit serieuze alternatieven voor commerciële API's.  
+*Bron: [Hugging Face](https://huggingface.co/blog/daya-shankar/open-source-llms)*
 
 ## 🏛️ Governance & Ethiek
 
-**EU AI Act – GPAI deadlines:** Vanaf 15 september jl. waren aanbieders van general-purpose AI-modellen boven 10²⁵ FLOP's verplicht hun eerste formele systeemrisico-evaluaties in te dienen bij het European AI Office. Dit is de eerste grote handhavingsmijlpaal voor frontier-modelaanbieders.
+**EU AI Act: handhaving gestart per 2 augustus**  
+De Europese AI Office handhaaft nu actief, samen met nationale autoriteiten. Richtlijnen voor hoog-risicosystemen, transparantieverplichtingen en incidentrapportage zijn gepubliceerd. Organisaties die dit tot nu toe als toekomstig probleem beschouwen, hebben die luxe niet meer.  
+*Bronnen: [AI Act Tracker](https://artificialintelligenceact.eu/) | [EC Digitale Strategie](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)*
 
-**AI Omnibus (juli 2026):** De eerder dit jaar aangenomen AI Omnibus heeft de deadlines voor sommige hoog-risico toepassingen verschoven naar 2027–2028. Dit geeft organisaties meer implementatieruimte, maar verlaagt ook de urgentie van complianceprogramma's bij middelgrote ondernemingen.
-
-**Nederland – internationale AI-strategie:** De in juli gepresenteerde Nederlandse Internationale AI-Strategie richt zich op drie pijlers: versterking van Europese AI-capaciteit, betere markttoegang voor Nederlandse aanbieders, en opbouw van een Publieke Dienst voor AI-Strategie (naar Brits model). Een staatssecretaris voor AI is aangesteld bij Economische Zaken.
+**AI-sector stemt in met vrijwillige pauze** (14 september 2026)  
+Anthropic stelde voor om frontier model-ontwikkeling te pauzeren; bazen van Google DeepMind, OpenAI en xAI steunden dit openlijk. Hoe lang en hoe bindend is onduidelijk, maar het markeert een publieke verschuiving: de toon in de AI-industrie gaat van "sneller" naar "voorzichtiger". Sceptici wijzen erop dat dit ook competitieve motieven kan hebben.  
+*Bron: [Computable](https://www.computable.nl/2026/09/14/ai-sector-stemt-in-met-pauze-om-catastrofe-te-voorkomen/)*
 
 ## 🔐 Security & Risk
 
-**Shadow AI accelereert risico:** Het Akamai-rapport stelt dat bijna de helft van alle enterprise AI-gesprekken verloopt via onbeheerde persoonlijke identiteiten. Organisaties missen hierdoor zicht op datastromen en compliance. Het gemiddelde bedrijf gebruikt 10 AI-applicaties per maand, waarvan een groot deel zonder officiële goedkeuring.
+**Prompt injection: van laboratorium naar enterprise-productie**  
+VentureBeat meldt dat prompt injection-aanvallen nu gericht worden op agentic AI-systemen, RAG-pipelines en model-routers in productie. Drie AI-codeeragenten lekten bij één aanval gevoelige credentials weg. Microsoft patchte CVE-2026-21520 (CVSS 7.5) in Copilot Studio — data exfiltreerde desondanks al gedeeltelijk voor de patch. Het kerninzicht: modellen kunnen instructies en data structureel niet onderscheiden.  
+*Bronnen: [VentureBeat – prompt injection](https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers) | [VentureBeat – agent secret leaks](https://venturebeat.com/security/ai-agent-runtime-security-system-card-audit-comment-and-control-2026)*
 
-**Prompt injection 5x vaker gedetecteerd:** Tussen maart en mei 2026 namen detecties van langere kwaadaardige payloads via indirecte prompt injection ruwweg vijfvoudig toe (Google/Mandiant-data). Dit suggereert dat aanvallers steeds geraffineerder opereren in agentic workflows.
+**AI-gestuurde cyberaanvallen stijgen fors in NL en BE**  
+Nederland noteerde +38% en België +14% meer cyberaanvallen waarbij AI een rol speelt (2025 vs. 2024). Aanvallen worden sneller, persoonlijker en moeilijker te detecteren. Big Tech luidt de noodklok over AI als bedreiging voor kritieke infrastructuur.  
+*Bronnen: [Data News](https://datanews.knack.be/nieuws/security/cybercrime/meer-cyberaanvallen-door-ai-ook-in-ons-land/) | [Computable](https://www.computable.nl/2026/09/01/big-tech-luidt-noodklok-ai-bedreigt-kritieke-infrastructuur/)*
 
 ## 📈 Markt & Adoptie
 
-**Enterprise AI-adoptie sprint:** 88% van de organisaties gebruikt AI in ten minste één bedrijfsfunctie (2026), tegenover 55% in 2024. De groeicurve is steil maar ongelijk: governance, security en integratie met legacy-systemen zijn consistente knelpunten.
+**Microsoft-OpenAI-partnerschap herschreven**  
+De exclusieve cloud-overeenkomst is losgelaten: OpenAI kan nu zijn producten aanbieden op AWS en Google Cloud naast Azure. Microsoft blijft primaire cloudpartner, maar het speelveld is opengegaan. Voor enterprise-klanten biedt dit meer leveranciersvrijheid bij OpenAI-integraties.  
+*Bron: [CIO Dive](https://www.ciodive.com/news/microsoft-openai-rework-partnership/818606/)*
 
-**Agentic AI mainstream:** Gartner voorspelt dat 40% van enterprise-applicaties eind 2026 task-specifieke AI-agents integreren — tegenover minder dan 5% in 2025. Tegelijkertijd verwacht Gartner dat >40% van de agentic AI-projecten vóór eind 2027 worden afgeblazen vanwege onduidelijke businesswaarde of onvoldoende risicobeheer.
+**Salesforce lanceert AIforce op Dreamforce**  
+AIforce positioneert zich als agentische interface-laag voor enterprise. Google Cloud en AWS zijn nieuwe partners; Salesforce-data is nu toegankelijk via Gemini Enterprise en AWS-agents via Slack. Voor organisaties die CRM, cloud en samenwerking combineren is dit een belangrijke architectuurontwikkeling.  
+*Bron: [CIO Dive](https://www.ciodive.com/news/salesforce-launches-aiforce-interface-layer-agentic-architecture/830479/)*
 
-**OpenAI enterprise groeit:** Enterprise-omzet maakt inmiddels >40% van OpenAI's totale inkomsten uit en koerst af op pariteit met consumentendiensten einde 2026. Codex heeft 3 miljoen weekly active users bereikt; de API verwerkt >15 miljard tokens per minuut.
+**Tweederde bedrijven vastgelopen in AI-pilots**  
+Onderzoek toont dat tweederde van bedrijven worstelt met de transitie van generatieve AI-pilots naar productie. Tegelijkertijd ziet 46% van de Nederlandse CIO's inmiddels positief rendement op AI-investeringen. De kloof tussen pilotdrukte en werkende AI-systemen is de centrale uitdaging van 2026.  
+*Bronnen: [CIO Dive](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/) | [Computable](https://www.computable.nl/2026/08/26/kort-ai-beveiliging-wordt-miljardenmarkt-cio-zet-fundament-boven-snelle-ai-winst-en-meer/)*
 
 ## 💡 Ctac-relevantie
 
-De stijging van schaduw-AI naar 76% van organisaties is een directe propositiekans voor Ctac: klanten hebben behoefte aan AI-governance frameworks en tooling voor zichtbaarheid op niet-goedgekeurde AI-gebruik. Dit past in een aanbod rondom verantwoorde adoptie.
+**EU AI Act-compliance is nu werk, geen planning meer.** Klanten in (semi-)publieke sector, finance en zorg moeten actief aan de slag met risicoklassificatie, transparantieverplichtingen en incidentrapportage. Ctac kan hier direct op inspelen — niet met awareness-sessies maar met concrete compliance-trajecten. De AI Office handhaaft; het moment om te wachten is voorbij.
 
-De 31% enterprise agentic productie-adoptie (banking/insurance voorop) biedt Ctac een concreet instappunt voor het positioneren van agentic AI-trajecten — met name bij financiële dienstverleners en overheidsklanten waar Ctac al actief is.
+**De "pilot-naar-productie"-kloof is de Ctac-kans van dit moment.** Tweederde van bedrijven zit vast in pilots. Ctac's transitie naar IP- en platform-gedreven dienstverlening sluit hier perfect op aan: de behoefte is niet meer "wat is AI?" maar "hoe zetten we dit werkend in productie met de juiste architectuur, monitoring en governance?"
 
-De Nederlandse AI-strategie en het aanstellen van een staatssecretaris voor AI signaleren toenemende overheidsinvesteringen. Ctac kan hierop inspelen door proactief expertise rondom publieke AI-toepassingen te bouwen en zichtbaar te zijn in het overheidsdomein.
+**Prompt injection security hoort standaard in Ctac's AI-ontwikkelproces.** Bij elke agentic of RAG-gebaseerde implementatie voor klanten moeten runtime security-maatregelen verplicht onderdeel zijn van het ontwerp. Dit is tegelijk een differentiator richting de markt en een interne kwaliteitsstandaard om nu te definiëren.
 
 ## 📚 Bronnen & verder lezen
 
-- [Enterprise AI Agent Stats 2026: 80% Embed, 31% Deploy](https://paul-okhrem.com/enterprise-ai-agents-statistics-2026/)
-- [Enterprise AI Usage Risk Report 2026 | Akamai](https://www.akamai.com/lp/state-of-the-internet/enterprise-ai-risk-report)
-- [EU AI Act in 2026: What Applies, What Was Deferred | Regulation AI](https://www.regulation-ai.eu/en/ai-act/)
-- [Kabinet presenteert internationale strategie voor veilige en verantwoorde AI-transitie | Rijksoverheid](https://www.rijksoverheid.nl/actueel/nieuws/2026/07/03/kabinet-presenteert-internationale-strategie-voor-veilige-en-verantwoorde-ai-transitie)
-- [AI Regulation News September 2026: Global Update & Deadlines | Cubbbix](https://cubbbix.com/blog/ai-regulation-september-2026-global-update)
-- [LLM News Today (September 2026) – AI Model Releases](https://llm-stats.com/ai-news)
+- [TechCrunch – Anthropic Fable 5.1](https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/)
+- [TechCrunch – Google DeepMind AGI Institute](https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/)
+- [Hugging Face – Open-source LLMs 2026](https://huggingface.co/blog/daya-shankar/open-source-llms)
+- [AI Act Tracker – implementatietijdlijn](https://artificialintelligenceact.eu/implementation-timeline/)
+- [EC – AI Act governance & handhaving](https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement)
+- [Computable – AI-sector stemt in met pauze](https://www.computable.nl/2026/09/14/ai-sector-stemt-in-met-pauze-om-catastrofe-te-voorkomen/)
+- [Computable – Big Tech en kritieke infrastructuur](https://www.computable.nl/2026/09/01/big-tech-luidt-noodklok-ai-bedreigt-kritieke-infrastructuur/)
+- [VentureBeat – Prompt injection enterprise AI](https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers)
+- [VentureBeat – AI agent secret leaks](https://venturebeat.com/security/ai-agent-runtime-security-system-card-audit-comment-and-control-2026)
+- [Data News – AI-cyberaanvallen NL/BE](https://datanews.knack.be/nieuws/security/cybercrime/meer-cyberaanvallen-door-ai-ook-in-ons-land/)
+- [CIO Dive – Microsoft-OpenAI partnership](https://www.ciodive.com/news/microsoft-openai-rework-partnership/818606/)
+- [CIO Dive – Salesforce AIforce](https://www.ciodive.com/news/salesforce-launches-aiforce-interface-layer-agentic-architecture/830479/)
+- [CIO Dive – Enterprise AI markt](https://www.ciodive.com/news/microsoft-google-rule-ai-market-enterprises/808311/)

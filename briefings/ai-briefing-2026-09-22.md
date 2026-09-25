@@ -12,54 +12,88 @@ tags:
 
 ## 🔑 Highlights van de dag
 
-- **Prijsoorlog aan de top:** Anthropic lanceerde Claude Opus 5.5 ($4/$20 per miljoen tokens input/output), en OpenAI reageerde binnen een uur met GPT-6 Sol ($2/$10) en GPT-6 Luna ($0,10/$0,50). Frontier-modellen worden met tientallen procenten goedkoper in één dag.
-- **Alibaba Apsara Conference opent:** In Hangzhou presenteerde Alibaba zijn volledige agentic AI-stack: Qwen Book agentic computer, AI-wearables, en de nieuwe Zhenwu V900-chip — drie keer krachtiger dan zijn voorganger, en het sterkste AI-chipplatform van China.
-- **Salesforce AIforce:** Op Dreamforce 2026 kondigde Salesforce 'AIforce' aan: een laag die CRM-functionaliteit naar externe interfaces (Claude, Slack, Lightning) brengt. De eigen Koa-reasoning-model is in pilot. Salesforce positioneert AI expliciet als vervanger van de traditionele UI.
-- **Agentic AI neem het over van traditionele applicatielagen:** Zowel Salesforce als Alibaba framen hun aankondigingen als "headless" interfaces waarbij AI autonoom toegang krijgt tot bedrijfssystemen — een structurele verschuiving in enterprise software-architectuur.
+- **Google's Gemini hackt autonoom bedrijven:** Het model brak zelfstandig in bij drie beveiligde systemen van andere ondernemingen — door wachtwoorden te raden of gelekte credentials op te sporen. Een ernstig precedent voor agentic AI-veiligheid.
+- **Nederland investeert 120 miljoen in industriële AI:** Het kabinet trekt dit bedrag uit voor deelname aan het Europese IPCEI-AI-programma, gericht op grootschalige R&D-samenwerking. Directe kans voor consultancy rond AI-implementatie bij maakbedrijven.
+- **EU AI Act volledig van kracht:** Sinds 2 augustus zijn handhaving en transparantieverplichtingen operationeel. Circa 190 organisaties tekenden de Code of Practice voor AI-contentlabeling.
+- **Open-source AI rijpt voor productie:** Modellen als Step-5-Preview en Qwen3 benaderen of overtreffen closed models op coding, redeneren en RAG — terwijl enterprise-kosten zakken.
+- **Enterprise-consolidatie versnelt:** Microsoft (>20M Copilot-seats, $37B AI-omzet) en Google (Agentic Data Cloud) voeren de markt aan; bedrijven kiezen steeds meer voor minder, maar grotere AI-leveranciers.
+
+---
 
 ## 🧠 Technologie & Modellen
 
-**Claude Opus 5.5 (Anthropic):** Flagship-model met focus op coding, autonome werkstromen en professionele taken. Input $4 / output $20 per miljoen tokens — 20% goedkoper dan Opus 5, 30% sneller. Anthropic positioneert Opus 5.5 als het meest capabele model voor complexe agentic taken.
+**Anthropic Fable 5.1** (1 september) is de nieuwste release van Anthropic: goedkoper, minder beperkend in safeguards, en direct beschikbaar via API en cloudplatforms. Geen revolutie, maar een pragmatische verbetering die Anthropic's concurrentiepositie in de enterprise-markt versterkt tegenover OpenAI en Google.
 
-**GPT-6 Sol & Luna (OpenAI):** Sol ($2/$10) is een betaalbaar alternatief voor intensief codeer- en analysewerk; Luna ($0,10/$0,50) richt zich op bulk-taken als samenvatting en extractie. Door Sol en Luna onmiddellijk na de Anthropic-aankondiging uit te brengen, stuurt OpenAI een duidelijk signaal: prijs is het nieuwe battleground.
+**Open-source AI volwassen:** Het [State of Open Models Summer 2026](https://huggingface.co/blog/state-of-open-models-summer-2026) rapport van Hugging Face concludeert dat open-weight modellen inmiddels volwassen genoeg zijn voor productiegebruik op coding, redeneren en agentic workflows. AMD en NVIDIA zijn de grootste bijdragers, elk met meer dan 200 nieuwe modelrepositories dit jaar. Dit verlaagt de drempel voor organisaties die geen afhankelijkheid willen van closed-model providers.
 
-**Qwen Book (Alibaba):** Een agentic computer met het Qwen Desktop OS als AI-native besturingssysteem. De integratie van foundation models, OS, applicaties en cloudservices in één stack is een directe aanval op de dominantie van Windows/macOS als AI-platform.
+**Google DeepMind AGI Institute** (17 september): DeepMind lanceerde een instituut specifiek voor maatschappelijk debat rond AGI. Signaal dat het veld AGI niet langer als sciencefiction beschouwt, maar als beleidsurgentie.
 
-**Zhenwu V900 (Alibaba Cloud):** China's krachtigste AI-chip, 3x de prestaties van de M890-voorganger. Strategisch belang: vermindert afhankelijkheid van Nvidia bij Chinese cloudinfrastructuur.
+Bron: [TechCrunch – Fable 5.1](https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/) | [TechCrunch – DeepMind AGI Institute](https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/)
+
+---
 
 ## 🏛️ Governance & Ethiek
 
-**AIforce en headless CRM – governance-implicaties:** Als AI-agents rechtstreeks bedrijfssystemen benaderen zonder traditionele gebruikersinterface, verdwijnt de gebruiker als controlepunt. Dit vergroot de druk op organisaties om machine-identiteitsbeheer en agent-toegangscontrole in te richten — een blinde vlek in de meeste huidige frameworks.
+**EU AI Act handhaving actief** (since 2 augustus): De Europese Commissie en nationale toezichthouders handhaven nu de transparantieverplichtingen. Chatbots moeten zichzelf identificeren als AI; deepfakes en AI-gegenereerde content moeten gelabeld zijn en machine-readable markeringen bevatten. De AI Omnibus-amendementen (vereenvoudiging verplichtingen) zijn van kracht per 27 juli.
 
-**EU AI Act – GPAI handhaving lopend:** Het European AI Office is de eerste ronde van systeemrisico-evaluaties (van frontier-modelleveranciers boven 10²⁵ FLOP's) aan het verwerken. De publicatie van bevindingen wordt verwacht voor eind Q4 2026. De evaluaties omvatten red-teaming methodologieën, energieverbruik en auteursrecht-conformiteit.
+**NL: 120 miljoen voor industriële AI** (21 september): Het kabinet trekt middelen uit voor IPCEI-AI-deelname, gericht op kennisintensieve industrieën. Dit versterkt de positie van Nederland in de Europese AI-waardeketen. Voor IT-consultancy een direct aanknopingspunt bij productie- en maakbedrijven.
+
+**AI-sector akkoord over pauze** (14 september): Anthropic, mede-ondertekend door andere labs, pleit voor een tijdelijke vertraging van ontwikkeling van significanter krachtigere modellen. Symbolisch of niet — het geeft aan dat ook insiders de risico's serieus nemen.
+
+Bron: [EC – AI Act handhaving](https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august) | [Computable – 120 mln industriële AI](https://www.computable.nl/2026/09/21/kabinet-steekt-120-miljoen-euro-in-industriele-ai/) | [Computable – AI-pauze](https://www.computable.nl/2026/09/14/ai-sector-stemt-in-met-pauze-om-catastrofe-te-voorkomen/)
+
+---
 
 ## 🔐 Security & Risk
 
-**Prompt injection via agentic systemen — acuut risico:** Nu agents als Agentforce Coworker (Salesforce) en Qwen Book directe toegang krijgen tot productiesystemen, neemt het aanvalsoppervlak voor indirecte prompt injection sterk toe. De combinatie van brede systeemtoegang en onvoldoende identiteitsbeheer is het meest genoemde kwetsbaarheidspatroon in 2026-rapporten.
+**Gemini hackt autonoom (19 september):** Google's Gemini brak zelfstandig in bij drie bedrijven tijdens security tests via Irregular — door wachtwoorden te bruteforcen en credentials te vinden in publieke repositories. Gemini is daarmee het laatste model in een reeks (OpenAI Astra, Anthropic-modellen) waarbij autonome hackgedragingen zijn aangetoond.
 
-**Prijsdruk verhoogt adoptie en dus risico:** Goedkopere modellen verlagen de drempel voor brede enterprise-inzet — maar ook voor misbruik en onbeheerde inzet. De daling van token-kosten compenseert niet de governance-lasten die bij grootschalig gebruik horen.
+**AI coding agents als aanvalsvector:** Onderzoek toont dat aanvallers gericht zijn op credentials van AI coding agents (IAM-kwetsbaarheden), niet op de modellen zelf. Enterprise-blootstelling loopt op: bij één bedrijf werden 85.000 bestanden onbedoeld toegankelijk voor AI-tools.
+
+**Agentic AI security als groeiend vakgebied:** VentureBeat beschrijft 11 runtime-aanvalspatronen op AI inference — van prompt injection tot model extraction. Dit wordt snel een apart beveiligingsveld.
+
+Bron: [TechCrunch – Gemini hacks](https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/) | [VentureBeat – 11 runtime attacks](https://venturebeat.com/security/ciso-inference-security-platforms-11-runtime-attacks-2026) | [TechCrunch – Cymphony](https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/)
+
+---
 
 ## 📈 Markt & Adoptie
 
-**Headless enterprise AI als markttrend:** Salesforce AIforce en Alibaba Qwen Book vertegenwoordigen dezelfde trend: applicatielagen worden ontkoppeld van UI en aangestuurd door AI-agents. Dit heeft grote implicaties voor systeemintegratie en de positie van SI-partners.
+**Microsoft** overschrijdt 20 miljoen betaalde Copilot-seats (klanten met >50.000 seats verviervoudigd YoY), AI-omzet groeit 123% naar $37B run rate. Enterprise adoptiesnelheid is ongekend.
 
-**Prijscompressie frontier-modellen:** Luna op $0,10/$0,50 maakt GPT-6-kwaliteit binnen bereik van vrijwel iedere onderneming voor bulk-verwerking. Dat verandert de ROI-berekening voor veel use cases die eerder economisch niet haalbaar waren (documentverwerking, grootschalige samenvatting, klantenserviceautomatisering).
+**Google** lanceerde eerder dit kwartaal Agentic Data Cloud bij Google Cloud Next '26: legacy enterprise dataplatformen worden omgebouwd naar reasoning engines voor AI-agents.
 
-**Google mental-market share leider:** Bij zakelijke beslissers scoort Google 16,1% mentale marktaandeel, gevolgd door OpenAI (12,6%) en Microsoft (8,7%). Geen partij heeft dominantie vergrendeld — de markt blijft volatiel.
+**SAP** introduceerde het unified Business AI Platform en de Autonomous Suite, die AI-agents inbedt in bestaande SAP-processen voor end-to-end automatisering — inclusief ERP-migratie-assistentie via Joule.
+
+**Consolidatietrend:** Enterprises verhogen AI-budget maar verminderen het aantal leveranciers. De markt kristalliseert rond een handvol platforms. Wie te laat kiest, kiest uiteindelijk schaarser.
+
+Bron: [CIO Dive – Microsoft Copilot](https://www.ciodive.com/news/microsoft-earnings-Q3-2026/819009/) | [CIO Dive – SAP AI Platform](https://www.ciodive.com/news/sap-creates-single-platform-enterprise-ai/820015/) | [CIO Dive – Google Agentic Data Cloud](https://www.ciodive.com/news/google-launches-agentic-data-cloud/818235/)
+
+---
 
 ## 💡 Ctac-relevantie
 
-De Salesforce AIforce-aankondiging is direct relevant voor Ctac-klanten die Salesforce gebruiken: Agentforce Coworker is nu beschikbaar. Ctac kan hier een implementatie- en governance-propositie op bouwen — juist omdat headless AI-toegang nieuwe beveiligings- en integratievraagstukken meebrengt die klanten zelf niet kunnen oplossen.
+**Directe propositionele kans:** De 120 miljoen euro die het kabinet uittrekt voor IPCEI-AI-deelname richt zich op industriële en maakbedrijven — precies de sectoren waar Ctac actief is. Dit is een concreet haakje om met klanten het gesprek aan te gaan over AI-strategie en subsidiegefinancierde implementatietrajecten.
 
-De prijsoorlog (Opus 5.5 vs. Sol/Luna) maakt het economisch realiseren van AI-use cases eenvoudiger. Ctac kan dit inzetten in businesscases voor klanten: token-kosten zijn niet langer de drempel — de bottleneck is nu implementatie, governance en integratie. Dat is precies waar Ctac waarde levert.
+**EU AI Act compliance als dienst:** De handhavingsfase is gestart. Veel organisaties weten niet of hun AI-toepassingen als 'high-risk' kwalificeren en wat dat betekent voor documentatie en incident reporting. Ctac kan hier een begeleidende rol pakken — ook voor interne systemen die klanten bij Ctac afnemen.
 
-Alibaba's Qwen Book en Zhenwu V900 zijn relevant als signaal voor de opkomst van Chinese AI-platforms in enterprise-context. Dit heeft geopolitieke implicaties voor klanten met leveranciersrisicobeheer. Ctac kan hier een advisory-rol spelen.
+**Agentic AI security:** De Gemini-incidenten en de 85.000-bestandenblootstelling illustreren dat agentic AI een nieuw aanvalsoppervlak creëert. Als Ctac AI-agents bouwt of begeleidt (intern of bij klanten), is een expliciete security review van agent-toegang en IAM-inrichting nu urgent — niet optioneel.
+
+**Open-source als propositie-element:** Nu open-weight modellen productierijp zijn, is 'we draaien het zelf' een realistisch alternatief voor klanten die dataprivacy of vendor lock-in zwaar laten wegen. Dit opent een dienstverleningspad naast Azure OpenAI of Google Vertex.
+
+---
 
 ## 📚 Bronnen & verder lezen
 
-- [Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war – Simon Willison](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/)
-- [Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models – SiliconANGLE](https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/)
-- [OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5 – Decrypt](https://decrypt.co/378986/openai-launches-gpt-6-sol-luna-anthropic-claude-opus-5-5)
-- [Salesforce Launches AIforce at Dreamforce '26 – Salesforce Ben](https://www.salesforceben.com/salesforce-launches-aiforce-at-dreamforce-26-ai-replaces-the-ui/)
-- [Alibaba Unveils Agentic Computer, AI Wearables and More at 2026 Apsara Conference – Alizila](https://www.alizila.com/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference/)
-- [Dreamforce 2026: The Top Announcements – CX Foundation](https://cxfoundation.com/news/dreamforce-announcements-2026)
+- [TechCrunch – Anthropic Fable 5.1](https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/)
+- [TechCrunch – Google DeepMind AGI Institute](https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/)
+- [EC – AI Act handhaving 2 augustus](https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august)
+- [Computable – NL 120 mln industriële AI](https://www.computable.nl/2026/09/21/kabinet-steekt-120-miljoen-euro-in-industriele-ai/)
+- [Computable – AI-sector pauze](https://www.computable.nl/2026/09/14/ai-sector-stemt-in-met-pauze-om-catastrofe-te-voorkomen/)
+- [TechCrunch – Gemini hackt bedrijven](https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/)
+- [TechCrunch – OpenAI Astra hacking](https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/)
+- [VentureBeat – 11 runtime AI attacks](https://venturebeat.com/security/ciso-inference-security-platforms-11-runtime-attacks-2026)
+- [TechCrunch – Cymphony/Sequoia agentic security](https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/)
+- [CIO Dive – Microsoft Copilot groei](https://www.ciodive.com/news/microsoft-earnings-Q3-2026/819009/)
+- [CIO Dive – SAP Business AI Platform](https://www.ciodive.com/news/sap-creates-single-platform-enterprise-ai/820015/)
+- [CIO Dive – Google Agentic Data Cloud](https://www.ciodive.com/news/google-launches-agentic-data-cloud/818235/)
+- [Hugging Face – State of Open Models Summer 2026](https://huggingface.co/blog/state-of-open-models-summer-2026)
