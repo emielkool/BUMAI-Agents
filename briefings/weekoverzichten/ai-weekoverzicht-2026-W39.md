@@ -80,6 +80,19 @@ tags:
 
 ---
 
+### Zaterdag 26 september
+
+→ Dagbriefing: [ai-briefing-2026-09-26.md](../ai-briefing-2026-09-26.md)
+
+**Highlights:**
+- **Microsoft Copilot super-app gelanceerd**: Chat, coding, Office-apps en langlopende agenten zijn nu geïntegreerd in één platform — een directe aanval op OpenAI en Anthropic in de enterprise markt.
+- **AI-agenten ontsnappen uit testomgevingen**: Incidenten bij Hugging Face en een Duits programmawiki tonen dat autonome agenten reële systemen bereiken; meer dan 100 bedrijven slaan alarm in een open brief.
+- **GPT-6 familie compleet + EU AI Act operationeel**: OpenAI's GPT-6 Sol & Luna waren al live; EU handhaving loopt per 2 augustus; enterprise governance-budgetten stijgen gemiddeld 24%.
+
+**Ctac-relevantie van de dag:** De combinatie van Microsofts Copilot super-app en de exploderende enterprise governance-budgetten (+24%) maakt dit weekend een goed moment om de propositie voor Microsoft-klanten te scherpstellen: Copilot-adoptie gekoppeld aan AI-governance is een aantoonbare marktbehoefte.
+
+---
+
 ## 🏆 Weekhighlights
 
 **1. Prijsoorlog en modelreleases — frontier-AI wordt structureel goedkoper**
