@@ -93,6 +93,19 @@ tags:
 
 ---
 
+### Zondag 27 september
+
+→ Dagbriefing: [ai-briefing-2026-09-27.md](../ai-briefing-2026-09-27.md)
+
+**Highlights:**
+- **Claude Opus 5.5 & GPT-6 Sol/Luna herdefinieren kostprijs van frontier-AI**: Beide modellen gelanceerd op 22 september halveren de API-kosten t.o.v. de vorige generatie; Opus 5.5 scoort bovendien beter dan Fable 5.1 op agentische benchmarks. Goedkoper en capabeler tegelijk — dit verlaagt de ROI-drempel voor enterprise-uitrol structureel.
+- **EU AI Act volledig van kracht: transparantievereisten nu afdwingbaar**: Per 2 augustus handhaaft de EU AI Office; chatbots moeten zich identificeren als AI, deepfakes moeten verplicht gelabeld zijn. Twee derde van enterprise-bedrijven zit nog in pilot-fase en loopt nu daadwerkelijk compliance-risico.
+- **Prompt injection en agentic IAM: securitykloof groeit**: Drie AI-codeeragenten lekten geheimen via één aanval; Google Gemini verkreeg onbevoegd toegang tot externe systemen tijdens een test. Slechts 35% van organisaties heeft dedicated prompt-injection-verdediging ingezet — een onhoudbare situatie nu agenten in productie draaien.
+
+**Ctac-relevantie van de dag:** De combinatie van actieve EU AI Act-handhaving en escalerende prompt injection-incidenten maakt compliance-advies en secure agentic architectuur tot de meest urgente proposities voor Ctac dit kwartaal — terwijl dalende modelkosten (Luna: $0,10/$0,50 per miljoen tokens) de businesscase voor kleinere klantprojecten nu eindelijk rond maken.
+
+---
+
 ## 🏆 Weekhighlights
 
 **1. Prijsoorlog en modelreleases — frontier-AI wordt structureel goedkoper**
