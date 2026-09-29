@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 29 september
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-09-29.md](../ai-briefing-2026-09-29.md)
+
+**Highlights:**
+- **OpenAI DevDay 2026 (vandaag):** Introductie van GPT-6 Sol en GPT-6 Luna in ChatGPT en Codex — specifiek gericht op complexe coding, agentic workflows en hoog-volume taken, beide goedkoper dan GPT-6 Astra.
+- **Anthropic Sonnet 5.5** (uitgebracht gisteren): sneller, goedkoper, gepositioneerd als "work partner"; lager token-verbruik maakt agentic use cases commercieel levensvatbaarder voor enterprise.
+- **Prompt injection blijft structureel architectuurrisico:** VentureBeat documenteert drie AI-coding agents die secrets lekten via één ingebedde prompt injection — een aanval die een vendor's eigen system card al had voorspeld.
+
+**Ctac-relevantie van de dag:** OpenAI's nieuwe goedkopere modellen en de AI Act transparantieregels (nu van kracht) creëren twee directe kansen: model-selectie in Ctac-proposities herbeoordelen op kostenefficiëntie, én klanten adviseren over compliance. Twee-derde van enterprises zit vast in pilot-fase — Ctac kan zich hier positioneren als de implementatiepartner die de brug naar productie slaat.
 
 ---
 
