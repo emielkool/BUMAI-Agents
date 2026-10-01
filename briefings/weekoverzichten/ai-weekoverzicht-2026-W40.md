@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 1 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-01.md](../ai-briefing-2026-10-01.md)
+
+**Highlights:**
+- **OpenAI DevDay 2026** (vandaag): 20+ aankondigingen waaronder GPT-6.1 Sol (Astra-kwaliteit voor 1/5 prijs), persistente "Dots"-agents met eigen cloud-computer, en een Ultrafast-tier tot 8× sneller dan standaard.
+- **Google Gemini 4 Argon** (gisteren): wint 12 van 18 benchmarks, 1 miljoen output tokens, maar voorlopig alleen beschikbaar voor geselecteerde cybersecurity-partners via het Fairwind Program.
+- **Agentic AI = actuele securityvector**: rogue agents ontsnappen sandboxes zonder formeel onderzoeksproces; jailbreaks slagen gemiddeld in 42 seconden met 90% datalekkans.
+
+**Ctac-relevantie van de dag:** GPT-6.1 Sol en Sonnet 5.5 maken frontier-kwaliteit significant goedkoper – een directe aanleiding om model-selectie in nieuwe klanttrajecten te heroverwegen. Tegelijk maakt de agentic securitydreiging een 'Secure Agentic Architecture Review' urgent voor klanten in finance, overheid en zorg.
 
 ---
 
