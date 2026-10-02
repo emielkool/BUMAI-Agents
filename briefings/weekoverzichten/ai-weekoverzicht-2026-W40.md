@@ -67,18 +67,33 @@ tags:
 
 ### Vrijdag 2 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-02.md](../ai-briefing-2026-10-02.md)
+
+**Highlights:**
+- **Google Gemini 4 Argon met beperkte toegang**: Google bracht zijn topmodel uit, maar uitsluitend voor een geselecteerde groep cybersecurity-experts vanwege veiligheidszorgen — het veld erkent dat capability-releases verantwoordelijk moeten worden gemanaged.
+- **Agentic AI security escaleert**: CVE-disclosures verdubbelden in 2026; memory injection-aanvallen op AI-agents zijn aangetoond in de praktijk; exploit-ontwikkeling vindt nu binnen uren na publieke disclosure plaats.
+- **EU AI Act handhaving actief + Microsoft Copilot adoptie-paradox**: 87–93% van organisaties had maandelijks een hoog-risico AI-interactie; Copilot-gebruik valt naar 8% als medewerkers ook toegang hebben tot ChatGPT/Gemini — twee directe salesopeningen voor Ctac.
+
+**Ctac-relevantie van de dag:** De combinatie van actieve EU AI Act handhaving (boetes tot €15 mln) en het bewezen Copilot-adoptieprobleem maakt compliance-scanning én adoption-begeleiding tot urgente en verkoopbare diensten voor Ctac's bestaande klantportfolio.
 
 ---
 
 ## 🔄 Weeksynthese
 
-*(Wordt aangevuld op vrijdag – samenvatting van de belangrijkste thema's en Ctac-relevantie over de volledige week.)*
+Week 40 stond volledig in het teken van **drie convergerende krachten**: de opkomst van agentic AI als serieuze aanvalsoppervlakte, de versnellende prijsdaling van frontier-modellen, en het begin van echte EU AI Act-handhaving. Deze drie thema's versterken elkaar: goedkopere modellen stimuleren adoptie, meer adoptie vergroot het aanvalsoppervlak, en toezichthouders beginnen nu daadwerkelijk te handhaven.
+
+De enterprise-adoptie geeft een genuanceerder beeld: Microsoft Copilot heeft moeite om actief gebruik te behouden wanneer alternatieven beschikbaar zijn, terwijl Google Agentic Data Cloud en AWS Bedrock/AgentCore meer flexibele, multi-model benaderingen bieden. De hyperscalers investeren gezamenlijk $660-690 miljard in AI-infrastructuur dit jaar — een niveau dat Europese zelfstandigheid structureel onder druk zet.
 
 ## 📌 Terugkerende thema's deze week
 
-*(Placeholder – in te vullen bij weekafsluiting.)*
+- **Agentic AI security** (ma t/m vr): Van sandbox-escapes tot memory injection, prompt injection en autonome cyberaanvallen — dit is geen theorie meer.
+- **Frontiermodel-prijsdaling** (di, do, vr): GPT-6.1 Sol, Sonnet 5.5, Qwen 3.6 Plus — kwaliteit daalt structureel in prijs, wat businesscases voor AI-integraties versterkt.
+- **EU AI Act compliance** (ma, wo, vr): Handhaving is nu operationeel. Organisaties zonder risicoklassificatie lopen directe boeterisico.
+- **Microsoft Copilot adoptie-uitdaging** (ma, vr): Actief gebruik van 8% in multi-AI-omgevingen bevestigt dat change management even belangrijk is als technologie.
 
 ## 🚀 Aanbevolen acties voor de week erop
 
-*(Placeholder – in te vullen bij weekafsluiting.)*
+- **EU AI Act compliance scan** aanbieden aan klanten in finance, overheid en zorg — concrete en urgente instapkans nu handhaving actief is.
+- **Secure Agentic Architecture Review** ontwikkelen als propositie — de gedemonstreerde memory injection en sandbox-escapes maken dit verkoopbaar, met name bij klanten die agents op productiedata willen inzetten.
+- **Model-selectie heroverwegen** in lopende en nieuwe klanttrajecten: GPT-6.1 Sol en Sonnet 5.5 verlagen de kostprijs van AI-integraties significant.
+- **Copilot adoption playbook** voorbereiden voor Microsoft-klanten — het adoptieprobleem is gedocumenteerd, de behoefte aan begeleid change management is bewezen.
