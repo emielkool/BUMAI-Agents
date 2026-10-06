@@ -30,7 +30,14 @@ tags:
 
 ### Dinsdag 6 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-06.md](../ai-briefing-2026-10-06.md)
+
+**Highlights:**
+- **OpenAI DevDay 2026:** GPT-6.1 Sol biedt near-Astra intelligentie voor een vijfde van de standaardprijs; de Agents API gaat naar public beta en 'Dots' introduceert een continu werkende agentische assistent — het meest substantiële developer-evenement van het jaar.
+- **Enterprise AI vastgelopen:** Twee derde van bedrijven zit nog in de pilot-fase en 30% rapporteert productiviteitsverlies na invoering van agentische AI; de bottleneck is infrastructuur en governance, niet de modellen.
+- **AI-agent security crisis:** 88% van enterprises had een beveiligingsincident met AI-agents het afgelopen jaar, terwijl slechts 6% van securitybudgetten hierop gericht is — prompt injection blijft de #1 aanvalsvector.
+
+**Ctac-relevantie van de dag:** De marktdata bevestigt dat de propositie voor Ctac niet op modellen moet liggen, maar op de governance-, integratie- en infrastructuurlaag die bedrijven nodig hebben om van pilot naar productie te gaan. Tegelijk maakt actieve EU AI Act-handhaving compliance-vraagstukken urgenter, met name voor klanten in zorg, overheid en finance.
 
 ---
 
