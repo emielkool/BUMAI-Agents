@@ -43,7 +43,14 @@ tags:
 
 ### Woensdag 7 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-07.md](../ai-briefing-2026-10-07.md)
+
+**Highlights:**
+- **Google Gemini 4 Argon** gelanceerd: frontier-model met 1 miljoen token context, TPU v7 hardware; Google is terug in de race naast OpenAI en Anthropic.
+- **OpenAI + Google kondigen FMAF aan:** een gezamenlijk "Frontier Model Auditing Framework" ingediend bij NIST en BSI — ongekende samenwerking op veiligheidsstandaarden voor frontier-modellen.
+- **EU AI Act handhaving actief** (sinds 2 augustus): chatbots moeten zichzelf kenbaar maken, deepfakes worden gelabeld; toezichthouders kunnen nu boetes opleggen.
+
+**Ctac-relevantie van de dag:** EU AI Act-compliance is per direct urgent voor klanten in HR, klantservice en overheidsgerelateerde processen. De MCP supply-chain aanval en EchoLeak-kwetsbaarheid in Copilot onderstrepen de noodzaak van een AI security-propositie naast pure implementatiediensten.
 
 ---
 
