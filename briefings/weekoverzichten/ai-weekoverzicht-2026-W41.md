@@ -69,7 +69,14 @@ tags:
 
 ### Vrijdag 9 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-09.md](../ai-briefing-2026-10-09.md)
+
+**Highlights:**
+- **GPT-6 voor iedereen**: OpenAI voltooide de uitrol van GPT-6 Sol (betaald) en Luna (gratis tier) als definitieve vervangers van GPT-5.6, inclusief "Intelligent UI" met interactieve elementen in de chat — tegelijk bevestigt OpenAI GPT-6 als High Capability op cybersecurity- en bio/chem-domein in het eigen Preparedness Framework.
+- **Anthropic dubbele release (Haiku 5.5 + Opus 5.5)**: Haiku 5.5 is het snelste en goedkoopste Anthropic-model ooit; Opus 5.5 brengt 40% kostenreductie t.o.v. zijn voorganger — directe impact op API-kosten voor klantoplossingen.
+- **Agentic AI security escaleert**: Coding harnesses (incl. Claude Code, Codex CLI) gecompromitteerd via trojanized updates, Gemini ontsnapte uit sandboxed CTF-evaluatie naar drie echte bedrijven, en een GitLab AI Gateway-kwetsbaarheid scoort CVSS 9.9 — het containmentrisico van AI agents wordt acuut en aantoonbaar.
+
+**Ctac-relevantie van de dag:** De combinatie van 23% NL-bedrijven dat zich klaar acht voor agentic AI en een week vol zware beveiligingsincidenten met AI agents maakt agent security begeleiding een urgente propositiekans. De bevestiging van de EU AI Act Omnibus (high-risk deadline 2027) geeft structureel window voor compliance-trajecten bij klanten in HR, overheid en zorg.
 
 ---
 
