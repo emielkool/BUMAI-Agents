@@ -56,6 +56,19 @@ tags:
 
 ---
 
+### Zondag 11 oktober
+
+→ Dagbriefing: [ai-briefing-2026-10-11.md](../ai-briefing-2026-10-11.md)
+
+**Highlights:**
+- **GPT-6 standaard voor alle ChatGPT-gebruikers** – OpenAI rolde GPT-6 uit als standaard, inclusief een nieuwe Intelligent UI die tekst combineert met grafieken, kaarten en interactieve tools. Foutpercentage GPT-6.1 Sol daalde naar 7,7%.
+- **Claude Haiku 5.5 en Sonnet 5.5 beide live** – Anthropic heeft binnen twee weken twee modellen gelanceerd; Sonnet 5.5 is 30% sneller en 30% goedkoper, Haiku 5.5 richt zich op high-volume, kostenefficiënte workloads.
+- **Prompt injection: architectureel onopgelost** – OWASP bevestigt dat LLMs instructies en data niet betrouwbaar kunnen onderscheiden; GitHub Copilot (CVSS 9.6) en Cursor IDE zijn recent gecompromitteerd; agentic systemen vergroten het aanvalsoppervlak structureel.
+
+**Ctac-relevantie van de dag:** De combinatie van goedkopere Anthropic-modellen en groeiend agentic gebruik maakt een dual-propositie relevant voor Ctac: kostenefficiënte implementatie-paden én security-assessments als onmisbaar onderdeel van elke agentic roadmap.
+
+---
+
 ## 📋 Weeksynthe­se
 
 *(Wordt aangevuld aan het einde van de week)*
