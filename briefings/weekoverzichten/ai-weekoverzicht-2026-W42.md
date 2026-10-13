@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 13 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-13.md](../ai-briefing-2026-10-13.md)
+
+**Highlights:**
+- **Runtime governance wordt de nieuwe compliance-drempel voor AI-agents** – Altijd-aan agents die over meerdere platforms opereren worden steeds meer ingezet, maar de beveiligingscontroles zijn ontworpen voor deterministisch software en schieten tekort; Gartner voorspelt dat 40% van enterprise-software eind 2026 taakspecifieke agents bevat.
+- **EU AI Act Omnibus verschuift deadlines, handhaving al actief** – Hoogrisicoregels uitgesteld naar december 2027, maar enforcement door AI Office en nationale autoriteiten loopt al. Op 2 december 2026 gelden de CSAM- en deepfake-verbodsbepalingen. Boetes tot €15 miljoen of 3% omzet.
+- **Prompt injection CVE in GitLab en OWASP #1-status bevestigd** – CVE-2026-90970 liet sandbox-escape toe in het Duo Agent Platform; de OWASP "lethal trifecta" (privédata + niet-vertrouwde content + externe communicatie) maakt één geïnjecteerde prompt een volledig exfiltratietool.
+
+**Ctac-relevantie van de dag:** De runtime governance-gap en de aankomende EU AI Act-deadlines (december 2026 en 2027) zijn directe aangrijpingspunten voor Ctac: bied compliance-quickscans aan bij klanten in zorg, finance en overheid, en maak security-by-design tot standaard in agentproposities — de Benelux AI Readiness-data (74% gebruik, 24% businesswaardemeting) toont dat de markt klaar is voor dit gesprek.
 
 ---
 
