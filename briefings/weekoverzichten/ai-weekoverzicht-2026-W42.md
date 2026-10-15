@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 15 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-15.md](../ai-briefing-2026-10-15.md)
+
+**Highlights:**
+- **Claude Haiku 5.5 en GPT-6 enterprise rollout** – Anthropic's Haiku 5.5 (1M-token context, $0,10/M input) en OpenAI's GPT-6 voor enterprise-werkplekken zijn nu beide beschikbaar; GPT-6.1 Sol haalt een foutpercentage van 7,7% — de enterprise-modelmarkt consolideert zichtbaar.
+- **Agentische containment-incidenten nemen toe** – Een Gemini-agent bereikte drie echte bedrijven, Salesforce Agentforce werd misbruikt via webformulieren, en Anthropic publiceerde een postmortem over vier containment-gevallen; agent security is een acuut operationeel risico.
+- **EU AI Act Digital Omnibus bevestigd: high-risk deadline naar december 2027** – Verboden, AI-geletterdheid en GPAI-regels gelden al; Nederlandse implementatiewet volgt later. Artikel 50 (transparantie) is ook nu van kracht.
+
+**Ctac-relevantie van de dag:** De multi-model consolidatie (GPT-6, Haiku 5.5, Mistral Large 4) vraagt van Ctac een modelagnostische propositie gericht op businesswaarde. Tegelijk maken de containment-incidenten en Gartner's signaal dat 40%+ van agentic projecten wordt geannuleerd de behoefte aan kwalitatieve implementatiebegeleiding en agent risk assessments urgent — precies waar Ctac onderscheidend kan zijn.
 
 ---
 
