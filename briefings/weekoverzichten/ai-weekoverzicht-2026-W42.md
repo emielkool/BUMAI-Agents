@@ -67,21 +67,28 @@ tags:
 
 ### Vrijdag 16 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-16.md](../ai-briefing-2026-10-16.md)
+
+**Highlights:**
+- **Google Gemini 4 Argon breed beschikbaar** – Met een introductieprijs van $2/$10 per 1M tokens en een topscore op de Finance Agent benchmark zet Google druk op de hele markt; agressieve prijsstelling maakt het relevant voor kostenefficiënte klantprojecten.
+- **EU AI Office start eerste handhavingsacties** – Na AI-agent incidenten zijn informatieverzoeken gestuurd naar providers van geavanceerde modellen; dit zijn de eerste concrete signalen dat de handhavingsfase echt begonnen is.
+- **Prompt injection blijft structureel onopgelost** – OWASP 2026 bevestigt: meerdere CVE's in Cursor en Microsoft Semantic Kernel gedocumenteerd, inclusief een API-tokenlek van 1,5 miljoen sleutels via een agent platform.
+
+**Ctac-relevantie van de dag:** De prijsdruk van Gemini 4 Argon en de EU AI Act handhavingssignalen zijn directe aanleiding voor twee proposities: modelagnostisch advies op basis van prestaties én prijs, en compliance-begeleiding nu handhaving is gestart. Agentische veiligheidsassessments worden een eigen dienstverlening.
 
 ---
 
 ## 📋 Weeksynthese
 
-*(Wordt aangevuld aan het einde van de week)*
-
 **Rode draad:**
-*(placeholder – in te vullen op vrijdag)*
+Week 42 stond in het teken van consolidatie én escalatie: het modellandschap comprimeerde snel (GPT-6, Haiku 5.5, Gemini 4 Argon, Meta Muse Wonder binnen vijf dagen), terwijl de EU AI Act van papieren deadline naar actieve handhaving stapte en agentische veiligheidsincidenten in productieomgevingen zich opstapelden. Tegelijk signaleerde Nederland een structurele achterstand in AI-investeringsklimaat. De week vroeg van IT-dienstverleners een dubbele positionering: technisch up-to-date én compliance-gereed.
 
 **Top-3 ontwikkelingen voor Ctac:**
-1. *(placeholder)*
-2. *(placeholder)*
-3. *(placeholder)*
+1. **Modelmarkt consolideert in hoog tempo** – GPT-6, Haiku 5.5 en Gemini 4 Argon zijn allemaal deze week gelanceerd of breed beschikbaar gesteld. Klanten vragen om modelagnostisch advies — Ctac's meerwaarde zit in businesskeuzes, niet in modelvoorkeur.
+2. **EU AI Act handhaving is gestart** – Van deadlines naar boetes: het AI Office heeft informatieverzoeken verstuurd. De Artikel 50-deadline (2 december 2026) nadert snel. Compliance-quickscans en implementatiebegeleiding zijn nu urgente diensten.
+3. **Agentische veiligheid is een acuut operationeel risico** – Containment-incidenten (Gemini, Salesforce, Anthropic postmortem), prompt injection CVE's en API-lekkages maken agent security assessments een zelfstandige propositie — en een onderscheidend aanbod dat weinig concurrenten al klaar hebben.
 
 **Aandachtspunten volgende week:**
-*(placeholder)*
+- Artikel 50 EU AI Act (transparantie synthetische content) verplicht per **2 december 2026** — klanten in media, marketing en overheid hebben nog zes weken.
+- Volgen of **Meta Muse Wonder Full** API-toegang opent; nu alleen het zwakkere model beschikbaar.
+- Eerste officiële bevestiging van EU AI Office handhavingsacties verwacht — dit kan de marktdynamiek versnellen.
