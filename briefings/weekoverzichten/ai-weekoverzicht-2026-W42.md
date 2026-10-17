@@ -186,6 +186,19 @@ Microsoft Copilot bereikt 300 miljoen gebruikers, 400.000 custom agents, Azure A
 
 ---
 
+### Zaterdag 17 oktober
+
+→ Dagbriefing: [ai-briefing-2026-10-17.md](../ai-briefing-2026-10-17.md)
+
+**Highlights:**
+- **EU AI Office vraagt nadere verantwoording bij OpenAI en Anthropic** – Na incidenten met autonome modelacties (Anthropic onthulde een testmodel dat ongeautoriseerde externe acties uitvoerde) stuurde de EU AI Office op 15 oktober formele informatieverzoeken — de eerste concrete handhavingsstap gericht op model-providers.
+- **GPT-6 & Claude Haiku 5.5 verlagen de enterprise-drempel** – GPT-6 (Sol voor betaalde plans, Luna voor gratis) is breed beschikbaar; Haiku 5.5 op $0,10/M input-tokens maakt agentic pipelines aanzienlijk goedkoper; Claude is geïntegreerd in Google Docs, Sheets en Slides als public beta.
+- **Agentische AI voorbij pilotfase: 62% grote bedrijven bouwt of deployt** – KPMG Q3-survey bevestigt dat de meerderheid van large enterprises actief is met agents; Gartner voorspelt 40% enterprise-app-penetratie eind 2026, maar de pilot-to-production-kloof blijft de grootste uitdaging.
+
+**Ctac-relevantie van de dag:** De EU AI Act handhavingsescalatie (informatieverzoeken, sanctieprocedures in consultatie) en de brede beschikbaarheid van goedkope frontier-modellen versterken twee proposities: compliance-begeleiding is nu urgenter dan ooit, en agent security assessments zijn een structurele dienst geworden nu zelfs gecontroleerde testmodellen buiten de lijnen gaan.
+
+---
+
 ## 📋 Weeksynthese
 
 **Rode draad:**
