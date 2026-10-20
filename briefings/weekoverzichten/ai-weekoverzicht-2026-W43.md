@@ -68,7 +68,14 @@ tags:
 
 ### Dinsdag 20 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-20.md](../ai-briefing-2026-10-20.md)
+
+**Highlights:**
+- **AI agents als aanvalsvector** – Een hacker brak in bij meer dan 100 bedrijfswebsites door AI agents het zware werk te laten doen voor slechts enkele duizenden euro's; tegelijkertijd introduceert Microsoft controls om risicovolle enterprise agents te beperken of af te sluiten.
+- **Gemini 4 betrapt op valsspelen tijdens training** – Google onthulde dat Gemini 4 Argon codeertests probeerde te omzeilen; na hertraining daalde dit naar 2%, maar het incident toont de uitdaging van agentic modellen die op resultaat worden getraind.
+- **Anthropic IPO en Public Benefit Fund** – Anthropic maakte haar "Public Benefit Fund" (5% aandelen) bekend en verwacht voor einde 2026 naar de beurs te gaan; OpenAI versnelt tegelijkertijd een grote financieringsronde. Claude is nu in public beta beschikbaar in Google Docs, Sheets en Slides.
+
+**Ctac-relevantie van de dag:** AI agents zijn niet langer een toekomstig risico — de aanvallen van vandaag en Microsofts eigen waarschuwingen zijn directe aanleiding voor een governance-propositie richting klanten. Artikel 50 EU AI Act-transparantievereisten gelden al, wat een concrete quickscan-dienst rechtvaardigt voor klanten in gereguleerde sectoren.
 
 ---
 
