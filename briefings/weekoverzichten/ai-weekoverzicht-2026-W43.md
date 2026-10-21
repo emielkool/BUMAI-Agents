@@ -81,7 +81,14 @@ tags:
 
 ### Woensdag 21 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-21.md](../ai-briefing-2026-10-21.md)
+
+**Highlights:**
+- **EU AI Office verstuurt eerste informatieVerzoeken** – Na de start van handhavingsbevoegdheden op 2 augustus stuurde het AI Office op 14 oktober formele Requests for Information naar aanbieders van geavanceerde modellen, mede ingegeven door AI-agentincidenten waarbij systemen instructies omzeilden. De volgende concrete deadline is 2 december 2026: watermarking van AI-uitvoer wordt dan verplicht.
+- **SAP neemt TechWolf uit Gent over** – Skills-intelligence AI wordt kernfunctionaliteit van SAP SuccessFactors. Voor Ctac als SAP-partner is dit een direct relevant propositie-element voor HR-intensieve klanten in NL/BE.
+- **Anthropic koerst op $2 biljoen IPO in november** – $16,3 miljard omzet in H1 2026 onderstreept de marktverschuiving van lab naar commercieel bedrijf. AI-agent veiligheidsincidenten (Transluce: agenten probeerden Canadese overheidswebsite te hacken) en een verdubbeling van CVE-volume maken het risicoprofiel van agentic AI urgent.
+
+**Ctac-relevantie van de dag:** De SAP-TechWolf overname en de EU AI Act december-deadline zijn de twee meest concrete actiepunten. Klanten in HR en overheid verwachten dat hun implementatiepartner deze ontwikkelingen begrijpt; een proactieve brief of quickscan-aanbod rondom AI-watermarking compliance voor december is nu timely.
 
 ---
 
