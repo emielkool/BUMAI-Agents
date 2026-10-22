@@ -94,7 +94,14 @@ tags:
 
 ### Donderdag 22 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-22.md](../ai-briefing-2026-10-22.md)
+
+**Highlights:**
+- **PHP Armageddon – AI ontdekt kritieke kwetsbaarheden, NSA waarschuwt (21 okt)** – AI-tools van OpenAI en Google Wiz vonden meerdere kritieke gaten in PHP; de NSA adviseerde patchen of systemen offline halen. Overheidssites gingen offline. AI fungeert hier als krachtige aanvals- én verdedigingstool tegelijk.
+- **EU AI Act: eerste geharmoniseerde standaard gepubliceerd (19 okt)** – EN 18286:2026 (quality management voor high-risk AI) is nu officieel in het Publicatieblad. Concreet handvat voor AI Act-compliance; handhaving door het AI Office is al actief.
+- **Recursive Flint & GPT-6 API-prijsverlaging** – Een open-weight coding model dat grotendeels door AI zelf gebouwd is (Flint, gratis, Apache 2.0) en GPT-6 Sol/Luna API-prijzen gehalveerd illustreren de doorgaande democratisering van frontier AI.
+
+**Ctac-relevantie van de dag:** De PHP-kwetsbaarheden zijn direct actie vereist voor klanten met PHP-systemen – dit is een concrete gespreksingang voor security reviews. EN 18286:2026 biedt Ctac een tijdgebonden kans als compliance-gids voor klanten die high-risk AI inzetten. Microsofts $37B AI-omzet en $2,5B customer engineer programma verhogen de concurrentiedruk op implementatiepartners.
 
 ---
 
