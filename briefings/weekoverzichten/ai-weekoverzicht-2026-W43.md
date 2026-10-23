@@ -107,7 +107,14 @@ tags:
 
 ### Vrijdag 23 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-23.md](../ai-briefing-2026-10-23.md)
+
+**Highlights:**
+- **EU AI Act: eerste handhavingsacties** – Het AI Office stuurde formele informatieverzoeken aan OpenAI en Anthropic na zomerincidenten met AI-agents. Geen boetes nog, maar compliance is nu een tastbare verplichting voor aanbieders van geavanceerde modellen.
+- **Prompt injection is operationeel geworden** – CVE-2025-53773 (GitHub Copilot, CVSS 9.6) en de Cline npm-compromis bewijzen dat AI-codeerassistenten actief worden aangevallen; Microsoft en Anthropic patchten in 2026 meerdere kritieke kwetsbaarheden in hun agent-frameworks.
+- **Agentic AI Foundation bereikt 10 projecten** – Op 22 oktober kondigde de AAIF vier nieuwe open-source projecten aan (Anthropic, OpenAI, Hugging Face, Alibaba), parallel aan AGNTCon + MCPCon. MCP-standaardisatie consolideert zich snel en verlaagt vendor lock-in.
+
+**Ctac-relevantie van de dag:** EU AI Act-compliance is nu een concreet verkoopargument voor Ctac: GPAI-verplichtingen gelden al, en de eerste handhavingsacties maken dit urgent voor klanten. Tegelijkertijd biedt de consolidatie rond MCP en de AAIF een kans om nu toekomstvaste agent-architecturen te bouwen voor klanten in overheid en zorg.
 
 ---
 
