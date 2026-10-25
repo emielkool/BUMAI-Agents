@@ -148,6 +148,19 @@ Enterprise AI bereikt productieschaal. Insight Enterprises werd door OpenAI beno
 
 ---
 
+### Zondag 25 oktober
+
+→ Dagbriefing: [ai-briefing-2026-10-25.md](../ai-briefing-2026-10-25.md)
+
+**Highlights:**
+- **Block Dessa**: een full-duplex spraakmodel dat "griezelijk menselijk" klinkt en op consumerhardware draait — een nieuwe drempel in realtime voice-AI, nu nog alleen voor veiligheidstesters beschikbaar.
+- **Microsoft waarschuwt voor AI-gestuurde cyberaanvallen**: organisaties hebben soms nog maar drie uur responstijd wanneer aanvallers AI-agents inzetten — de dreiging is operationeel, niet theoretisch.
+- **SAP koopt Techwolf bevestigd**: HR-agents worden via SuccessFactors mainstream; directe kans voor Ctac als SAP-implementatiepartner om bestaande klanten proactief te informeren.
+
+**Ctac-relevantie van de dag:** De combinatie van AI-gestuurde cyberaanvallen (Microsoft-waarschuwing) en de consolidatie van agentic AI in enterprise-suites (SAP Techwolf, NVIDIA Nemotron voor enterprise agents) versterkt het belang van een agentic AI governance-scan als Ctac-propositie. Tevens signaleert Aleph Alpha's Kolibri 1 (Apache 2.0, Europees model) een groeiende markt voor data-soevereine AI bij overheids- en zorginstellingen.
+
+---
+
 ## 📋 Weeksynthese
 
 Week 43 was geen rustige week. De combinatie van kritieke beveiligingsincidenten (PHP Armageddon, agentic aanvalscampagnes, insider threat-warnings), de eerste EU AI Act-handhavingsacties, een reeks gelijktijdige modelreleases en concrete enterprise-adoptiemijlpalen (SAP-TechWolf, Insight-OpenAI, Anthropic IPO) maakt dit een week die de versnelling van 2026 goed illustreert. De structurele boodschap: AI is geen experimenteerfase meer — het is een operationele realiteit met operationele risico's en operationele compliance-eisen. Voor Ctac liggen drie concrete acties voor de hand: een agentic governance-propositie lanceren, HR-klanten proactief informeren over de SAP TechWolf-integratie, en de EU AI Act december-deadline omzetten in een verkoop- en dienstverleningsmoment.
