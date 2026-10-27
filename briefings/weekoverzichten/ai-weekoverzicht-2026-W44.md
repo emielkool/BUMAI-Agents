@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 27 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-27.md](../ai-briefing-2026-10-27.md)
+
+**Highlights:**
+- **Anthropic start Europese AI-consultancypraktijk** (met Hg als investeerder, Londen & Berlijn): de labs bouwen niet alleen modellen maar ook de dienstverlening eromheen — directe concurrentiedruk voor IT-consultants in Europa.
+- **Eerste geharmoniseerde standaard EU AI Act gepubliceerd** (EN 18286:2026, 19 okt): bedrijven die hun AI-kwaliteitsmanagement hierop inrichten, bouwen juridische conformiteitspresumptie op — concreet aanknopingspunt voor adviestrajecten.
+- **Prompt injection blijft architecturaal onopgelost**: twee kritieke CVE's (CVSS 9.3 en 8.7) in AI-agentplatforms tonen dat indirecte injectie via documenten en webpagina's nog altijd volledige systeem-overname mogelijk maakt.
+
+**Ctac-relevantie van de dag:** Het Berenschot/Nyenrode AI-Trendonderzoek 2026 toont dat beleidsmatig AI-gebruik in Nederlandse organisaties daalde van 27% naar 19% — adoptie stagneert op structureel niveau. Dit is precies het gat dat Ctac kan vullen: niet met tooling, maar met governance, change management en implementatiebegeleiding. Tegelijk maakt Anthropics Europese consultancy-entree de urgentie voor een scherpe eigen propositie voelbaar.
 
 ---
 
