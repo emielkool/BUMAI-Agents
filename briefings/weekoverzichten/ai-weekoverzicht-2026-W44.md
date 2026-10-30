@@ -60,7 +60,14 @@ tags:
 
 ### Vrijdag 30 oktober
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-10-30.md](../ai-briefing-2026-10-30.md)
+
+**Highlights:**
+- **"Black October" AI security:** PHP/Brotli-kwetsbaarheden gevonden door AI-agents, LiteLLM supply chain-aanval en een malicious AGENTS.md-vector tonen dat AI-tooling zelf een primair aanvalsdoelwit is geworden.
+- **EU AI Act handhaving escaleert:** De AI Office stuurde informatieverzoeken naar 30+ AI-bedrijven, inclusief gerichte vragen aan OpenAI en Anthropic over agent-incidenten; de FTC opende parallel onderzoek in de VS.
+- **OpenAI × Google Cloud:** GPT-6-modellen (Astra, Sol, Luna) komen beschikbaar via Google Cloud Model Garden — OpenAI diversifieert van Microsoft-exclusiviteit naar multi-cloud distributie.
+
+**Ctac-relevantie van de dag:** "Black October" maakt AI-supply chain security een urgent klantgesprek: welke AI-bibliotheken draaien in productie en wie beheert de versie-updates? EU AI Act-handhaving is nu concreet met echte RFIs — ideaal moment om een compliance-scan te positioneren als Ctac-dienst voor klanten in gereguleerde sectoren.
 
 ---
 
