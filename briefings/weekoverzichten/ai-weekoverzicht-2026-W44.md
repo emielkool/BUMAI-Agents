@@ -71,6 +71,19 @@ tags:
 
 ---
 
+### Zondag 1 november
+
+→ Dagbriefing: [ai-briefing-2026-11-01.md](../ai-briefing-2026-11-01.md)
+
+**Highlights:**
+- **OpenAI DevDay 2026 – GPT-5.6 en Decisions API:** OpenAI presenteerde GPT-5.6 in drie smaken (Sol, Terra, Luna) en introduceerde een Decisions API voor gestructureerde menselijke goedkeuring in agentische workflows — een directe enabler voor enterprise-adoptie in gereguleerde sectoren.
+- **Mistral Large 4 open weights voor cybersecurity:** Het eerste trillion-parameter open-weight model van Mistral is beschikbaar via Hugging Face; positionering op security use cases opent een nieuwe markt voor open-source AI-toepassingen.
+- **EU AI Act decembertermijn nadert:** Per 2 december gelden nieuwe verplichtingen rondom AI-labelling en verboden op schadelijke content — organisaties die dit nog niet in orde hebben lopen reëel risico.
+
+**Ctac-relevantie van de dag:** De Decisions API van OpenAI maakt "human-in-the-loop" agentic AI concreet toepasbaar voor gereguleerde sectoren; tegelijk maakt de 2 december-deadline EU AI Act directe compliance-actie noodzakelijk bij klanten met generatieve AI in productie — twee aanknopingspunten voor Ctac-dienstverlening deze maand.
+
+---
+
 ## 🔁 Weeksynthese
 
 ### Rode draad van de week
