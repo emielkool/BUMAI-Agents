@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 3 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-03.md](../ai-briefing-2026-11-03.md)
+
+**Highlights:**
+- **Google Gemini 4 Argon breed uitgerold**, Gemini 4 Carbon nog beperkt tot overheid en cybersecurity-partners — Google maakt voor het eerst expliciete veiligheidskeuzes in de distributie van een flagship model.
+- **Microsoft-OpenAI exclusiviteit voorbij:** OpenAI draait nu op alle clouds; Agent 365 is productie-ready inclusief cross-cloud agent-registratie — hyperscaler-lock-in neemt structureel af.
+- **AI-gedreven bug discovery op industriële schaal:** Schneier projecteert ~100.000 extra kwetsbaarheden dit jaar; LiteLLM supply chain-aanval raakte cloud credentials — AI-tooling zelf is nu aanvalsvector.
+
+**Ctac-relevantie van de dag:** Agent 365 en multi-cloud openen directe gesprekken over AI-agent-governance bij klanten. Tegelijk maakt de LiteLLM-aanval een dependency-audit van open-source AI-componenten urgent voor lopende implementaties.
 
 ---
 
