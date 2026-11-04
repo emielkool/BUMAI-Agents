@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 4 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-04.md](../ai-briefing-2026-11-04.md)
+
+**Highlights:**
+- **Modellenstorm in november:** GPT-6 Rosalind Research (beperkte toegang), Gemini 4 Argon GA met Computer Use en 1M-token output, en Claude Haiku 5.5 met effort controls verschenen eind oktober/vroeg november — de modellen stapelen zich op in hoog tempo.
+- **Copilot RCE (CVE-2026-103572):** Remote code execution kwetsbaarheid in GitHub Copilot via Visual Studio/SSMS — dev-teams moeten direct patchen; ook een Claude Code child-session bypass gemeld.
+- **EU AI Act enforcement live, 2 december nadert:** Handhaving gestart, nog geen boetes. Op 2 december gelden nieuwe verboden (NCIM/CSAM-AI) en watermarkingplicht voor bestaande GenAI-systemen.
+
+**Ctac-relevantie van de dag:** De implementation gap in agentic AI (62% experimenteert, <10% op schaal) is dé propositiekans voor Ctac als governance- en implementatiepartner. Tegelijk maakt de M365 E7-bundel Copilot vanzelfsprekender voor enterprise-klanten, wat concrete adoptie-ondersteuning vraagt. EU AI Act-deadline van december 2027 vraagt nu actie bij klanten in overheid, zorg en finance.
 
 ---
 
