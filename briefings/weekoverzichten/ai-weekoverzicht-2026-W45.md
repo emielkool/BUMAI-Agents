@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 5 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-05.md](../ai-briefing-2026-11-05.md)
+
+**Highlights:**
+- **Wit Huis AI-akkoord:** Trump ondertekent vrijwillig akkoord met CEO's van OpenAI, Anthropic, Google, Meta, xAI en Nvidia – symbolisch politiek signaal zonder handhavingsgrond; Anthropic waarschuwt tegelijkertijd over nabije RSI (recursive self-improvement) capability.
+- **Meta koopt Conductor:** Multi-agent coding startup ingelijfd bij Meta; cloudservice sluit 20 november – consolidatie in AI-coding tooling zet door met hyperscalers die de markt opslokken.
+- **AI-kwetsbaarheidsstorm:** Schneier rapporteert ~26% stijging op historisch totaal aan gevonden softwarebugs door AI dit jaar; LLMs identificeerden ook kwetsbaarheden in het Duitse rechtssysteem – nieuw aanvalsoppervlak.
+
+**Ctac-relevantie van de dag:** EU AI Act deadline 2 december (verbod op NCII-generatie) is een directe compliance-kans als quickscan-dienst voor klanten in publieke sector, zorg en finance. De explosieve stijging van AI-gevonden kwetsbaarheden opent security-as-a-service propositie als aanvulling op softwareontwikkeltrajecten.
 
 ---
 
