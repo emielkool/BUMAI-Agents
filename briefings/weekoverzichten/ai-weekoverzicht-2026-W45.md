@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 6 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-06.md](../ai-briefing-2026-11-06.md)
+
+**Highlights:**
+- **OpenAI lanceert ChatGPT Cyber en Frontier:** Een nieuw cybersecurity-model (toegankelijk via het Daybreak Red-programma) en een enterprise-platform voor het bouwen en beheren van agents zijn nu live — signaal dat OpenAI de enterprise-markt serieus neemt.
+- **88% van enterprises had AI-agent security-incident:** VentureBeat-survey (n=919) toont dat beveiliging van agentic AI structureel achterblijft; goal hijacking, tool misuse en memory poisoning zijn de voornaamste bedreigingen.
+- **EU AI Act december-deadline aanstaande:** Generatieve AI-providers moeten per 2 december 2026 voldoen aan transparantievereisten (art. 50(2)); EVP Virkkunen briefte de Raad over vereenvoudiging.
+
+**Ctac-relevantie van de dag:** De golf van GA-geworden persistent agents (AWS Kiro, Google Gemini workplace, OpenAI Frontier) maakt Ctac's rol als governance- en implementatiepartner concreet aantoonbaar. De december-deadline voor EU AI Act biedt een directe dienstverleningskans via compliance-quickscans voor klanten in overheid, zorg en finance.
 
 ---
 
