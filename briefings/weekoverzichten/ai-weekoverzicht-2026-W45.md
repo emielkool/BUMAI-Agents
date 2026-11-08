@@ -56,6 +56,19 @@ tags:
 
 ---
 
+### Zondag 8 november
+
+→ Dagbriefing: [ai-briefing-2026-11-08.md](../ai-briefing-2026-11-08.md)
+
+**Highlights:**
+- **OpenAI haalt $11 miljard op bij waardering $1,25 biljoen:** De eerste tranche van een grotere ronde is gesloten; Anthropic past tegelijk zijn IPO-verwachting naar beneden bij. De markt herordent zich snel rond een handvol dominante spelers.
+- **Enterprise AI-markt explodeert naar $177 miljard (5,4x groei):** Menlo Ventures' State of Enterprise AI-rapport toont ongekende investeringsgroei, maar ook dat 95% van bedrijven het rendement nog niet heeft gevonden – het 'governance gap' is de komende propositieruimte.
+- **AI-aandelencrash van $2,5 biljoen en herstel:** Na de Amerikaanse tussentijdse verkiezingen verdampte enorme marktwaarde, gevolgd door gedeeltelijk herstel. Politieke onzekerheid over AI-regulering in een Democratisch Congres blijft een risicofactor.
+
+**Ctac-relevantie van de dag:** De combinatie van massale enterprise AI-uitgaven zonder aantoonbaar rendement en toenemende beveiligingsincidenten bij AI coding-tools maakt verantwoorde implementatiebegeleiding tot een urgente propositie; de EU AI Act-transparantieregels zijn al actief en compliance-ondersteuning is een concrete dienst die Ctac nu kan aanbieden.
+
+---
+
 ## 🔮 Weeksynthe se
 
 *(Wordt bijgewerkt na afloop van de werkweek)*
