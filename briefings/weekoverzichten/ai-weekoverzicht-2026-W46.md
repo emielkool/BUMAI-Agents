@@ -26,8 +26,14 @@ tags:
 ---
 
 ### Dinsdag 10 november
+→ Dagbriefing: [ai-briefing-2026-11-10.md](../ai-briefing-2026-11-10.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Anthropic lanceert Fable 5.2 & Mythos 5.2** (9 nov): verbeterde coding, reasoning en vision, plus prijsverlaging voor Fable – direct beschikbaar op AWS, Azure en Google Cloud.
+- **OpenAI GPT-6 Cyber en 948 Linux-exploits in 30 uur**: een cybersecuritymodel exclusief voor professionals én een pipeline die massaal exploits genereert illustreren dat AI de offensieve kant van security structureel versterkt.
+- **Nederland: 'Kiezen voor AI voor iedereen'**: het kabinet stelde een nationale AI-visie vast, met mogelijk een nationaal AI-veiligheidsinstituut per 2027; DNB onderstreept dat brede adoptie nodig is voor echte productiviteitswinst.
+
+**Ctac-relevantie van de dag:** De 2 december EU AI Act-deadline (markeringsplicht Article 50(2)) is nu minder dan vier weken weg – een urgente kans voor Ctac om compliance-readiness te leveren aan klanten in zorg, finance en overheid. Combineer dit met het groeiende AI-securityrisico (Plugin4Shell, exploit-generators) voor een concreet dubbelpropositie-aanbod.
 
 ---
 
