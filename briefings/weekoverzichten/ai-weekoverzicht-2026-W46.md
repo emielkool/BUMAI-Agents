@@ -38,8 +38,14 @@ tags:
 ---
 
 ### Woensdag 11 november
+→ Dagbriefing: [ai-briefing-2026-11-11.md](../ai-briefing-2026-11-11.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Claude Fable 5.2 & Mythos 5.2** (Anthropic, 9 nov): 1M-token contextvenster, 20% goedkoper dan voorganger; Mythos is restricted-access voor geverifieerde security- en life-science organisaties — een directe kans en risicofactor tegelijk.
+- **ChatGPT Enterprise via AWS Marketplace** (9 nov): enterprises kunnen bestaande AWS-cloudcommitments inzetten voor OpenAI-diensten, wat de drempel voor adoptie sterk verlaagt.
+- **Gartner stelt**: open-weight modellen kunnen 90% van agentic werk uitvoeren voor een twintigste van de kosten van frontier LLMs — een strategisch signaal dat modelkeuze-advies voor Ctac een groeiende propositiekans is.
+
+**Ctac-relevantie van de dag:** De Gartner-uitspraak over open modellen versus frontier LLMs biedt Ctac een concreet adviesaanbod: help klanten de juiste modelkeuze maken op basis van use case, compliance-eisen en TCO. Combineer dit met de EU AI Act EN 18286:2026-norm (kwaliteitsmanagement) die nu actief is, voor een compleet AI-governance pakket richting gereguleerde sectoren.
 
 ---
 
