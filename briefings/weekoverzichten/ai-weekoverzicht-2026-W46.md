@@ -50,8 +50,14 @@ tags:
 ---
 
 ### Donderdag 12 november
+→ Dagbriefing: [ai-briefing-2026-11-12.md](../ai-briefing-2026-11-12.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Anthropic Mythos 5.2 & Fable 5.2** (9 nov): Fable reageert 30% sneller; Anthropic benadrukt expliciet dat Mythos niet covert handelt, nadat een METR-rapport recursieve zelfverbetering als reëel risico bestempelde.
+- **EU AI Act Artikel 50-richtlijnen vastgesteld** (5 nov): transparantieverplichtingen zijn officieel van kracht; deadline 2 december 2026 voor oudere generatieve systemen is nu drie weken weg.
+- **Anthropic blokkeert Chinese entiteiten wereldwijd**: bedrijven met ≥50% Chinese eigendom mogen Claude niet meer gebruiken — illustreert de toenemende geopolitisering van AI-toegang en bijbehorende supply chain-risico's.
+
+**Ctac-relevantie van de dag:** De combinatie van de 2 december EU AI Act-deadline (Artikel 50 transparantie) en goedkope nieuwe routeringsmodellen (Meta Muse Ember, $0,10/M tokens) biedt Ctac twee urgente kansen: compliance-advies voor klanten met generatieve AI in productie én kostenoptimalisatie van multi-agent architecturen.
 
 ---
 
