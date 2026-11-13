@@ -62,8 +62,14 @@ tags:
 ---
 
 ### Vrijdag 13 november
+→ Dagbriefing: [ai-briefing-2026-11-13.md](../ai-briefing-2026-11-13.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Drie frontier-modellen in vier dagen:** Google (Gemini 4 Carbon, 10 nov), Anthropic (Claude Fable 5.2, 9 nov) en OpenAI (GPT Image 2.6, 4 nov) lanceerden elk een nieuw product – de competitie aan de frontier versnelt merkbaar, met Anthropic dat ook Microsoft/Google Workspace aanvalt via Claude Sheets, Meetings en Whiteboards.
+- **EU AI Act Article 50-richtsnoeren in het Publicatieblad** (12 nov): de Commissie publiceerde haar transparantie-guidelines; de markeerplicht voor synthetische content en nieuwe verboden gaan in op 2 december 2026 – drie weken weg.
+- **Agent governance is nu de kritieke blocker:** Gartner verwacht 40% enterprise-app-penetratie van AI-agents eind 2026, maar slechts 21% heeft een volwassen governance-model; prompt injection (LLM01, OWASP) trof 90+ organisaties in 2025 en is structureel aanwezig in MCP- en RAG-gebaseerde agent-architecturen.
+
+**Ctac-relevantie van de dag:** De 2-december EU AI Act compliance-deadline en de agent governance-kloof zijn twee urgente service-kansen: Ctac kan klanten helpen voldoen aan de markeringsverplichting én een governance-raamwerk bieden voor veilige agent-deployments – inclusief prompt-injection-mitigaties en audittrails.
 
 ---
 
