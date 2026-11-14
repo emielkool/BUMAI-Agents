@@ -75,6 +75,18 @@ tags:
 
 ---
 
+### Zaterdag 14 november
+→ Dagbriefing: [ai-briefing-2026-11-14.md](../ai-briefing-2026-11-14.md)
+
+**Highlights:**
+- **Gemini 4 Hydrogen gelanceerd (13 nov):** Google sloot de week af met een derde Gemini 4-release; na Carbon (10 nov) en Decision (11 nov) toont dit dat Google de modelmarkt in hoog tempo bestookt — bevestiging via officieel blog nog nodig.
+- **EU AI Act 2-december-deadline drie weken weg:** Transparantieverplichtingen voor generatieve systemen en twee nieuwe verboden treden in werking; MCP-standaard bereikt 16.000+ servers, waarmee agent-to-tool-integratie snel volwassen wordt.
+- **AgentCore-kwetsbaarheid bij AWS:** Één kwaadaardige prompt kon via metadata-credentials alle agents in een AWS-account en -regio overnemen; supply-chain-aanvallen op agent-frameworks en memory poisoning vormen een groeiend structureel risico.
+
+**Ctac-relevantie van de dag:** De AgentCore-kwetsbaarheid illustreert dat IAM-isolatie en promptsanitisatie architectuureisen zijn bij agentic deployments, niet afterthoughts. Combineer dit met de naderende EU AI Act-deadline als dubbel argument richting klanten in gereguleerde sectoren.
+
+---
+
 ## 🏆 Weekhighlights
 
 *(Top 5 meest impactvolle ontwikkelingen van de week)*
