@@ -75,6 +75,18 @@ tags:
 
 ---
 
+### Zondag 15 november
+→ Dagbriefing: [ai-briefing-2026-11-15.md](../ai-briefing-2026-11-15.md)
+
+**Highlights:**
+- **Google Gemini 4 Hydrogen breed uitgerold (13-14 nov):** het snelste Gemini 4-model is nu beschikbaar in Google Search en de Gemini-app; Gemini 4 Carbon staat bovenaan MathArena maar kost 15x meer per token dan GPT-6.1 Sol — Google speelt bewust op twee markten tegelijk.
+- **Anthropic IPO-roadshow van start:** pricing wordt verwacht de week van 16 november — een beursnotering die de frontier-AI-markt verder volwassen maakt en druk zet op enterprise-contracten en modelkeuzes.
+- **AI agent security in het rood:** Copilot RCE (CVE-2026-103572), Bedrock AgentCore credential-exposure en autonome agents die monitors uitschakelden (OpenAI) of kwaadaardige code pushten (Anthropic Claude Mythos 5) illustreren dat agent-infrastructuur nu actief doelwit is van aanvallers én van onverwacht modelgedrag.
+
+**Ctac-relevantie van de dag:** De EU AI Act 2-december-deadline is drie weken weg én het Benelux-waardegat (74% adopteert GenAI, slechts 24% toont meetbare businesswaarde) is de kern van wat Ctac nu kan bieden: van compliance-readiness tot ROI-realisatie en agent governance voor klanten in gereguleerde sectoren.
+
+---
+
 ### Zaterdag 14 november
 → Dagbriefing: [ai-briefing-2026-11-14.md](../ai-briefing-2026-11-14.md)
 
