@@ -28,8 +28,14 @@ tags:
 ---
 
 ### Dinsdag 17 november
+→ Dagbriefing: [ai-briefing-2026-11-17.md](../ai-briefing-2026-11-17.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Microsoft Ignite van start:** Vandaag opent Microsoft Ignite (17–21 nov.) — verwacht aankondigingen rond Copilot-agents en Azure AI Foundry; IBM en Microsoft lanceerden al "Imagine Enterprise" met 6.000 voorgebouwde enterprise-agents voor finance en retail.
+- **AgentCore account-takeover kwetsbaarheid:** Eén prompt naar een exposed Amazon Bedrock AgentCore-agent volstaat om alle agents in het AWS-account over te nemen. MCP-servers worden als nieuw aanvalsdoel benoemd door Trellix.
+- **EU AI Act deadline 2 december:** Generatieve AI-systemen op de markt vóór augustus moeten machine-leesbare markering toevoegen; de Commissie publiceerde ook een concepttemplate voor fundamental rights impact assessments (Art. 27).
+
+**Ctac-relevantie van de dag:** Drie directe kansen: (1) klantadvies bij Ignite-aankondigingen (Copilot agents, Azure AI), (2) EU AI Act compliance-advies voor de 2 december deadline, (3) agent security als propositie — agentic architecturen vereisen specifieke beveiligingsexpertise die klanten niet in huis hebben.
 
 ---
 
