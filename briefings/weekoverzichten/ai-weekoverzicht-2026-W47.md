@@ -40,8 +40,14 @@ tags:
 ---
 
 ### Woensdag 18 november
+→ Dagbriefing: [ai-briefing-2026-11-18.md](../ai-briefing-2026-11-18.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Anthropic IPO vanavond geprijsd, morgen live op Nasdaq (ANT):** Verwachte beurswaarde $1,3–1,4 biljoen; de totale opbrengst kan ~$90 miljard bedragen. Dit is de grootste tech-IPO ooit en zet de toon voor de hele AI-sector.
+- **SAP onthult 1.000 AI-agents bij TechEd 2026:** Finance, supply chain, HR en CX – gebouwd in samenwerking met Microsoft, Google Cloud en AWS. SAP-klanten krijgen deze agents standaard aangeboden; begrip van de architectuur is nu een kwalificatievereiste.
+- **AI coding tools (Copilot CLI, Claude Code) hadden beide gedocumenteerde kwetsbaarheden in november:** Copilot decrypteerde aanvallerscode in eigen shell; Claude Code-child-sessie omzeilde bevestigingsstap in kwaadaardig repository. Intern security-briefing is op zijn plek voor engineers die deze tools dagelijks gebruiken.
+
+**Ctac-relevantie van de dag:** Drie directe actiepunten: (1) SAP TechEd agents vereisen interne kennisopbouw voor SAP-klanten in het Ctac-portfolio; (2) EU AI Act labelling-deadline 2 december biedt kans voor snel, concreet advieswerk; (3) Anthropic IPO monitoren op pricing-impact voor Claude-gebruik in Ctac-workflows.
 
 ---
 
