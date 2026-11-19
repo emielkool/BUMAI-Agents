@@ -52,8 +52,14 @@ tags:
 ---
 
 ### Donderdag 19 november
+→ Dagbriefing: [ai-briefing-2026-11-19.md](../ai-briefing-2026-11-19.md)
 
-*(geen briefing beschikbaar voor deze dag)*
+**Highlights:**
+- **Anthropic IPO geprijsd op $83/aandeel:** Boven de verwachte bandbreedte — de beursgang markeert een historisch moment voor de AI-sector en signaleert institutioneel vertrouwen in frontier AI als beleggingsklasse.
+- **Google Gemini 4 Neon gelanceerd (#3 AI Analysis Index):** De modelwedloop versnel zichtbaar; binnen één week zijn er nu al drie Gemini 4-varianten plus nieuwe OpenAI GPT-6.2-releases. Prijsdruk en beschikbaarheid van frontier-modellen nemen toe.
+- **CVE-2025-53773 & EchoLeak (Copilot-kwetsbaarheden):** Twee exploiteerbare prompt-injection kwetsbaarheden in GitHub Copilot (CVSS 9.6, RCE via PR-beschrijvingen) en Microsoft 365 Copilot (zero-click data-exfiltratie) zijn in productie bevestigd.
+
+**Ctac-relevantie van de dag:** De 2 december AI Act-deadline is nu 13 dagen weg — Article 50-markering voor synthetische content is direct toepasbaar voor veel klanten. Tegelijk bieden de Copilot-kwetsbaarheden een concrete aanleiding voor een kort beveiligingsassessment-aanbod: permissions, datablootstelling en MCP-verbindingen van agentic tools doorlichten.
 
 ---
 
