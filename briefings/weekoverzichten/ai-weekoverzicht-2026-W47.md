@@ -4,87 +4,133 @@ Stakeholders:
   - Eloy Schultz
 Week: 2026-W47
 Datum: 2026-11-20
+Periode: 2026-11-16 / 2026-11-22
 Status: Afgerond
 tags:
   - weekoverzicht
 ---
 
-# AI Weekoverzicht – Week 47, 2026
+# AI Weekoverzicht – Week 47 (16–22 november 2026)
 
-> Synthese van de AI-ontwikkelingen van 16 november t/m 20 november 2026.
-> *Let op: er zijn voor deze week geen afzonderlijke dagbriefings beschikbaar. Dit weekoverzicht is op basis van directe websearch samengesteld.*
+> Synthese van de dagbriefings van maandag 16 november t/m vrijdag 20 november 2026.
+
+---
+
+### Maandag 16 november
+→ Dagbriefing: [ai-briefing-2026-11-16.md](../ai-briefing-2026-11-16.md)
+
+**Highlights:**
+- **FAA grondt alle VS-vluchten na fout in AI-luchtverkeerstool:** Dagen na de landelijke uitrol van een AI-gestuurde luchtverkeersleiding-tool heeft de FAA alle vluchten tijdelijk geground. Een ernstig signaal dat AI-deployments in kritieke infrastructuur een andere risicocategorie vereisen dan enterprise software.
+- **Google Gemini 4 Hydrogen en Anthropic Claude Fable 5.2 recent uitgebracht:** Beide labs lanceerden nieuwe frontiermodellen; Fable 5.2 is 20% goedkoper en 1M-token contextvenster — de prijsdruk neemt structureel toe.
+- **Backdoored Claude Code-extensie trof 5.000 developers:** Een API-lek bij Fireworks AI leidde tot een gecompromitteerde Claude Code-extensie in de marketplace — supplychain-aanvallen op AI-tooling zijn nu realiteit.
+
+**Ctac-relevantie van de dag:** De EU AI Act high-risk regels zijn vertraagd naar december 2027, maar GPAI- en Article 50-verplichtingen gelden nu al. Combineer dit met de groeiende agentic security-incidenten (AgentCore prompt injection, Fireworks API-lek) voor een concreet dubbelpropositie-aanbod: compliance-readiness én agent governance-advies voor klanten in gereguleerde sectoren.
+
+---
+
+### Dinsdag 17 november
+→ Dagbriefing: [ai-briefing-2026-11-17.md](../ai-briefing-2026-11-17.md)
+
+**Highlights:**
+- **Microsoft Ignite van start:** Vandaag opent Microsoft Ignite (17–21 nov.) — verwacht aankondigingen rond Copilot-agents en Azure AI Foundry; IBM en Microsoft lanceerden al "Imagine Enterprise" met 6.000 voorgebouwde enterprise-agents voor finance en retail.
+- **AgentCore account-takeover kwetsbaarheid:** Eén prompt naar een exposed Amazon Bedrock AgentCore-agent volstaat om alle agents in het AWS-account over te nemen. MCP-servers worden als nieuw aanvalsdoel benoemd door Trellix.
+- **EU AI Act deadline 2 december:** Generatieve AI-systemen op de markt vóór augustus moeten machine-leesbare markering toevoegen; de Commissie publiceerde ook een concepttemplate voor fundamental rights impact assessments (Art. 27).
+
+**Ctac-relevantie van de dag:** Drie directe kansen: (1) klantadvies bij Ignite-aankondigingen (Copilot agents, Azure AI), (2) EU AI Act compliance-advies voor de 2 december deadline, (3) agent security als propositie — agentic architecturen vereisen specifieke beveiligingsexpertise die klanten niet in huis hebben.
+
+---
+
+### Woensdag 18 november
+→ Dagbriefing: [ai-briefing-2026-11-18.md](../ai-briefing-2026-11-18.md)
+
+**Highlights:**
+- **Anthropic IPO vanavond geprijsd, morgen live op Nasdaq (ANT):** Verwachte beurswaarde $1,3–1,4 biljoen; de totale opbrengst kan ~$90 miljard bedragen. Dit is de grootste tech-IPO ooit en zet de toon voor de hele AI-sector.
+- **SAP onthult 1.000 AI-agents bij TechEd 2026:** Finance, supply chain, HR en CX – gebouwd in samenwerking met Microsoft, Google Cloud en AWS. SAP-klanten krijgen deze agents standaard aangeboden; begrip van de architectuur is nu een kwalificatievereiste.
+- **AI coding tools (Copilot CLI, Claude Code) hadden beide gedocumenteerde kwetsbaarheden in november:** Copilot decrypteerde aanvallerscode in eigen shell; Claude Code-child-sessie omzeilde bevestigingsstap in kwaadaardig repository. Intern security-briefing is op zijn plek voor engineers die deze tools dagelijks gebruiken.
+
+**Ctac-relevantie van de dag:** Drie directe actiepunten: (1) SAP TechEd agents vereisen interne kennisopbouw voor SAP-klanten in het Ctac-portfolio; (2) EU AI Act labelling-deadline 2 december biedt kans voor snel, concreet advieswerk; (3) Anthropic IPO monitoren op pricing-impact voor Claude-gebruik in Ctac-workflows.
+
+---
+
+### Donderdag 19 november
+→ Dagbriefing: [ai-briefing-2026-11-19.md](../ai-briefing-2026-11-19.md)
+
+**Highlights:**
+- **Anthropic IPO geprijsd op $83/aandeel:** Boven de verwachte bandbreedte — de beursgang markeert een historisch moment voor de AI-sector en signaleert institutioneel vertrouwen in frontier AI als beleggingsklasse.
+- **Google Gemini 4 Neon gelanceerd (#3 AI Analysis Index):** De modelwedloop versnel zichtbaar; binnen één week zijn er nu al drie Gemini 4-varianten plus nieuwe OpenAI GPT-6.2-releases. Prijsdruk en beschikbaarheid van frontier-modellen nemen toe.
+- **CVE-2025-53773 & EchoLeak (Copilot-kwetsbaarheden):** Twee exploiteerbare prompt-injection kwetsbaarheden in GitHub Copilot (CVSS 9.6, RCE via PR-beschrijvingen) en Microsoft 365 Copilot (zero-click data-exfiltratie) zijn in productie bevestigd.
+
+**Ctac-relevantie van de dag:** De 2 december AI Act-deadline is nu 13 dagen weg — Article 50-markering voor synthetische content is direct toepasbaar voor veel klanten. Tegelijk bieden de Copilot-kwetsbaarheden een concrete aanleiding voor een kort beveiligingsassessment-aanbod: permissions, datablootstelling en MCP-verbindingen van agentic tools doorlichten.
+
+---
+
+### Vrijdag 20 november
+→ Dagbriefing: [ai-briefing-2026-11-20.md](../ai-briefing-2026-11-20.md)
+
+**Highlights:**
+- **Anthropic beursgang voltooid op $1,76 biljoen marktwaarde:** Aandeel ANT sloot op $97,17 (+17% boven IPO-prijs $83) — de grootste tech-IPO ooit en een signaal dat frontier AI als strategische infrastructuur wordt gewaardeerd, niet als speculatief risico.
+- **Microsoft Ignite: agent-cloud, 7 nieuwe modellen en Azure HorizonDB GA:** Microsoft verschuift de competitie van frontiermodellen naar de laag eronder — vector-native databases, agent-governance (Entra Agent ID) en goedkopere eigen modellen als MAI Code 2.
+- **LiteLLM AI-gateway kwetsbaarheid (CISA KEV) en record 100.000+ CVE's in 2026:** Exploitatietijd halveert (120 → 80 dagen); MCP-servers worden actief aangevallen. AI-tooling is nu aanvalsdoel #1.
+
+**Ctac-relevantie van de dag:** De Anthropic-beursgang en Microsofts agent-governance-aankondigingen (Entra Agent ID, Agent 365) maken twee proposities urgent: (1) agent governance-diensten voor de 69% Benelux-organisaties die bezorgd zijn over Shadow AI, en (2) AI-security assessments nu de exploitatietijd van kwetsbaarheden halveert.
+
+---
 
 ## 🏆 Weekhighlights
 
-1. **OpenAI lanceert GPT-6.2 Astra & Sol (17 nov)** – OpenAI bracht twee nieuwe varianten uit binnen de GPT-6-familie: GPT-6.2 Astra (gericht op lange agent-taken) en GPT-6.2 Sol (lagere kosten per taak). Alibaba deed hetzelfde met Qwen4-Max op 16 november – de eerste release zonder open weights in de Qwen4-generatie. De race naar goedkopere, langlopende agentic workloads is in volle gang.
+**De week van de Anthropic IPO en Microsoft Ignite — twee landmarks die de AI-marktdynamiek definitief kantelen.**
 
-2. **Enterprise AI-spending bereikt $177 miljard – 5,4x groei in één jaar (Menlo Ventures)** – De jaarlijkse State of Enterprise AI report toont explosieve groei: Anthropic, OpenAI en Google beheersen 69% van de enterprise-spend. Toch rapporteert 79% van de organisaties adoptie-uitdagingen en koppelt slechts 15% AI-investeringen aan meetbare financiële resultaten. Hype is reëel, maar rendement blijft moeilijk aantoonbaar.
+- Anthropic debuteerde op de Nasdaq met $1,76 biljoen waardering (19 nov): frontier-AI-labs zijn nu beleggingsklasse, geen startup-speculatie meer.
+- Microsoft Ignite (17–21 nov) zette de toon: de strijd verschuift van modelkwaliteit naar de laag eronder — databases, governance, agent-orchestratie.
+- De modelwedloop accelereerde in één week: Gemini 4 Neon, GPT-6.2, Claude Fable 5.2, Qwen4 Max, Hy4 Flash — pricing daalt structureel.
+- Security-incidenten stapelen op: Copilot RCE (CVSS 9.6), LiteLLM KEV, MCP-bypasses, en een crimineel onderzoek naar OpenAI vanuit Arizona.
+- EU AI Act-deadline 2 december nadert: Article 50 markering is voor veel klanten nog niet geregeld.
 
-3. **CISA voegt LiteLLM-lek toe aan actief-uitgebuite kwetsbaarheden (18 nov)** – CVE-2026-40217 in de LiteLLM AI-gateway staat nu op de CISA KEV-lijst met een deadline van 2 december voor federale agencies. Op 17 november werd ook een gekapt Microsoft agent-framework-pakket op PyPI gepubliceerd. AI-tooling is een aanvalsoppervlak geworden dat organisaties actief moeten patchen.
-
-4. **EU Digital Fairness Act gepubliceerd; AI Act enforcement loopt (11 nov)** – De Europese Commissie diende op 11 november de Digital Fairness Act in (dark patterns, gerichte reclame aan minderjarigen). Op 5 november kwamen richtsnoeren over de definitie van een AI-systeem onder de AI Act. Organisaties die nog niet bezig zijn met compliance-mapping lopen achter op de planning voor de hoge-risico-verplichtingen (2027–2028).
-
-5. **Infrastructuurverschuiving: 55% wil AI on-premises (Schneider/Omdia, 18 nov)** – Meer dan de helft van de ondervraagde enterprise-beslissers geeft de voorkeur aan eigen infrastructuur voor agentic workloads, deels vanwege datasouvereiniteit. Agentic workloads vragen bovendien om meer dan GPU's: CPU-capaciteit en secure execution-omgevingen worden steeds kritischer.
+---
 
 ## 🔍 Domeinpatronen
 
 ### 🧠 Technologie & Modellen
 
-De week tekent zich af als een typische "dichte release-week" in een reeds volle modellen-kalender. OpenAI (GPT-6.2 Astra/Sol), Alibaba (Qwen4-Max) en Google (Gemini 4 Neon, 18 nov) brachten elk een nieuwe variant. De rode draad: alle releases richten zich op *agentic efficiency* – lagere kostprijs per langlopende taak. Modelkwaliteit is geen onderscheidende factor meer; het gevecht gaat om prijs-per-agentic-workload. Tegelijk verschuift enterprise-infrastructuur naar on-premises en hybride setups: GPU's volstaan niet meer; organisaties willen datacontrole en sovereigniteit over hun agent-omgevingen.
+Modelupdates kwamen in recordtempo: Google lanceerde Gemini 4 Hydrogen (ma) en Gemini 4 Neon (do/vr), Microsoft kondigde 7 modellen aan waaronder MAI Code 2, Alibaba bracht Qwen4 Max en Tencent Hy4 Flash uit. De context-windows groeien (1M-token standaard), de prijzen dalen. Azure HorizonDB als vector-native database bereikt GA — infrastructuur voor RAG wordt productief.
 
 ### 🏛️ Governance & Beleid
 
-Europa zette in november concrete stappen: de AI Act-handhaving loopt, de definitie-richtlijnen zijn gepubliceerd en de Digital Fairness Act is in consultatie. De druk op organisaties neemt toe: 2027 brengt de hoge-risico-verplichtingen en organisaties die nu niet starten met impact assessments en governance-frameworks, komen in tijdnood. In de VS brengt de Democratische overwinning bij de Congresverkiezingen (3 nov) onzekerheid: meer kans op federale AI-regulering, maar de tijdlijn is onduidelijk. Australiës nieuwe AI-toezichthouder (10 nov) laat zien dat governance wereldwijd institutionaliseert.
+EU AI Act enforcement is actief (sinds aug 2026). De 2 december 2026 deadline voor generatieve AI-markering nadert. Hoog-risico-annex III is uitgesteld naar december 2027 (AI Omnibus). Geen boetes gepubliceerd, maar Bank of England + FCA publiceerden sector-specifieke AI-cyberrichtlijnen (vr 20 nov) — financiële sector loopt voorop.
 
 ### 🔐 Security & Risk
 
-Dit was een belangrijke week voor AI-security. Twee concrete dreigingen domineerden:
-- **Supply-chain aanval:** Een gekapt Microsoft agent-framework pakket op PyPI (17 nov) illustreert dat de AI-tooling-ecosysteem een favoriet aanvalspad wordt.
-- **Actief uitgebuit lek:** LiteLLM CVE-2026-40217 op de CISA KEV-lijst (18 nov) met een strakke deadline.
-
-Structureler: Gartner rapporteerde dat AI-risico's vier van de vijf toprisico's voor Q3 2026 vormen. CrowdStrike's overname van Fiddler voor agent-monitoring laat zien dat de markt begint te volwassen worden op dit terrein. Een zorgwekkend studieresultaat: slechts 24,8% van LLM-gegenereerde security patches is volledig correct – organisaties die AI inzetten voor security-fixes moeten menselijke review garanderen.
+De week stond in het teken van AI-tooling als aanvalsvector: Copilot RCE via PR-beschrijvingen (CVSS 9.6), EchoLeak zero-click data-exfiltratie uit M365 Copilot, LiteLLM gateway CVE op CISA KEV-lijst, AgentCore account-takeover, MCP server policy bypass (AWS). Exploitatietijd daalde van 120 naar 80 dagen. Totale CVE-volume in 2026 overschreed 100.000.
 
 ### 📈 Markt & Adoptie
 
-Enterprise AI-spend is explosief ($177 miljard, 5,4x in een jaar) maar het rendement blijft achter: 79% rapporteert adoptie-obstakels en slechts 15% meet aantoonbare financiële resultaten. Dit is het kerndilemma voor IT-consultancy: klanten willen investeren maar weten niet hoe ze waarde gaan aantonen. IBM en Microsoft lanceerden "Imagine Enterprise" (10 nov) met 6.000 pre-built agents voor finance en retail – een sign dat hyperscalers het agent-platform-gevecht aangaan. Belangrijk voor bouwers: **Agent Builder sluit op 30 november** – een harde deadline die klanten raakt die daarop gebaseerde workflows hebben.
+Anthropic IPO domineert. Microsoft Ignite positioneert Azure als de agent-cloud voor enterprise. SAP TechEd introduceerde 1.000 AI-agents voor ERP-klanten. OpenAI rolt computer-use agents uit in de zorg. Benelux-adoptie: NL 33%, BE 34,5% — maar slechts 24% meet businesswaarde, 69% vreest Shadow AI.
+
+---
 
 ## 💼 Ctac-weekperspectief
 
-- **Ctac's eigen context:** Patrick Rosengarten startte op 16 november als nieuwe CFO. Ctac verwacht een negatief resultaat voor 2026 door een eenmalige strop, maar rapporteert sterke operationele vraag naar AI-diensten. Dit is het moment om die vraag te concretiseren in proposities met aantoonbare ROI – juist omdat 85% van de markt dit nog niet voor elkaar heeft.
+Week 47 biedt Ctac drie concrete propositionele ingangen:
 
-- **Agent Builder shutdown (30 nov) = klantrisico:** Organisaties die workflows hebben gebouwd op Microsoft's Agent Builder moeten uiterlijk deze week actie ondernemen. Ctac kan hier proactief advies bieden over migratiepaden richting Copilot Studio of Azure AI Foundry.
+1. **Agent Governance**: De combinatie van Microsoft Entra Agent ID, 69% Shadow AI-zorgen in Benelux, en escalerende agentic security-incidenten maakt een "Agent Inventory & Governance" dienst marktrijp. Nu aanbieden aan klanten in finance, overheid en zorg.
 
-- **EU AI Act compliance urgentie:** De publicatie van de definitie-richtlijnen (5 nov) en de Digital Fairness Act (11 nov) versterken de urgentie van AI governance-diensten. Klanten in de hoge-risico-categorieën hebben minder dan een jaar om hun impact assessments en documentatie op orde te krijgen. Propositie-kans voor Ctac's AI-governance dienstverlening.
+2. **EU AI Act compliance (2 december deadline)**: Article 50-markering voor synthetische content is 12 dagen weg. Veel klanten met generatieve AI-tools zijn nog niet compliant. Dit is een kort, betaalbaar adviesproduct.
 
-- **Security-propositie versterken:** De LiteLLM KEV en de PyPI supply-chain aanval zijn concrete klantgesprekken. Ctac kan het thema "veilige AI-tooling in de supply chain" concreet maken: welke AI-pakketten gebruikt een klant, wie monitort die, en hoe worden patches beheerd?
+3. **AI Security Assessments**: De kwetsbaarheidsgolf (Copilot, MCP, LiteLLM, AgentCore) maakt een gerichte AI-security scan aantrekkelijk. Combineer met de halvering van exploitatietijd als urgentie-argument.
+
+Strategisch: de Anthropic IPO is ook een pricing-signaal. Monitor of Claude-tarieven post-beursgang wijzigen — dit raakt directe operationele kosten van Ctac's eigen AI-workflows.
+
+---
 
 ## 📚 Bronnenlijst
 
-**Technologie & Modellen**
-- [AI Weekly: GPT-6.2, Gemini 4 Hydrogen, Nvidia Shake-Up – AM Data Lakehouse](https://amdatalakehouse.substack.com/p/ai-weekly-gpt-62-gemini-4-hydrogen)
-- [New AI Models — November 2026 LLM Releases – LLM Gateway](https://llmgateway.io/timeline)
-- [Enterprise AI infrastructure moves beyond GPUs – SiliconANGLE](https://siliconangle.com/2026/11/19/enterprise-ai-pushing-cloud-infrastructure-beyond-gpu-kubeconna/)
-- [Schneider Electric and Omdia: enterprise shift towards own AI infrastructure (19 nov)](https://news.europawire.eu/schneider-electric-and-omdia-research-highlights-enterprise-shift-towards-company-owned-ai-infrastructure/eu-press-release/2026/11/19/17/14/02/188827/)
-
-**Governance & Beleid**
-- [AI law and regulation: agents, incident reporting – Beyond Horizons (nov 2026)](https://www.insights.beyondhorizons.sg/p/ai-law-regulation-roundup-november-2026)
-- [AI Regulation & Policy Weekly Report 16 november 2026 – Origin Brief](https://www.originbrief.app/en/reports/ai-regulation-policy/2026-11-16/weekly)
-- [Most AI Governance Platforms Still Cannot Say No (18 nov)](https://genesishumanexperience.com/2026/11/18/ai-governance-platforms-cannot-say-no/)
-- [AI regulation news November 2026 – mean.ceo blog](https://blog.mean.ceo/ai-regulation-news-november-2026/)
-
-**Security & Risk**
-- [AI agent security November 2026: AgentCore takeover, rogue agents – Adversa AI](https://adversa.ai/blog/top-ai-agent-security-resources-november-2026/)
-- [CISO Daily Briefing 15 november 2026 – Cloud Security Alliance](https://labs.cloudsecurityalliance.org/research/ciso-daily-briefing-20261115/)
-- [AI and Cybersecurity Update: Vendor Breaches Nov 2026 – BTI Group](https://www.btigroup.com/post/ai-cybersecurity-update-november-20-2026/)
-- [What's new in Microsoft Security November 2026](https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/)
-- [Companies going all in on AI could see strategy backfire – Help Net Security](https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/)
-
-**Markt & Adoptie**
-- [Menlo Ventures 2026 State of Enterprise AI: $177B, 5.4x groei – GlobeNewswire](https://www.globenewswire.com/news-release/2026/11/03/3394279/0/en/menlo-ventures-2026-state-of-enterprise-ai-report-enterprise-ai-spending-hits-177b-up-5-4x-in-one-year-as-agents-take-over)
-- [Enterprise AI adoption: 79% face challenges despite high investment – WRITER](https://writer.com/blog/enterprise-ai-adoption-2026/)
-- [AI Agents expand enterprise reach, week 16 nov – AI Agents Directory](https://aiagentsdirectory.com/news/ai-agents-expand-enterprise-reach-tackle-complex-workflows-and-enhance-security)
-
-**Ctac-context**
-- [Ctac verwacht rood jaar 2026 door eenmalige strop – Dutch IT Channel](https://www.dutchitchannel.nl/news/763443/ctac-verwacht-rood-jaar-2026-door-eenmalige-strop/)
-- [Patrick Rosengarten wordt CFO van Ctac – Dutch IT Channel](https://www.dutchitchannel.nl/people/763770/patrick-rosengarten-wordt-cfo-van-ctac)
-- [Nederlandse organisaties willen sneller met AI maar missen de basis – Consultancy.nl](https://www.consultancy.nl/nieuws/68802/nederlandse-organisaties-willen-sneller-met-ai-maar-missen-de-basis)
+- [Anthropic IPO – CNBC](https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html)
+- [Microsoft Ignite AI Digest – DEV Community](https://dev.to/hiroki-ii-ai/ai-daily-digest-november-18-2026-microsoft-builds-the-agent-cloud-openai-agents-enter-the-2eia)
+- [Microsoft lanceert 7 AI-modellen – eWeek](https://www.eweek.com/news/microsoft-seven-ai-models-openai-anthropic/)
+- [The Neuron – AI Today 19 nov](https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/)
+- [EU AI Act – EC](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
+- [AI Omnibus hoog-risico uitstel – DLA Piper](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/The-Digital-AI-Omnibus-Proposed-deferral-of-high-risk-AI-obligations-under-the-AI-Act)
+- [AI Cybersecurity Update 20 nov – BTI Group](https://www.btigroup.com/post/ai-cybersecurity-update-november-20-2026/)
+- [AI Model Vulnerability Tracker – axis-intelligence](https://axis-intelligence.com/research/ai-model-vulnerability-tracker/)
+- [Xebia Benelux AI Readiness Report 2026](https://xebia.com/news/xebia-data-expo-benelux-ai-readiness-report-2026/)
+- [LLM Release Timeline – llmgateway](https://llmgateway.io/timeline)
