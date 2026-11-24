@@ -28,7 +28,14 @@ tags:
 
 ### Dinsdag 24 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-24.md](../ai-briefing-2026-11-24.md)
+
+**Highlights:**
+- **Anthropic noteert op Nasdaq (ticker: ANT)** bij een waardering boven $1 biljoen; de IPO was 6x overgetekend — frontier AI wordt nu beschouwd als infrastructure-tier investering, niet meer als speculatief.
+- **Modellenregen in november**: OpenAI (GPT-6.2 Sol & Astra), Google (Gemini 4 Neon) en Anthropic (Claude Fable 5.2 & Mythos 5.2) brachten allemaal nieuwe modellen uit — de concurrentiedruk tussen labs is op hoog niveau.
+- **34% van AI-leveranciers heeft ongepatchte kritieke kwetsbaarheden** (Black Kite, 18.000+ bedrijven onderzocht); supply chain security is een direct risico voor organisaties die AI-producten van derden inzetten.
+
+**Ctac-relevantie van de dag:** Anthropic's beursgang verhoogt de verwachtingen rond enterprise SLA's en compliance — Ctac moet proposities bouwen op meerdere modellen en leveranciers, niet één. Tegelijk biedt de governance-kloof in agentic AI (Gartner: 40%+ projecten mislukt vóór 2027) concrete kansen voor Ctac als implementatie- en governance-partner.
 
 ---
 
