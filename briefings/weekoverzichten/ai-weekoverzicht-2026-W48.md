@@ -41,7 +41,14 @@ tags:
 
 ### Woensdag 25 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-25.md](../ai-briefing-2026-11-25.md)
+
+**Highlights:**
+- **Drie frontier labs, één week:** OpenAI GPT-6.2 Astra/Sol (17 nov), Anthropic Fable 5.2 & Mythos 5.2 (9 nov) en Google Gemini 4 Neon (18 nov) — de concurrentie op snelheid, kosten en enterprise-toepasbaarheid versnelt zichtbaar.
+- **Microsoft Ignite: Agent 365 nu live** — governance-laag voor enterprise-agents is uit preview; koppeling met AWS en Google Cloud via registry sync maakt het platform-agnostisch relevant.
+- **UK NCSC-waarschuwing (24 nov):** AI-gedreven cyberaanvallen nemen sterk toe; bekende kwetsbaarheden worden nu in minuten gevonden en geëxploiteerd — niet meer in weken.
+
+**Ctac-relevantie van de dag:** De agent governance-vraag is dit de week het centrale enterprise-thema: bedrijven hebben agents gebouwd maar missen een beheerskader. Ctac kan hier direct op inspringen met advies over permissiestructuren, identity en audit-trails — precies de laag die Microsoft Agent 365 adresseert maar niet out-of-the-box implementeert. Combineer dit met de EU AI Act-deadline van 2 december voor een concrete klantaanleiding.
 
 ---
 
