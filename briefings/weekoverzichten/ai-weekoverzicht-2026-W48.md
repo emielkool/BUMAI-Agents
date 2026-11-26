@@ -54,7 +54,14 @@ tags:
 
 ### Donderdag 26 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-26.md](../ai-briefing-2026-11-26.md)
+
+**Highlights:**
+- **Supply-chain aanval op AI-tooling (17 nov):** Twee getrojaniseerde versies van een Microsoft agent-framework library op PyPI waren gericht op Azure- en CI/CD-credentials — de AI-ontwikkelketen is nu actief aanvalsdoel.
+- **EU AI Act 2 december deadline:** Nieuwe verboden en markeerplicht voor generatieve AI-uitvoer gaan in; NL/BE-organisaties moeten direct actie ondernemen om compliant te blijven.
+- **Google Cloud als enige hyperscaler met alle drie frontier-modellfamilies:** Google, Anthropic én OpenAI-modellen beschikbaar op één platform — aanzienlijk strategisch voordeel in de enterprise-markt.
+
+**Ctac-relevantie van de dag:** De 2 december deadline is dit de laatste kans voor Ctac en klanten om generatieve AI-markering te implementeren. Tegelijk biedt de PyPI supply-chain aanval een concrete aanleiding voor een security-review van alle AI-afhankelijkheden in klantprojecten — controleer Python-dependencies op agent-frameworks en pip-pakketten.
 
 ---
 
