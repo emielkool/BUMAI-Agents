@@ -67,7 +67,14 @@ tags:
 
 ### Vrijdag 27 november
 
-*(geen briefing beschikbaar voor deze dag)*
+→ Dagbriefing: [ai-briefing-2026-11-27.md](../ai-briefing-2026-11-27.md)
+
+**Highlights:**
+- **JP Morgan: 24 miljoen knowledge-worker banen geraakt door AI** — het rapport schetst een transformationeel, niet alarmistisch beeld; organisaties die wachten met reskilling lopen achterstand op.
+- **EU AI Act 2 december deadline nadert acuut:** systemen vóór 2 augustus op de markt moeten nu compliant zijn voor markerings- en detectieverplichtingen — dit raakt actief beheerde producten bij Ctac-klanten.
+- **AI-agents ontdekken autonoom zero-days (Cairn-framework):** een Chinees-gelinkte actor zette autonome agents in die zonder menselijke sturing een zero-day vonden — kwalitatief nieuw dreigingsniveau voor enterprise security.
+
+**Ctac-relevantie van de dag:** De 2 december deadline is vandaag nog urgenter: dit is de laatste werkdag voor het weekend vóór de deadline. Tegelijk normaliseert de Anthropic/Rust-casus (70% CPU-besparing via agents) het enterprise-ROI-gesprek — concreet materiaal voor klantpresentaties over agentic workflows.
 
 ---
 
