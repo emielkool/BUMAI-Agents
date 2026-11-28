@@ -79,6 +79,19 @@ tags:
 
 ---
 
+### Zaterdag 28 november
+
+→ Dagbriefing: [ai-briefing-2026-11-28.md](../ai-briefing-2026-11-28.md)
+
+**Highlights:**
+- **OpenAI GPT-6.2 rolt breed uit:** Astra (geavanceerd redeneren) en Sol (snel/goedkoop) zijn nu beschikbaar voor Plus/Pro/Business/Enterprise. Tegelijk overschrijdt OpenAI de $10B kwartaalomzet — enterprise is nu de meerderheid van de omzet.
+- **Anthropic neemt enterprise-lead over van OpenAI:** Bloomberg bevestigt dat Anthropic nu meer enterprise AI-omzet genereert dan OpenAI; na de IPO-roadshow (10 nov) is Claude een volwassen enterprise-alternatief.
+- **Nederland: kabinet-AI-visie "Kiezen voor AI voor iedereen"** (6 nov) gepresenteerd — Nederlands AI Safety Institute aangekondigd, compute-plan volgt begin 2027; NOS constateert echter dat investeringen beperkt blijven en afhankelijkheid van buitenlandse AI groot.
+
+**Ctac-relevantie van de dag:** De WBSO-aanvraagdeadline voor AI-tokenkosten nadert (vóór 1 januari 2027) — dit is een directe kans voor klantcommunicatie deze week. Tegelijk maakt de opmars van Anthropic in enterprise het urgent om proposities op meerdere modellen te baseren en de modelkeuzeadviezen richting klanten te actualiseren.
+
+---
+
 ## 🏆 Weekhighlights
 
 1. **Anthropic gaat naar de beurs.** Anthropic noteerde op de Nasdaq (ticker "ANT") bij een waardering die in meerdere bronnen boven de $80 miljard tot ruim $1 biljoen wordt geschat. Het is de eerste frontier AI-lab met een beursnotering. Praktisch gevolg: Claude wordt een volwassen enterprise-product met institutionele governance-eisen, en Anthropic heeft kapitaal voor de volgende modelgeneratie.
